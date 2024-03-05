@@ -1,0 +1,206 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) numactl/2.0.13-GCCcore-9.3.0      (H)
+  7) XZ/5.2.5-GCCcore-9.3.0            (H)
+  8) libxml2/2.9.10-GCCcore-9.3.0      (H)
+  9) libpciaccess/0.16-GCCcore-9.3.0   (H)
+ 10) hwloc/2.2.0-GCCcore-9.3.0         (H)
+ 11) hpcx/2.10
+ 12) OpenMPI/4.0.3-iccifort-2020.1.217
+ 13) iompi/2020a
+ 14) imkl/2020.1.217-iompi-2020a
+ 15) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 16) HDF5/1.10.6-iompi-2020a
+ 17) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 18) netCDF/4.7.4-iompi-2020a
+ 19) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) numactl/2.0.13-GCCcore-9.3.0      (H)
+  7) XZ/5.2.5-GCCcore-9.3.0            (H)
+  8) libxml2/2.9.10-GCCcore-9.3.0      (H)
+  9) libpciaccess/0.16-GCCcore-9.3.0   (H)
+ 10) hwloc/2.2.0-GCCcore-9.3.0         (H)
+ 11) hpcx/2.10
+ 12) OpenMPI/4.0.3-iccifort-2020.1.217
+ 13) iompi/2020a
+ 14) imkl/2020.1.217-iompi-2020a
+ 15) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 16) HDF5/1.10.6-iompi-2020a
+ 17) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 18) netCDF/4.7.4-iompi-2020a
+ 19) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) numactl/2.0.13-GCCcore-9.3.0      (H)
+  7) XZ/5.2.5-GCCcore-9.3.0            (H)
+  8) libxml2/2.9.10-GCCcore-9.3.0      (H)
+  9) libpciaccess/0.16-GCCcore-9.3.0   (H)
+ 10) hwloc/2.2.0-GCCcore-9.3.0         (H)
+ 11) hpcx/2.10
+ 12) OpenMPI/4.0.3-iccifort-2020.1.217
+ 13) iompi/2020a
+ 14) imkl/2020.1.217-iompi-2020a
+ 15) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 16) HDF5/1.10.6-iompi-2020a
+ 17) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 18) netCDF/4.7.4-iompi-2020a
+ 19) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) numactl/2.0.13-GCCcore-9.3.0      (H)
+  7) XZ/5.2.5-GCCcore-9.3.0            (H)
+  8) libxml2/2.9.10-GCCcore-9.3.0      (H)
+  9) libpciaccess/0.16-GCCcore-9.3.0   (H)
+ 10) hwloc/2.2.0-GCCcore-9.3.0         (H)
+ 11) hpcx/2.10
+ 12) OpenMPI/4.0.3-iccifort-2020.1.217
+ 13) iompi/2020a
+ 14) imkl/2020.1.217-iompi-2020a
+ 15) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 16) HDF5/1.10.6-iompi-2020a
+ 17) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 18) netCDF/4.7.4-iompi-2020a
+ 19) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+cp: No match.
+ln: failed to create hard link ‘./CAM5_t0_p02.clm2.h0.1980-12.nc’: File exists
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) numactl/2.0.13-GCCcore-9.3.0      (H)
+  7) XZ/5.2.5-GCCcore-9.3.0            (H)
+  8) libxml2/2.9.10-GCCcore-9.3.0      (H)
+  9) libpciaccess/0.16-GCCcore-9.3.0   (H)
+ 10) hwloc/2.2.0-GCCcore-9.3.0         (H)
+ 11) hpcx/2.10
+ 12) OpenMPI/4.0.3-iccifort-2020.1.217
+ 13) iompi/2020a
+ 14) imkl/2020.1.217-iompi-2020a
+ 15) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 16) HDF5/1.10.6-iompi-2020a
+ 17) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 18) netCDF/4.7.4-iompi-2020a
+ 19) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_p02/timing/ccsm_timing.CAM5_t0_p02.230313-185224’: No such file or directory
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) numactl/2.0.13-GCCcore-9.3.0      (H)
+  7) XZ/5.2.5-GCCcore-9.3.0            (H)
+  8) libxml2/2.9.10-GCCcore-9.3.0      (H)
+  9) libpciaccess/0.16-GCCcore-9.3.0   (H)
+ 10) hwloc/2.2.0-GCCcore-9.3.0         (H)
+ 11) hpcx/2.10
+ 12) OpenMPI/4.0.3-iccifort-2020.1.217
+ 13) iompi/2020a
+ 14) imkl/2020.1.217-iompi-2020a
+ 15) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 16) HDF5/1.10.6-iompi-2020a
+ 17) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 18) netCDF/4.7.4-iompi-2020a
+ 19) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) numactl/2.0.13-GCCcore-9.3.0      (H)
+  7) XZ/5.2.5-GCCcore-9.3.0            (H)
+  8) libxml2/2.9.10-GCCcore-9.3.0      (H)
+  9) libpciaccess/0.16-GCCcore-9.3.0   (H)
+ 10) hwloc/2.2.0-GCCcore-9.3.0         (H)
+ 11) hpcx/2.10
+ 12) OpenMPI/4.0.3-iccifort-2020.1.217
+ 13) iompi/2020a
+ 14) imkl/2020.1.217-iompi-2020a
+ 15) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 16) HDF5/1.10.6-iompi-2020a
+ 17) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 18) netCDF/4.7.4-iompi-2020a
+ 19) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+

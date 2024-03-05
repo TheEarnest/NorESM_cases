@@ -1,0 +1,11 @@
+&modelio
+ diri = '/cluster/work/users/earnest/noresm/C3_01_FC5f09/bld/rof'
+ diro = '/cluster/work/users/earnest/noresm/C3_01_FC5f09/run'
+ logfile = 'rof.log.230914-132027'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

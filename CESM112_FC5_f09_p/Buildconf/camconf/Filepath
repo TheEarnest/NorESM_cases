@@ -1,0 +1,17 @@
+/cluster/home/earnest/models/NorCPM/cases/CESM112_FC5_f09_p/SourceMods/src.cam
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/chemistry/pp_trop_mam3
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/chemistry/modal_aero
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/chemistry/mozart
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/chemistry/bulk_aero
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/chemistry/utils
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/physics/rrtmg
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/physics/rrtmg/ext/rrtmg_mcica
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/physics/rrtmg/ext/rrtmg_lw
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/physics/rrtmg/ext/rrtmg_sw
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/physics/cam
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/dynamics/fv
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/utils/pilgrim
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/cpl_mct
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/cpl_share
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/control
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/atm/cam/src/utils

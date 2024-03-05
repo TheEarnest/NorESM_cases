@@ -1,0 +1,587 @@
+Starting job 311957 on c49-10,c52-[2-3,5] at Mon Jun 3 15:45:17 CEST 2019
+
+Run number 1 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 15:45:30 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 16:30:16 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 2 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 16:30:44 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 17:11:38 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 3 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 17:12:04 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 17:58:02 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 4 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 17:58:27 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 18:41:51 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 5 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 18:42:16 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 19:27:10 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 6 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 19:27:35 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 20:11:14 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 7 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 20:11:42 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 21:01:59 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 8 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 21:02:34 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 21:48:48 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 9 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 21:49:15 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 22:33:35 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 10 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 22:34:02 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Mon Jun  3 23:20:16 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 11 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Jun  3 23:20:43 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Tue Jun  4 00:04:41 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 12 of 12
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_S_noNud/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Tue Jun  4 00:05:08 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Tue Jun  4 00:51:04 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_S_noNud
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+311957         C5_noNud        128                                             09:06:04      0:0 
+311957.batch      batch         32        1   00:00:10          0   00:00:10   09:06:04      0:0 
+311957.exte+     extern        128        4   00:00:00          1   00:00:00   09:06:06      0:0 
+311957.0      pmi_proxy          4        4   23:38:34          0   23:40:57   00:44:46      0:0 
+311957.1      pmi_proxy          4        4   21:32:41          0   21:33:55   00:40:54      0:0 
+311957.2      pmi_proxy          4        4 1-00:10:11          0 1-00:13:10   00:45:58      0:0 
+311957.3      pmi_proxy          4        4   22:48:47          0   22:52:44   00:43:23      0:0 
+311957.4      pmi_proxy          4        4   23:38:42          0   23:41:09   00:44:54      0:0 
+311957.5      pmi_proxy          4        4   23:05:30          0   23:08:56   00:43:39      0:0 
+311957.6      pmi_proxy          4        4 1-02:29:22          0 1-02:35:53   00:50:17      0:0 
+311957.7      pmi_proxy          4        4 1-00:26:17          0 1-00:28:57   00:46:14      0:0 
+311957.8      pmi_proxy          4        4   23:19:35          0   23:24:35   00:44:20      0:0 
+311957.9      pmi_proxy          4        4 1-00:25:04          0 1-00:28:50   00:46:14      0:0 
+311957.10     pmi_proxy          4        4   23:03:22          0   23:08:22   00:43:58      0:0 
+311957.11     pmi_proxy          4        4 1-00:11:24          0 1-00:13:15   00:45:56      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+311957                                                                           
+311957.batch     13404K          0     13404K       12              0          3 
+311957.exte+       264K          3     192256        1              1          1 
+311957.0      10812905K          0 10639164.+     2828              0       1260 
+311957.1      10846149K          0 108719137+     1336              0        340 
+311957.2      10808624K          0 108223956+     3271              0        851 
+311957.3      10807778K          0 108075599+     4262              0       1065 
+311957.4      10788314K          0 108108464+     2871              0        717 
+311957.5      10814105K          0 108212559+     3431              0        857 
+311957.6      10803614K          0 108109872+     3377              0        844 
+311957.7      10801046K          0 108198023+     2763              0        690 
+311957.8      10834234K          0 10567448.+     3581              0        895 
+311957.9      10806711K          0  10567494K     4259              0       1064 
+311957.10     10798088K          0 10555383.+     4102              0       1025 
+311957.11     10806397K          0 108075845+     2269              0        567 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+311957                                                                                                
+311957.batch     7718.41M               0       7718.41M     7390.82M                0       7390.82M 
+311957.exte+        0.00M               1          0.00M            0                1              0 
+311957.0          997.71M               0        270.62M    41173.79M                0      10404.97M 
+311957.1         2059.62M               0        536.13M    36670.73M                0       9268.64M 
+311957.2         2062.86M               0        536.91M    40360.98M                0      10201.69M 
+311957.3         2061.85M               0        536.64M    39327.27M                0       9939.71M 
+311957.4         2062.95M               0        536.93M    40626.08M                0      10267.95M 
+311957.5         2062.26M               0        536.74M    40358.82M                0      10197.59M 
+311957.6         2063.18M               0        536.96M    41120.05M                0      10391.39M 
+311957.7         2062.95M               0        536.91M    41313.96M                0      10439.86M 
+311957.8         2061.80M               0        536.62M    39483.05M                0       9978.62M 
+311957.9         2062.82M               0        536.87M    41351.77M                0      10449.32M 
+311957.10        2061.76M               0        536.62M    39076.89M                0       9877.11M 
+311957.11        2062.81M               0        536.89M    40705.72M                0      10287.86M 
+
+Job 311957 completed at Tue Jun 4 00:51:23 CEST 2019

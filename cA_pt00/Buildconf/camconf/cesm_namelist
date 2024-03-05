@@ -1,0 +1,15 @@
+&cam_inparm
+ dtime = 1800
+ 
+ 
+ co2vmr=367.0e-6
+ start_ymd = 19700101 
+ 
+
+ fincl2   = 'T500', 'T850', 'U850', 'V850', 'Q850', 'U', 'PS'
+ mfilt     = 12,1
+ nhtfrq    = 0,1
+
+ dtime    = 1800 
+ pertlim  = 3.2756920718424788e-11 
+/

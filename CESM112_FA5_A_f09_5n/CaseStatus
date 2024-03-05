@@ -1,0 +1,12 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CESM112_FA5_A_f09_5n -compset FAMIPC5CN -res f09_f09 -mach betzy -pecount L
+case created 2021-08-10 16:08:39
+build complete 2021-08-10 17:02:07
+run submitted 2021-08-10 17:24:07
+run submitted 2021-08-10 17:58:15
+run started 2021-08-10 17:58:28
+run submitted 2021-08-10 22:44:09
+run started 2021-08-10 22:44:22
+run SUCCESSFUL 2021-08-11 00:29:12
+run started 2021-08-11 00:29:20
+run SUCCESSFUL 2021-08-11 02:14:32
+run started 2021-08-11 02:14:43

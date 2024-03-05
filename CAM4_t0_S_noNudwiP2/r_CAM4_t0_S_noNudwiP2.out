@@ -1,0 +1,70 @@
+Starting job 391584 on c24-[6-9] at Tue Oct 22 21:50:07 CEST 2019
+
+Run number 1 of 1
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000 (F)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000
+CCSM_SCOMPSET=F
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+I_MPI_COMPATIBILITY=3
+OMP_STACKSIZE=64M
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM4_t0_S_noNudwiP2/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Tue Oct 22 21:50:18 CEST 2019 -- CSM EXECUTION BEGINS HERE
+Tue Oct 22 22:10:48 CEST 2019 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM4_t0_S_noNudwiP2
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+391584           C4_P_0        128                                             00:20:54      0:0 
+391584.batch      batch         32        1   00:00:01          0   00:00:01   00:20:54      0:0 
+391584.exte+     extern        128        4   00:00:00          1   00:00:00   00:20:57      0:0 
+391584.0      pmi_proxy          4        4   10:38:23          0   10:38:35   00:20:30      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+391584                                                                           
+391584.batch      8968K          0      8968K       12              0         12 
+391584.exte+       168K          3       160K        1              1          1 
+391584.0       3674687K          0   3619205K      947              0        851 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+391584                                                                                                
+391584.batch       12.81M               0         12.81M        1.37M                0          1.37M 
+391584.exte+        0.00M               1          0.00M            0                1              0 
+391584.0          963.19M               0        261.85M     8287.10M                0       2074.15M 
+
+Job 391584 completed at Tue Oct 22 22:11:03 CEST 2019

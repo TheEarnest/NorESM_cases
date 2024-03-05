@@ -1,0 +1,57 @@
+
+setenv RUN_TYPE  startup     # startup,hybrid,branch
+setenv RUN_STARTDATE  1970-01-01     # Run start date (yyyy-mm-dd). Only used for startup or hybrid runs
+setenv RUN_REFCASE  case.std     # Reference case for hybrid or branch runs
+setenv RUN_REFDATE  0001-01-01     # Reference date for hybrid or branch runs (yyyy-mm-dd)
+setenv BRNCH_RETAIN_CASENAME  FALSE     # TRUE,FALSE
+setenv GET_REFCASE  FALSE     # TRUE,FALSE
+setenv USE_MPISERIAL  FALSE     # TRUE,FALSE
+setenv MPISERIAL_SUPPORT  FALSE     # TRUE,FALSE
+setenv ATM_NCPL  48     # number of atm coupling intervals per day
+setenv LND_NCPL  $ATM_NCPL     # number of land coupling intervals per day (integer)
+setenv ICE_NCPL  $ATM_NCPL     # number of ice coupling intervals per day (integer)
+setenv OCN_NCPL  $ATM_NCPL     # number of ocn coupling intervals per day (integer)
+setenv GLC_NCPL  1     # number of glc coupling intervals per day (integer)
+
+
+setenv MAP_A2OF_FILE  idmap     # atm to ocn flux mapping file for fluxes
+setenv MAP_A2OS_FILE  idmap     # atm to ocn state mapping file for states
+setenv MAP_O2AF_FILE  idmap     # ocn to atm mapping file for fluxes
+setenv MAP_O2AS_FILE  idmap     # ocn to atm mapping file for states
+setenv MAP_A2LF_FILE  idmap     # atm to land mapping file for fluxes
+setenv MAP_A2LS_FILE  idmap     # atm to land mapping file for states
+setenv MAP_L2AF_FILE  idmap     # land to atm mapping file for fluxes
+setenv MAP_L2AS_FILE  idmap     # land to atm mapping file for states
+setenv MAP_R2O_FILE_R05  idmap     # runoff (.5 degree) to ocn mapping file
+setenv MAP_R2O_FILE_R19  UNSET     # runoff (19 basin) to ocn mapping file
+setenv MAP_R2O_FILE_RX1  idmap     # runoff (1 degree) to ocn mapping file
+
+setenv CPL_EPBAL  off     # off,ocn
+setenv CPL_ALBAV  false     # true,false
+setenv CCSM_BGC  CO2A     # none,CO2A,CO2B,CO2C,CO2_DMSA
+setenv CCSM_VOC  FALSE     # TRUE,FALSE
+setenv CCSM_CO2_PPMV  367.0     # CO2 ppmv
+
+
+setenv CAM_CONFIG_OPTS  "-phys cam5"     # CAM configure options, see CAM configure utility for details
+setenv CAM_NML_USE_CASE  UNSET     # CAM namelist use_case
+setenv CAM_NAMELIST_OPTS       # CAM specific namelist settings for -namelist option
+setenv CAM_DYCORE  fv     # eul,fv,homme
+
+setenv CLM_CONFIG_OPTS       # CLM configure options
+setenv CLM_BLDNML_OPTS       # CLM build-namelist options
+setenv CLM_NML_USE_CASE  2000_control     # CLM namelist use_case
+setenv CLM_NAMELIST_OPTS       # CLM specific namelist settings
+setenv CLM_CO2_TYPE  diagnostic     # constant,diagnostic,prognostic
+setenv CLM_FORCE_COLDSTART  off     # on,off
+setenv CLM_PT1_NAME  UNSET     # CLM Single point name
+setenv CLM_USRDAT_NAME  UNSET     # My Data ID
+
+setenv CICE_MODE  prescribed     # prognostic,prescribed,thermo_only
+setenv CICE_CONFIG_OPTS  " "     # CICE configure options, see CICE configure utility for details
+setenv CICE_NAMELIST_OPTS  cam5=.true.     # CICE specific namelist settings for -namelist option
+
+setenv DOCN_MODE  prescribed     # prescribed,som
+setenv DOCN_SSTDATA_FILENAME  UNSET     # Sets sst/ice_cov filename for amip runs, only used in F compset
+setenv DOCN_SSTDATA_YEAR_START  -999     # Sets year start of sst/ice_cov for amip runs, only used in F compset
+setenv DOCN_SSTDATA_YEAR_END  -999     # Sets year end of sst/ice_cov for amip runs, only used in F compset

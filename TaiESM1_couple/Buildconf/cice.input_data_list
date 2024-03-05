@@ -1,0 +1,3 @@
+ice_ic = /cluster/shared/noresm/inputdata/ice/cice/iced.0001-01-01.gx1v6_20080212
+grid_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/grid/horiz_grid_20010402.ieeer8
+kmt_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/grid/topography_20090204.ieeei4

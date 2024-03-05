@@ -1,0 +1,6 @@
+ &ice_nml
+ ice_ic = 'default'
+ /
+ &domain_nml
+ distribution_type = 'DECOMPTYPE'
+ / 

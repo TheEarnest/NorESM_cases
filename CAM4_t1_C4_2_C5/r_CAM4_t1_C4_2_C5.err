@@ -1,0 +1,61 @@
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-110635’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-111512’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-114434’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-120446’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-131411’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-143945’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-144806’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-145649’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-230134’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-230952’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190621-231825’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190622-171115’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190622-171950’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190622-172822’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190622-173612’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190622-174452’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190622-175320’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190622-180159’: No such file or directory
+slurmstepd: error: *** JOB 322489 ON c56-1 CANCELLED AT 2019-06-22T18:11:26 DUE TO TIME LIMIT ***
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190703-094321’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190703-095215’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190703-100011’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190704-084921’: No such file or directory
+slurmstepd: error: *** JOB 332428 ON c39-4 CANCELLED AT 2019-07-04T09:02:36 ***
+cp: No match.
+ln: failed to create hard link ‘./CAM4_t1_C4_2_C5.clm2.h0.1980-01.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190705-121842’: No such file or directory
+cp: No match.
+ln: failed to create hard link ‘./CAM4_t1_C4_2_C5.clm2.h0.1980-02.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190705-122725’: No such file or directory
+cp: No match.
+ln: failed to create hard link ‘./CAM4_t1_C4_2_C5.clm2.h0.1980-03.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190705-123519’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190711-163541’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190711-164425’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/timing/ccsm_timing.CAM4_t1_C4_2_C5.190711-165224’: No such file or directory

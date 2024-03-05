@@ -1,0 +1,28 @@
+#! /bin/csh -f
+
+#===============================================================================
+# Fram machine specific settings
+#===============================================================================
+
+#-------------------------------------------------------------------------------
+# Modules
+#-------------------------------------------------------------------------------
+if (-e /cluster/installations/lmod/lmod/init/csh) then
+  source /cluster/installations/lmod/lmod/init/csh
+module restore
+module load StdEnv
+module load imkl/2020.1.217-iompi-2020a netCDF/4.7.4-iompi-2020a netCDF-Fortran/4.5.2-iompi-2020a 
+module li
+endif
+
+# The environment variables below produce corefiles and maybe (?) should be
+# moved to DEBUG mode at some point
+#setenv decfort_dump_flag Y
+#limit coredumpsize unlimited
+
+# The environment variable below increase the stack size, which is necessary for
+# CICE to run threaded on this machine.  
+setenv KMP_STACKSIZE 64M
+setenv I_MPI_EXTRA_FILESYSTEM_LIST lustre
+setenv I_MPI_EXTRA_FILESYSTEM on
+limit stacksize unlimited

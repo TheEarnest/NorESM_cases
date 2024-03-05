@@ -1,0 +1,24 @@
+#! /bin/csh -f
+
+#===============================================================================
+# Fram machine specific settings
+#===============================================================================
+#
+#-------------------------------------------------------------------------------
+# Modules
+#-------------------------------------------------------------------------------
+source /cluster/installations/lmod/lmod/init/csh
+module --quiet restore
+module load StdEnv intel/2020a netCDF-Fortran/4.5.2-iompi-2020a iompi/2020a NCO/4.9.7-iomkl-2020a CMake/3.12.1
+
+# The environment variables below produce corefiles and maybe (?) should be
+# moved to DEBUG mode at some point
+# setenv decfort_dump_flag Y
+# limit coredumpsize unlimited
+#
+# The environment variable below increase the stack size, which is necessary for
+# CICE to run threaded on this machine.
+setenv KMP_STACKSIZE 64M
+setenv I_MPI_EXTRA_FILESYSTEM_LIST lustre
+setenv I_MPI_EXTRA_FILESYSTEM on
+limit stacksize unlimited

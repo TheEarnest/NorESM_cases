@@ -1,0 +1,53 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/t_TC5_XX_f09 -compset F_2000_TAI -res f09_f09 -mach betzy -pecount L
+
+
+Component set: longname (shortname) (alias) 
+  2000_CAM5%TAI_CLM40%TAIS_CICE%PRES_DOCN%DOM_RTM_SGLC_SWAV (F_2000_TAI) (FTAI) 
+Component set Description: 
+  CAM: CLM: RTM: CICE: DOCN: SGLC: SWAV: present day: cam5 physics: TaiESM physics and trop_snap chemistry: clm4.0 physics: clm4.0 with TaiESM physics: prescribed cice: docn data mode: 
+Grid: 
+  a%0.9x1.25_l%0.9x1.25_oi%0.9x1.25_r%r05_m%gx1v6_g%null_w%null (0.9x1.25_0.9x1.25) 
+  ATM_GRID = 0.9x1.25  NX_ATM=288 NY_ATM=192 
+  LND_GRID = 0.9x1.25  NX_LND=288 NX_LND=192 
+  ICE_GRID = 0.9x1.25  NX_ICE=288 NX_ICE=192 
+  OCN_GRID = 0.9x1.25  NX_OCN=288 NX_OCN=192 
+  ROF_GRID = r05  NX_ROF=720 NX_ROF=360 
+  GLC_GRID = 0.9x1.25  NX_GLC=288 NX_GLC=192 
+  WAV_GRID = null  NX_WAV=0 NX_WAV=0 
+Grid Description: 
+  null is no grid: 0.9x1.25 is FV 1-deg grid: gx1v6 is Greenland pole v6 1-deg grid: r05 is 1/2 degree river routing grid: 
+Non-Default Options: 
+  ATM_NCPL: 48 
+  BUDGETS: FALSE 
+  CAM_CONFIG_OPTS: -phys cam5 -chem trop_snap -taiphy 
+  CAM_DYCORE: fv 
+  CCSM_BGC: CO2A 
+  CCSM_CCOST: 1 
+  CCSM_CO2_PPMV: 367.0 
+  CICE_MODE: prescribed 
+  CICE_NAMELIST_OPTS: cam5=.true. 
+  CLM_CO2_TYPE: diagnostic 
+  CLM_CONFIG_OPTS: -phys clm4_0 -taiphy 
+  CLM_NML_USE_CASE: 2000_control 
+  COMP_ATM: cam 
+  COMP_GLC: sglc 
+  COMP_ICE: cice 
+  COMP_LND: clm 
+  COMP_OCN: docn 
+  COMP_ROF: rtm 
+  COMP_WAV: swav 
+  CPL_ALBAV: false 
+  CPL_EPBAL: off 
+  DOCN_MODE: prescribed 
+  OCN_NCPL: $ATM_NCPL 
+  OCN_TIGHT_COUPLING: TRUE 
+  ROF_NCPL: 8 
+  RTM_BLDNML_OPTS: -simyr 2000 
+  RTM_MODE: ACTIVE 
+  SCIENCE_SUPPORT: NO 
+  SSTICE_DATA_FILENAME: $DIN_LOC_ROOT/atm/cam/sst/sst_HadOIBl_bc_0.9x1.25_clim_c040926.nc 
+  SSTICE_GRID_FILENAME: $DIN_LOC_ROOT/atm/cam/ocnfrac/domain.camocn.0.9x1.25_gx1v6_090403.nc 
+  SSTICE_STREAM: CAMDATA 
+  SSTICE_YEAR_ALIGN: 1 
+  SSTICE_YEAR_END: 0 
+  SSTICE_YEAR_START: 0 

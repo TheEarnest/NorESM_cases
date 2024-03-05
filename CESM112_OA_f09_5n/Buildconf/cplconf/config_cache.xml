@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config_definition>
+<entry id="grid"     value="0.9x1.25_gx1v6">
+<entry id="rof_grid" value="r05">
+<entry id="atm_grid" value="0.9x1.25">
+<entry id="lnd_grid" value="0.9x1.25">
+<entry id="ocn_grid" value="gx1v6">
+</config_definition>

@@ -1,0 +1,845 @@
+Starting job 194162 on b[4363,4393-4394,4396] at Mon Jun 14 21:10:14 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Mon Jun 14 21:10:48 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Mon Jun 14 21:10:48 CEST 2021 -- CSM EXECUTION HAS FINISHED
+Model did not complete - no cpl.log file present - exiting
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194162          cA_pt00        512                                             00:00:34    127:0 
+194162.batch      batch        128        1   00:00:00          0   00:00:00   00:00:34    127:0 
+194162.exte+     extern        512        4   00:00:00          2   00:00:00   00:00:34      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194162                                                                           
+194162.batch      1762K          0      1762K        4              0          4 
+194162.exte+       800K          2     814336        1              2          1 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194162                                                                                                
+194162.batch       37.44M               0         37.44M        0.36M                0          0.36M 
+194162.exte+        0.00M               2          0.00M            0                2              0 
+
+Job 194162 completed at Mon Jun 14 21:10:48 CEST 2021
+Starting job 194166 on b[2389,2391-2393] at Mon Jun 14 21:25:05 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Mon Jun 14 21:25:43 CEST 2021 -- CSM EXECUTION BEGINS HERE
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194166          cA_pt00        512                                             00:05:09      0:0 
+194166.batch      batch        128        1   00:00:00          0   00:00:00   00:05:10     0:15 
+194166.exte+     extern        512        4   00:00:00          3   00:00:00   00:05:09      0:0 
+194166.0       cesm.exe        512      512   00:04:00        150   00:04:10   00:04:40      1:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194166                                                                           
+194166.batch      9851K          0      9851K       14              0         14 
+194166.exte+       802K          3     817408        3              3          1 
+194166.0        569723K          1  397360202        9            128          3 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194166                                                                                                
+194166.batch       39.61M               0         39.61M        1.80M                0          1.80M 
+194166.exte+        0.00M               3          0.00M            0                3              0 
+194166.0          624.13M               1          7.07M        6.95M                0          2.11M 
+
+Job 194166 completed at Mon Jun 14 21:30:35 CEST 2021
+Starting job 194169 on b[2389,2391-2393] at Mon Jun 14 21:32:30 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Mon Jun 14 21:33:04 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Mon Jun 14 21:49:39 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194169          cA_pt00        512                                             00:17:20      0:0 
+194169.batch      batch        128        1   00:00:01          0   00:00:00   00:17:20      0:0 
+194169.exte+     extern        512        4   00:00:00          3   00:00:00   00:17:21      0:0 
+194169.0       cesm.exe        512      512   00:16:10          1   00:16:21   00:16:35      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194169                                                                           
+194169.batch      7295K          0      7295K       14              0          4 
+194169.exte+       802K          1     646400        3              3          1 
+194169.0        685296K          1  403338038       11              2          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194169                                                                                                
+194169.batch       51.91M               0         51.91M        3.18M                0          3.18M 
+194169.exte+        0.00M               3          0.00M            0                3              0 
+194169.0         2409.61M               1          9.85M     6265.19M                1         14.35M 
+
+Job 194169 completed at Mon Jun 14 21:49:52 CEST 2021
+Starting job 194188 on b[4363,4393-4394,4396] at Mon Jun 14 23:13:20 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Mon Jun 14 23:13:57 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Mon Jun 14 23:30:36 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194188          cA_pt00        512                                             00:17:25      0:0 
+194188.batch      batch        128        1   00:00:02          0   00:00:02   00:17:25      0:0 
+194188.exte+     extern        512        4   00:00:00          3   00:00:00   00:17:26      0:0 
+194188.0       cesm.exe        512      512   00:16:16          1   00:16:25   00:16:39      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194188                                                                           
+194188.batch      7768K          0      7768K       14              0          4 
+194188.exte+       802K          2     813824        1              3          1 
+194188.0        684964K          1  403237124       13            505          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194188                                                                                                
+194188.batch     3885.45M               0       3885.45M     3828.78M                0       3828.78M 
+194188.exte+        0.00M               3          0.00M            0                3              0 
+194188.0         2409.62M               1          9.85M     6265.20M                1         14.35M 
+
+Job 194188 completed at Mon Jun 14 23:30:47 CEST 2021
+Starting job 194318 on b[1382,1384,1387,1392] at Tue Jun 15 10:22:18 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 10:22:52 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 10:39:27 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194318          cA_pt00        512                                             00:17:18      0:0 
+194318.batch      batch        128        1   00:00:01          0   00:00:00   00:17:18      0:0 
+194318.exte+     extern        512        4   00:00:00          3   00:00:00   00:17:18      0:0 
+194318.0       cesm.exe        512      512   00:16:14          1   00:16:27   00:16:35      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194318                                                                           
+194318.batch      7265K          0      7265K       14              0          4 
+194318.exte+       798K          3    797.50K        1              3          1 
+194318.0        684999K          1  403468048       12             78          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194318                                                                                                
+194318.batch      706.57M               0        706.57M      656.41M                0        656.41M 
+194318.exte+        0.00M               3          0.00M            0                3              0 
+194318.0         2409.61M               1          9.85M     6265.20M                1         14.35M 
+
+Job 194318 completed at Tue Jun 15 10:39:37 CEST 2021
+Starting job 194337 on b[1392-1395] at Tue Jun 15 10:56:57 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 10:57:32 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 11:15:30 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194337          cA_pt00        512                                             00:18:43      0:0 
+194337.batch      batch        128        1   00:00:02          0   00:00:02   00:18:43      0:0 
+194337.exte+     extern        512        4   00:00:00          3   00:00:00   00:18:45      0:0 
+194337.0       cesm.exe        512      512   00:17:37          1   00:17:48   00:17:58      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194337                                                                           
+194337.batch      7869K          0      7869K       14              0          4 
+194337.exte+       800K          3     645888        1              3          1 
+194337.0        716018K          1  403263784       11            434          1 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194337                                                                                                
+194337.batch     3945.58M               0       3945.58M     3893.18M                0       3893.18M 
+194337.exte+        0.00M               3          0.00M            0                3              0 
+194337.0         2410.45M               1          9.85M    21460.66M                1         44.03M 
+
+Job 194337 completed at Tue Jun 15 11:15:42 CEST 2021
+Starting job 194352 on b[1105-1108] at Tue Jun 15 11:32:54 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 11:33:26 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 11:34:08 CEST 2021 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/cA_pt00/run/cpl.log.210615-113256
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194352          cA_pt00        512                                             00:01:14    127:0 
+194352.batch      batch        128        1   00:00:00          0   00:00:00   00:01:14    127:0 
+194352.exte+     extern        512        4   00:00:00          1   00:00:00   00:01:14      0:0 
+194352.0       cesm.exe        512      512   00:00:29          1   00:00:34   00:00:42      6:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194352                                                                           
+194352.batch      7267K          0      7267K       13              0         13 
+194352.exte+       802K          1     646912        1              1          1 
+194352.0        553868K          1  383489408       13            219          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194352                                                                                                
+194352.batch       39.47M               0         39.47M        1.62M                0          1.62M 
+194352.exte+        0.00M               1          0.00M            0                1              0 
+194352.0          511.00M               1          6.12M        6.69M                0          2.11M 
+
+Job 194352 completed at Tue Jun 15 11:34:09 CEST 2021
+Starting job 194369 on b[1105-1108] at Tue Jun 15 12:58:11 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 12:58:42 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 12:59:23 CEST 2021 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/cA_pt00/run/cpl.log.210615-125813
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194369          cA_pt00        512                                             00:01:13    127:0 
+194369.batch      batch        128        1   00:00:00          0   00:00:00   00:01:13    127:0 
+194369.exte+     extern        512        4   00:00:00          2   00:00:00   00:01:13      0:0 
+194369.0       cesm.exe        512      512   00:00:20          0   00:00:30   00:00:40      6:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194369                                                                           
+194369.batch      7269K          0      7269K       14              0         14 
+194369.exte+       800K          2    798.50K        1              2          1 
+194369.0        556250K          1  247430490        9            460          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194369                                                                                                
+194369.batch       39.47M               0         39.47M        1.62M                0          1.62M 
+194369.exte+        0.00M               2          0.00M            0                2              0 
+194369.0          511.00M               1          5.88M        6.35M                0          2.11M 
+
+Job 194369 completed at Tue Jun 15 12:59:24 CEST 2021
+Starting job 194371 on b[2119,2142-2144] at Tue Jun 15 13:01:44 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 13:02:16 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 13:03:00 CEST 2021 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/cA_pt00/run/cpl.log.210615-130146
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194371          cA_pt00        512                                             00:01:16    127:0 
+194371.batch      batch        128        1   00:00:00          0   00:00:00   00:01:16    127:0 
+194371.exte+     extern        512        4   00:00:00          1   00:00:00   00:01:16      0:0 
+194371.0       cesm.exe        512      512   00:00:26          1   00:00:32   00:00:43      6:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194371                                                                           
+194371.batch      7269K          0      7269K       14              0         14 
+194371.exte+       800K          1    799.50K        1              1          1 
+194371.0        558739K          1  377309952       11            108          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194371                                                                                                
+194371.batch       39.07M               0         39.07M        1.25M                0          1.25M 
+194371.exte+        0.00M               1          0.00M            0                1              0 
+194371.0          511.00M               1          6.11M        6.68M                0          2.11M 
+
+Job 194371 completed at Tue Jun 15 13:03:00 CEST 2021
+Starting job 194411 on b[1114-1117] at Tue Jun 15 14:14:34 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 14:15:09 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 14:33:06 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194411          cA_pt00        512                                             00:18:45      0:0 
+194411.batch      batch        128        1   00:00:01          0   00:00:00   00:18:45      0:0 
+194411.exte+     extern        512        4   00:00:00          1   00:00:00   00:18:47      0:0 
+194411.0       cesm.exe        512      512   00:17:34          1   00:17:45   00:17:57      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194411                                                                           
+194411.batch      7299K          0      7299K       14              0          4 
+194411.exte+       800K          2    627.50K        1              1          1 
+194411.0        686403K          1  403478680       10            272          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194411                                                                                                
+194411.batch      780.75M               0        780.75M      729.90M                0        729.90M 
+194411.exte+        0.00M               1          0.00M            0                1              0 
+194411.0         2410.45M               1          9.85M    21460.65M                1         44.03M 
+
+Job 194411 completed at Tue Jun 15 14:33:21 CEST 2021
+Starting job 194431 on b[1114-1117] at Tue Jun 15 15:03:56 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 15:04:29 CEST 2021 -- CSM EXECUTION BEGINS HERE
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194431          cA_pt00        512                                             00:09:33      0:0 
+194431.batch      batch        128        1   00:00:00          0   00:00:00   00:09:35     0:15 
+194431.exte+     extern        512        4   00:00:00          1   00:00:00   00:09:34      0:0 
+194431.0       cesm.exe        512      512   00:08:42        240   00:08:52   00:09:04      1:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194431                                                                           
+194431.batch      7267K          0      7267K       14              0         14 
+194431.exte+       800K          1    799.50K        1              1          1 
+194431.0        570772K          1  398855262       16            504          1 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194431                                                                                                
+194431.batch       39.89M               0         39.89M        2.02M                0          2.02M 
+194431.exte+        0.00M               1          0.00M            0                1              0 
+194431.0          766.77M               1          6.99M     8847.71M                1         19.39M 
+
+Job 194431 completed at Tue Jun 15 15:13:33 CEST 2021
+Starting job 194435 on b[2119,2142-2144] at Tue Jun 15 15:14:17 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 15:14:50 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 15:33:11 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194435          cA_pt00        512                                             00:19:04      0:0 
+194435.batch      batch        128        1   00:00:01          0   00:00:01   00:19:04      0:0 
+194435.exte+     extern        512        4   00:00:00          3   00:00:00   00:19:06      0:0 
+194435.0       cesm.exe        512      512   00:17:58          1   00:18:10   00:18:21      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194435                                                                           
+194435.batch      7777K          0      7777K       14              0          4 
+194435.exte+       802K          1       800K        1              3          1 
+194435.0        685782K          1  403305064       12             24          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194435                                                                                                
+194435.batch     2634.63M               0       2634.63M     2578.97M                0       2578.97M 
+194435.exte+        0.00M               3          0.00M            0                3              0 
+194435.0         2392.19M               1          9.81M    21949.52M                1         44.98M 
+
+Job 194435 completed at Tue Jun 15 15:33:23 CEST 2021
+Starting job 194445 on b[4283,4294-4296] at Tue Jun 15 15:39:07 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Jun 15 15:39:51 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Jun 15 15:58:56 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194445          cA_pt00        512                                             00:20:01      0:0 
+194445.batch      batch        128        1   00:00:01          0   00:00:00   00:20:01      0:0 
+194445.exte+     extern        512        4   00:00:00          2   00:00:00   00:20:02      0:0 
+194445.0       cesm.exe        512      512   00:17:56          1   00:18:33   00:19:02      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194445                                                                           
+194445.batch     20041K          0     20041K       14              0          5 
+194445.exte+       802K          3    799.50K        1              2          1 
+194445.0        687309K          1  403597188       13             19          3 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194445                                                                                                
+194445.batch       49.69M               0         49.69M        3.13M                0          3.13M 
+194445.exte+        0.00M               2          0.00M            0                2              0 
+194445.0         2392.18M               1          9.81M    21949.52M                1         44.98M 
+
+Job 194445 completed at Tue Jun 15 15:59:10 CEST 2021
+Starting job 194789 on b[1372,1382-1384] at Wed Jun 16 17:27:05 CEST 2021
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/cA_pt00/run
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 2000_control defaults for var sim_year with val 2000 
+CLM adding use_case 2000_control defaults for var sim_year_range with val constant 
+CLM adding use_case 2000_control defaults for var use_case_desc with val Conditions to simulate 2000 land-use 
+CICE configure done.
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Wed Jun 16 17:27:46 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Wed Jun 16 17:46:42 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/cA_pt00
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+194789          cA_pt00        512                                             00:19:49      0:0 
+194789.batch      batch        128        1   00:00:01          0   00:00:00   00:19:49      0:0 
+194789.exte+     extern        512        4   00:00:00          1   00:00:00   00:19:51      0:0 
+194789.0       cesm.exe        512      512   00:17:57          1   00:18:24   00:18:56      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+194789                                                                           
+194789.batch     21078K          0     21078K       14              0          4 
+194789.exte+       800K          0    797.50K        1              1          1 
+194789.0        689593K          1  403521638       13              8          3 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+194789                                                                                                
+194789.batch      254.95M               0        254.95M      200.47M                0        200.47M 
+194789.exte+        0.00M               1          0.00M            0                1              0 
+194789.0         2392.19M               1          9.81M    21949.53M                1         44.98M 
+
+Job 194789 completed at Wed Jun 16 17:46:56 CEST 2021

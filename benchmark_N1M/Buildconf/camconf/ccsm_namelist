@@ -1,0 +1,5 @@
+ &cam_inparm
+ dtime          =  1800
+ cam_branch_file= '/cluster/work/users/earnest/noresm/benchmark_N1M/run/ana_19800115_me_mem01.cam2.r.2010-10-15-00000.nc'
+ co2vmr         = 379.000e-6
+/

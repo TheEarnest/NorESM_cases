@@ -1,0 +1,12 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/C2_FC5_f09 -compset FC5 -res f09_f09 -mach betzy -pecount L
+case created 2023-09-11 06:00:43
+build complete 2023-09-11 06:24:52
+run submitted 2023-09-11 08:33:14
+build complete 2023-09-11 08:36:55
+run started 2023-09-11 08:46:01
+run submitted 2023-09-11 09:12:28
+run started 2023-09-11 09:13:59
+run FAILED 2023-09-11 09:16:06
+run submitted 2023-09-11 11:04:10
+run started 2023-09-11 12:31:18
+run SUCCESSFUL 2023-09-11 14:10:29

@@ -1,0 +1,12 @@
+$CASEROOT/SourceMods/src.cam
+/cluster/projects/nn9385k/people/agu002/ERC-STERCP/models/noresm1-me/models/atm/cam/src/chemistry/pp_none
+$CODEROOT/atm/cam/src/chemistry/mozart
+$CODEROOT/atm/cam/src/chemistry/bulk_aero
+$CODEROOT/atm/cam/src/chemistry/utils
+$CODEROOT/atm/cam/src/physics/cam
+$CODEROOT/atm/cam/src/dynamics/fv
+$CODEROOT/atm/cam/src/cpl_$comp
+$CODEROOT/atm/cam/src/cpl_share
+$CODEROOT/atm/cam/src/control
+$CODEROOT/atm/cam/src/utils
+$CODEROOT/atm/cam/src/utils/pilgrim

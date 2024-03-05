@@ -1,0 +1,98 @@
+#!/bin/csh -f
+set mach = betzy 
+
+#################################################################################
+if ($PHASE == set_batch) then
+#################################################################################
+
+source ./Tools/ccsm_getenv || exit -1
+#--- Job name is first fifteen characters of case name ---
+set jobname = `echo ${CASE} | cut -c1-15`
+set account_name = nn9385k 
+if (-e ~/.ccsm_proj) then
+   set account_name = `head -1 ~/.ccsm_proj`
+endif
+
+echo '             ...COMPUTING  NUMBER OF NODES...'
+set mppsize = `${CASEROOT}/Tools/taskmaker.pl -sumonly`
+ @ mppnodes = ( $mppsize) / ${MAX_TASKS_PER_NODE}
+if ( $mppsize % ${MAX_TASKS_PER_NODE} > 0) then
+ @ mppnodes = ( $mppsize - 1 ) / ${MAX_TASKS_PER_NODE}
+ @ mppnodes = $mppnodes + 1
+ @ mppsize = $mppnodes * ${MAX_TASKS_PER_NODE}
+endif
+
+set walltime = "00:45:00"
+if ($CCSM_ESTCOST > 1) set walltime = "01:50:00"
+if ($CCSM_ESTCOST > 3) set walltime = "05:00:00"
+
+mkdir -p ${CASEROOT}/stdout
+cat >! $CASEROOT/${CASE}.run << EOF1
+#!/bin/csh -f
+#===============================================================================
+#  This is a CCSM batch job script 
+#===============================================================================]
+#SBATCH --job-name=${jobname}
+#SBATCH --account=${account_name}
+#SBATCH --nodes=${mppnodes}
+#SBATCH --ntasks=${mppsize}
+#SBATCH --export=ALL
+#SBATCH --time="05:00:00"
+#SBATCH --exclusive
+#SBATCH -o ./stdout/%j.out
+#SBATCH -e ./stdout/%j.err
+
+###source env_mach_specific
+###limit coredumpsize 1000000
+###limit stacksize unlimited
+
+EOF1
+
+
+#################################################################################
+else if ($PHASE == set_exe) then
+#################################################################################
+source ./Tools/ccsm_getenv || exit -1
+set maxthrds = `${CASEROOT}/Tools/taskmaker.pl -maxthrds`
+set maxtasks = `${CASEROOT}/Tools/taskmaker.pl -sumtasks`
+cat >> ${CASEROOT}/${CASE}.run << EOF1
+# -------------------------------------------------------------------------
+# Run the model
+# -------------------------------------------------------------------------
+
+sleep 25
+cd \$RUNDIR
+echo "\`date\` -- CSM EXECUTION BEGINS HERE"
+setenv SLURM_MEM_PER_CPU 1920
+setenv OMP_NUM_THREADS ${maxthrds}
+   srun -n ${maxtasks} --exclusive \$EXEROOT/cesm.exe >&! cesm.log.\$LID
+wait
+
+echo "\`date\` -- CSM EXECUTION HAS FINISHED"
+
+EOF1
+
+
+
+#################################################################################
+else if ($PHASE == set_larch) then
+#################################################################################
+# Create the archive script
+#touch ${CASEROOT}/${CASE}.l_archive
+#chmod 775 ${CASEROOT}/${CASE}.l_archive
+
+#cat >! $CASEROOT/${CASE}.l_archive << EOF1
+ #This is a place holder for a long-term archiving script
+
+
+#################################################################################
+else
+#################################################################################
+
+    echo "  PHASE setting of $PHASE is not an accepted value"
+    echo "  accepted values are set_batch, set_exe and set_larch"
+    exit 1
+
+#################################################################################
+endif
+#################################################################################

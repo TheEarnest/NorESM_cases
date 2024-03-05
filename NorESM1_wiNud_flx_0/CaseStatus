@@ -1,0 +1,9 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/NorESM1_wiNud_flx_0 -compset N20TREXTAERCN -res f19_g16 -mach betzy -pecount=X1
+case created 2022-06-21 11:03:14
+configure -case 2022-06-21 11:08:34
+build complete 2022-06-21 11:44:32
+run submitted 2022-06-21 12:30:11
+run started 2022-06-21 12:33:44
+run FAILED 2022-06-21 12:34:05
+run submitted 2022-06-21 13:03:12
+run started 2022-06-21 13:07:54

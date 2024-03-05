@@ -1,0 +1,1 @@
+create_newcase -case ../../../cases/NorESM1-p128-p1 -compset N20TREXTAERCNOC -res f19_g16 -mach fram -pecount 128

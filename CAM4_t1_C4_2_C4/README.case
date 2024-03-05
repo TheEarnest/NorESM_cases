@@ -1,0 +1,1 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C4 -compset F -res f19_f19 -mach fram -pecount L

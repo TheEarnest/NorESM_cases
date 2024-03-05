@@ -1,0 +1,6 @@
+ &ice_nml
+ ice_ic = 'ana_19800115_me_mem01.cice.r.2010-10-15-00000.nc'
+ /
+ &domain_nml
+ distribution_type = 'DECOMPTYPE'
+ / 

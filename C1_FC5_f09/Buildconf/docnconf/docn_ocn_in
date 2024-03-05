@@ -1,0 +1,11 @@
+&shr_strdata_nml
+ datamode = 'SSTDATA'
+ domainfile = '/cluster/shared/noresm/inputdata/share/domains/domain.ocn.0.9x1.25_gx1v6_090403.nc'
+ fillalgo = 'nn'
+ fillmask = 'nomask'
+ mapalgo = 'bilinear'
+ mapmask = 'dstmask'
+ streams = "docn.streams.txt.prescribed 1850 1850 2020"
+ taxmode = 'cycle'
+ tintalgo = 'linear'
+/

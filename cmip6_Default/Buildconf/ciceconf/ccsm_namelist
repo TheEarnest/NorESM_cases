@@ -1,0 +1,6 @@
+ &ice_nml
+ ice_ic = 'N1850AERCNOC_f19_g16_CMIP6forcings_15.cice.r.0051-01-01-00000.nc'
+ /
+ &domain_nml
+ distribution_type = 'DECOMPTYPE'
+ / 

@@ -1,0 +1,1 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/NorESM1_wiNud_flx_0 -compset N20TREXTAERCN -res f19_g16 -mach betzy -pecount=X1

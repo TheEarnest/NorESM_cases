@@ -1,0 +1,25 @@
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-154522’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-163035’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-171156’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-175819’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-184207’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-192727’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-201132’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-210225’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-214906’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-223354’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190603-232034’: No such file or directory
+cp: No match.
+ln: failed to create hard link ‘./CAM5_t0_S_noNud.clm2.h0.1970-12.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud/timing/ccsm_timing.CAM5_t0_S_noNud.190604-000459’: No such file or directory

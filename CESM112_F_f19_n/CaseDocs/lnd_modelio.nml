@@ -1,0 +1,11 @@
+&modelio
+ diri = '/cluster/work/users/earnest/noresm/CESM112_F_f19_n/bld/lnd'
+ diro = '/cluster/work/users/earnest/noresm/CESM112_F_f19_n/run'
+ logfile = 'lnd.log.231116-144043'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

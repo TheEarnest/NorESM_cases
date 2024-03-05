@@ -1,0 +1,1769 @@
+Starting job 625941 on b[1223-1224,1240-1241] on betzy at Tue May 9 11:47:12 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 11:47:17 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 11:47:17 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 11:47:19 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 11:47:19 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 11:47:19 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 11:47:19 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 11:47:19 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 11:47:19 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 11:47:19 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 11:47:20 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/earnest/noresm/N2A_f09/run/cesm.log.625941.230509-114715
+
+Job 625941 consumed 4.3 billing hours from project nn9039k.
+
+Submitted 2023-05-09T11:47:01; waited 11.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   30.0 seconds
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+625941            512            0.0 %  2023-05-09T11:47:12   30.0 s  1
+625941.batch      128      1     0.1 %  2023-05-09T11:47:12   30.0 s  1
+625941.cesm.exe   512    512    61.1 %  2023-05-09T11:47:21   21.0 s  Signal 9
+
+Used CPU time:   1.8 CPU hours
+Unused CPU time: 2.4 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+625941            968.0        
+625941.batch      242.0     0.0
+625941.cesm.exe   968.0    62.2
+
+Job 625941 completed at Tue May 9 11:47:43 CEST 2023
+Starting job 625957 on b[5253-5256] on betzy at Tue May 9 12:20:53 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 12:20:57 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 12:20:58 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 12:20:59 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 12:20:59 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 12:21:00 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 12:21:00 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 12:21:00 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 12:21:00 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 12:21:00 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 12:21:00 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 30
+
+Job 625957 consumed 763.9 billing hours from project nn9039k.
+
+Submitted 2023-05-09T12:20:51; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.5 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+625957            512            0.0 %  2023-05-09T12:20:52    1.5 h  0
+625957.batch      128      1     0.0 %  2023-05-09T12:20:52    1.5 h  0
+625957.cesm.exe   512    512    99.9 %  2023-05-09T12:21:01    1.5 h  0
+
+Used CPU time:   31.7 CPU days
+Unused CPU time: 2.6 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+625957            968.0        
+625957.batch      242.0     0.0
+625957.cesm.exe   968.0   448.4
+
+Job 625957 completed at Tue May 9 13:50:25 CEST 2023
+Starting job 626038 on b[1242-1244,1248] on betzy at Tue May 9 13:51:01 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 13:51:07 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 13:51:08 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 13:51:10 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 13:51:10 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 13:51:10 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 13:51:11 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 13:51:11 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 13:51:11 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 13:51:11 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 13:51:11 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 29
+
+Job 626038 consumed 721.1 billing hours from project nn9039k.
+
+Submitted 2023-05-09T13:50:59; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626038            512            0.0 %  2023-05-09T13:51:00    1.4 h  0
+626038.batch      128      1     0.0 %  2023-05-09T13:51:00    1.4 h  0
+626038.cesm.exe   512    512    99.8 %  2023-05-09T13:51:12    1.4 h  0
+
+Used CPU time:   29.9 CPU days
+Unused CPU time: 3.2 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626038            968.0        
+626038.batch      242.0     0.0
+626038.cesm.exe   968.0   444.8
+
+Job 626038 completed at Tue May 9 15:15:32 CEST 2023
+Starting job 626112 on b[3268,3273-3274,3293] on betzy at Tue May 9 15:16:07 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 15:16:11 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 15:16:12 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 15:16:13 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 15:16:14 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 15:16:14 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 15:16:14 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 15:16:14 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 15:16:14 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 15:16:14 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 15:16:14 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 28
+
+Job 626112 consumed 755.9 billing hours from project nn9039k.
+
+Submitted 2023-05-09T15:16:06; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.5 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626112            512            0.0 %  2023-05-09T15:16:07    1.5 h  0
+626112.batch      128      1     0.0 %  2023-05-09T15:16:07    1.5 h  0
+626112.cesm.exe   512    512    99.7 %  2023-05-09T15:16:15    1.5 h  0
+
+Used CPU time:   31.4 CPU days
+Unused CPU time: 3.4 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626112            968.0        
+626112.batch      242.0     0.0
+626112.cesm.exe   968.0   435.1
+
+Job 626112 completed at Tue May 9 16:44:44 CEST 2023
+Starting job 626181 on b[3268,3273-3274,3293] on betzy at Tue May 9 16:45:16 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 16:45:21 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 16:45:21 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 16:45:22 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 16:45:23 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 16:45:23 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 16:45:23 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 16:45:23 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 16:45:23 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 16:45:23 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 16:45:23 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 27
+
+Job 626181 consumed 728.7 billing hours from project nn9039k.
+
+Submitted 2023-05-09T16:45:16; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626181            512            0.0 %  2023-05-09T16:45:16    1.4 h  0
+626181.batch      128      1     0.0 %  2023-05-09T16:45:16    1.4 h  0
+626181.cesm.exe   512    512    99.8 %  2023-05-09T16:45:24    1.4 h  0
+
+Used CPU time:   30.2 CPU days
+Unused CPU time: 2.9 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626181            968.0        
+626181.batch      242.0     0.0
+626181.cesm.exe   968.0   444.1
+
+Job 626181 completed at Tue May 9 18:10:42 CEST 2023
+Starting job 626224 on b[4121-4123,4125] on betzy at Tue May 9 18:15:08 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 18:15:13 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 18:15:14 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 18:15:15 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 18:15:16 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 18:15:16 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 18:15:16 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 18:15:16 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 18:15:16 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 18:15:16 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 18:15:16 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 26
+
+Job 626224 consumed 739.4 billing hours from project nn9039k.
+
+Submitted 2023-05-09T18:11:17; waited 3.9 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626224            512            0.0 %  2023-05-09T18:15:08    1.4 h  0
+626224.batch      128      1     0.0 %  2023-05-09T18:15:08    1.4 h  0
+626224.cesm.exe   512    512    99.4 %  2023-05-09T18:15:17    1.4 h  0
+
+Used CPU time:   30.5 CPU days
+Unused CPU time: 8.0 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626224            968.0        
+626224.batch      242.0     0.0
+626224.cesm.exe   968.0   445.3
+
+Job 626224 completed at Tue May 9 19:41:49 CEST 2023
+Starting job 626272 on b[1123-1124,1132-1133] on betzy at Tue May 9 19:42:44 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 19:42:48 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 19:42:49 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 19:42:51 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 19:42:51 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 19:42:51 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 19:42:51 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 19:42:51 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 19:42:51 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 19:42:51 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 19:42:51 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 25
+
+Job 626272 consumed 723.5 billing hours from project nn9039k.
+
+Submitted 2023-05-09T19:42:23; waited 21.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626272            512            0.0 %  2023-05-09T19:42:44    1.4 h  0
+626272.batch      128      1     0.0 %  2023-05-09T19:42:44    1.4 h  0
+626272.cesm.exe   512    512    99.8 %  2023-05-09T19:42:53    1.4 h  0
+
+Used CPU time:   30.0 CPU days
+Unused CPU time: 2.6 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626272            968.0        
+626272.batch      242.0     0.0
+626272.cesm.exe   968.0   439.0
+
+Job 626272 completed at Tue May 9 21:07:33 CEST 2023
+Starting job 626304 on b[2354-2357] on betzy at Tue May 9 21:26:51 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 21:26:57 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 21:26:58 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 21:26:59 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 21:26:59 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 21:26:59 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 21:27:00 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 21:27:00 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 21:27:00 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 21:27:00 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 21:27:00 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 24
+
+Job 626304 consumed 832.0 billing hours from project nn9039k.
+
+Submitted 2023-05-09T21:08:08; waited 18.7 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.6 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626304            512            0.0 %  2023-05-09T21:26:51    1.6 h  0
+626304.batch      128      1     0.0 %  2023-05-09T21:26:51    1.6 h  0
+626304.cesm.exe   512    512    99.9 %  2023-05-09T21:27:01    1.6 h  0
+
+Used CPU time:   34.6 CPU days
+Unused CPU time: 2.2 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626304            968.0        
+626304.batch      242.0     0.0
+626304.cesm.exe   968.0   445.2
+
+Job 626304 completed at Tue May 9 23:04:23 CEST 2023
+Starting job 626332 on b[2350-2353] on betzy at Tue May 9 23:05:28 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-09 23:05:33 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-09 23:05:34 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-09 23:05:35 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-09 23:05:35 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-09 23:05:35 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-09 23:05:36 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-09 23:05:36 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-09 23:05:36 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-09 23:05:36 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-09 23:05:36 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 23
+
+Job 626332 consumed 815.6 billing hours from project nn9039k.
+
+Submitted 2023-05-09T23:04:59; waited 29.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.6 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626332            512            0.0 %  2023-05-09T23:05:28    1.6 h  0
+626332.batch      128      1     0.0 %  2023-05-09T23:05:28    1.6 h  0
+626332.cesm.exe   512    512    99.9 %  2023-05-09T23:05:37    1.6 h  0
+
+Used CPU time:   33.9 CPU days
+Unused CPU time: 2.6 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626332            968.0        
+626332.batch      242.0     0.0
+626332.cesm.exe   968.0   442.9
+
+Job 626332 completed at Wed May 10 00:41:06 CEST 2023
+Starting job 626361 on b[1305-1306,1314-1315] on betzy at Wed May 10 00:41:42 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 00:41:46 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 00:41:47 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 00:41:48 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 00:41:49 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 00:41:49 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 00:41:49 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 00:41:49 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 00:41:49 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 00:41:49 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 00:41:49 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+slurmstepd: error: *** JOB 626361 ON b1305 CANCELLED AT 2023-05-10T00:49:26 ***
+
+Job 626361 consumed 66.0 billing hours from project nn9039k.
+
+Submitted 2023-05-10T00:41:42; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   7.7 minutes
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626361            512            0.0 %  2023-05-10T00:41:42  464.0 s  0
+626361.batch      128      1     0.0 %  2023-05-10T00:41:42  465.0 s  Signal 15
+626361.cesm.exe   512    512     0.0 %  2023-05-10T00:41:51  455.0 s  0
+
+Used CPU time:   3.0 CPU seconds
+Unused CPU time: 2.7 CPU days
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626361            968.0        
+626361.batch      242.0     0.0
+626361.cesm.exe   968.0  17179869184.0
+
+Job 626361 completed at Wed May 10 00:49:31 CEST 2023
+Starting job 626558 on b[4211-4213,4219] on betzy at Wed May 10 11:04:20 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 11:04:25 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 11:04:25 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 11:04:26 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 11:04:27 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 11:04:27 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 11:04:27 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 11:04:27 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 11:04:27 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 11:04:27 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 11:04:27 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 22
+
+Job 626558 consumed 707.6 billing hours from project nn9039k.
+
+Submitted 2023-05-10T11:00:50; waited 3.5 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626558            512            0.0 %  2023-05-10T11:04:19    1.4 h  0
+626558.batch      128      1     0.0 %  2023-05-10T11:04:19    1.4 h  0
+626558.cesm.exe   512    512    99.9 %  2023-05-10T11:04:28    1.4 h  0
+
+Used CPU time:   29.4 CPU days
+Unused CPU time: 2.1 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626558            968.0        
+626558.batch      242.0     0.0
+626558.cesm.exe   968.0   445.3
+
+Job 626558 completed at Wed May 10 12:27:16 CEST 2023
+Starting job 626586 on b[2238-2241] on betzy at Wed May 10 12:27:49 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 12:27:53 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 12:27:54 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 12:27:55 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 12:27:55 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 12:27:56 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 12:27:56 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 12:27:56 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 12:27:56 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 12:27:56 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 12:27:56 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 21
+
+Job 626586 consumed 752.9 billing hours from project nn9039k.
+
+Submitted 2023-05-10T12:27:49; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.5 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626586            512            0.0 %  2023-05-10T12:27:49    1.5 h  0
+626586.batch      128      1     0.0 %  2023-05-10T12:27:49    1.5 h  0
+626586.cesm.exe   512    512    99.7 %  2023-05-10T12:27:57    1.5 h  0
+
+Used CPU time:   31.2 CPU days
+Unused CPU time: 3.4 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626586            968.0        
+626586.batch      242.0     0.0
+626586.cesm.exe   968.0   446.5
+
+Job 626586 completed at Wed May 10 13:56:05 CEST 2023
+Starting job 626624 on b[1188,1194-1196] on betzy at Wed May 10 13:56:41 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 13:56:46 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 13:56:47 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 13:56:48 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 13:56:48 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 13:56:48 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 13:56:48 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 13:56:48 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 13:56:48 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 13:56:48 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 13:56:48 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 20
+
+Job 626624 consumed 720.9 billing hours from project nn9039k.
+
+Submitted 2023-05-10T13:56:41; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626624            512            0.0 %  2023-05-10T13:56:41    1.4 h  0
+626624.batch      128      1     0.0 %  2023-05-10T13:56:41    1.4 h  0
+626624.cesm.exe   512    512    99.8 %  2023-05-10T13:56:50    1.4 h  0
+
+Used CPU time:   29.9 CPU days
+Unused CPU time: 3.0 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626624            968.0        
+626624.batch      242.0     0.0
+626624.cesm.exe   968.0   440.0
+
+Job 626624 completed at Wed May 10 15:21:12 CEST 2023
+Starting job 626689 on b[1188,1194-1196] on betzy at Wed May 10 15:21:51 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 15:21:55 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 15:21:56 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 15:21:57 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 15:21:57 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 15:21:58 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 15:21:58 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 15:21:58 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 15:21:58 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 15:21:58 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 15:21:58 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 19
+
+Job 626689 consumed 752.8 billing hours from project nn9039k.
+
+Submitted 2023-05-10T15:21:51; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.5 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626689            512            0.0 %  2023-05-10T15:21:51    1.5 h  0
+626689.batch      128      1     0.0 %  2023-05-10T15:21:51    1.5 h  0
+626689.cesm.exe   512    512    99.9 %  2023-05-10T15:21:59    1.5 h  0
+
+Used CPU time:   31.3 CPU days
+Unused CPU time: 1.8 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626689            968.0        
+626689.batch      242.0     0.0
+626689.cesm.exe   968.0   437.2
+
+Job 626689 completed at Wed May 10 16:50:06 CEST 2023
+Starting job 626760 on b[1188,1194-1196] on betzy at Wed May 10 16:50:43 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 16:50:50 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 16:50:51 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 16:50:54 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 16:50:55 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 16:50:55 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 16:50:55 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 16:50:55 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 16:50:55 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 16:50:55 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 16:50:55 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 18
+
+Job 626760 consumed 696.7 billing hours from project nn9039k.
+
+Submitted 2023-05-10T16:50:42; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626760            512            0.0 %  2023-05-10T16:50:43    1.4 h  0
+626760.batch      128      1     0.0 %  2023-05-10T16:50:43    1.4 h  0
+626760.cesm.exe   512    512    99.8 %  2023-05-10T16:50:57    1.4 h  0
+
+Used CPU time:   28.9 CPU days
+Unused CPU time: 3.8 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626760            968.0        
+626760.batch      242.0     0.0
+626760.cesm.exe   968.0   446.0
+
+Job 626760 completed at Wed May 10 18:12:24 CEST 2023
+Starting job 626825 on b[1172,1188,1194-1195] on betzy at Wed May 10 18:50:34 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 18:50:39 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 18:50:40 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 18:50:41 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 18:50:41 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 18:50:41 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 18:50:41 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 18:50:42 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 18:50:42 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 18:50:42 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 18:50:42 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 17
+
+Job 626825 consumed 705.6 billing hours from project nn9039k.
+
+Submitted 2023-05-10T18:13:06; waited 37.5 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626825            512            0.0 %  2023-05-10T18:50:34    1.4 h  0
+626825.batch      128      1     0.0 %  2023-05-10T18:50:34    1.4 h  0
+626825.cesm.exe   512    512    99.8 %  2023-05-10T18:50:43    1.4 h  0
+
+Used CPU time:   29.3 CPU days
+Unused CPU time: 2.6 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626825            968.0        
+626825.batch      242.0     0.0
+626825.cesm.exe   968.0   436.1
+
+Job 626825 completed at Wed May 10 20:13:17 CEST 2023
+Starting job 626873 on b[3339-3342] on betzy at Wed May 10 20:14:04 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 20:14:09 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 20:14:09 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 20:14:11 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 20:14:11 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 20:14:11 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 20:14:11 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 20:14:11 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 20:14:11 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 20:14:11 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 20:14:11 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 16
+
+Job 626873 consumed 756.6 billing hours from project nn9039k.
+
+Submitted 2023-05-10T20:13:50; waited 14.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.5 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626873            512            0.0 %  2023-05-10T20:14:04    1.5 h  0
+626873.batch      128      1     0.0 %  2023-05-10T20:14:04    1.5 h  0
+626873.cesm.exe   512    512    99.9 %  2023-05-10T20:14:13    1.5 h  0
+
+Used CPU time:   31.4 CPU days
+Unused CPU time: 2.1 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626873            968.0        
+626873.batch      242.0     0.0
+626873.cesm.exe   968.0   443.6
+
+Job 626873 completed at Wed May 10 21:42:46 CEST 2023
+Starting job 626907 on b[3141-3144] on betzy at Wed May 10 21:49:09 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 21:49:16 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 21:49:17 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 21:49:19 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 21:49:19 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 21:49:19 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 21:49:19 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 21:49:19 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 21:49:19 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 21:49:19 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 21:49:20 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 15
+
+Job 626907 consumed 816.8 billing hours from project nn9039k.
+
+Submitted 2023-05-10T21:43:21; waited 5.8 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.6 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626907            512            0.0 %  2023-05-10T21:49:09    1.6 h  0
+626907.batch      128      1     0.0 %  2023-05-10T21:49:09    1.6 h  0
+626907.cesm.exe   512    512    99.6 %  2023-05-10T21:49:21    1.6 h  0
+
+Used CPU time:   33.8 CPU days
+Unused CPU time: 5.1 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626907            968.0        
+626907.batch      242.0     0.0
+626907.cesm.exe   968.0   445.7
+
+Job 626907 completed at Wed May 10 23:24:54 CEST 2023
+Starting job 626964 on b[3141-3144] on betzy at Wed May 10 23:25:45 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-10 23:25:50 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-10 23:25:50 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-10 23:25:52 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-10 23:25:52 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-10 23:25:52 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-10 23:25:52 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-10 23:25:52 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-10 23:25:52 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-10 23:25:52 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-10 23:25:52 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 14
+
+Job 626964 consumed 807.0 billing hours from project nn9039k.
+
+Submitted 2023-05-10T23:25:27; waited 17.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.6 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+626964            512            0.0 %  2023-05-10T23:25:44    1.6 h  0
+626964.batch      128      1     0.0 %  2023-05-10T23:25:44    1.6 h  0
+626964.cesm.exe   512    512    99.8 %  2023-05-10T23:25:53    1.6 h  0
+
+Used CPU time:   33.5 CPU days
+Unused CPU time: 2.9 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+626964            968.0        
+626964.batch      242.0     0.0
+626964.cesm.exe   968.0   436.9
+
+Job 626964 completed at Thu May 11 01:00:20 CEST 2023
+Starting job 627036 on b[2101-2102,2143-2144] on betzy at Thu May 11 01:06:29 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-11 01:06:33 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-11 01:06:34 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-11 01:06:35 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-11 01:06:36 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-11 01:06:36 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-11 01:06:36 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-11 01:06:36 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-11 01:06:36 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-11 01:06:36 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-11 01:06:36 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 13
+
+Job 627036 consumed 726.8 billing hours from project nn9039k.
+
+Submitted 2023-05-11T01:00:53; waited 5.6 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+627036            512            0.0 %  2023-05-11T01:06:29    1.4 h  0
+627036.batch      128      1     0.0 %  2023-05-11T01:06:29    1.4 h  0
+627036.cesm.exe   512    512    99.8 %  2023-05-11T01:06:38    1.4 h  0
+
+Used CPU time:   30.1 CPU days
+Unused CPU time: 3.2 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+627036            968.0        
+627036.batch      242.0     0.0
+627036.cesm.exe   968.0   446.3
+
+Job 627036 completed at Thu May 11 02:31:41 CEST 2023
+Starting job 627061 on b[2296,3280,3285,3342] on betzy at Thu May 11 02:37:43 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-11 02:37:48 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-11 02:37:49 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-11 02:37:50 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-11 02:37:50 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-11 02:37:50 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-11 02:37:50 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-11 02:37:50 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-11 02:37:50 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-11 02:37:51 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-11 02:37:51 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 12
+
+Job 627061 consumed 762.6 billing hours from project nn9039k.
+
+Submitted 2023-05-11T02:32:14; waited 5.5 minutes in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.5 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+627061            512            0.0 %  2023-05-11T02:37:43    1.5 h  0
+627061.batch      128      1     0.0 %  2023-05-11T02:37:43    1.5 h  0
+627061.cesm.exe   512    512    99.8 %  2023-05-11T02:37:52    1.5 h  0
+
+Used CPU time:   31.7 CPU days
+Unused CPU time: 2.9 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+627061            968.0        
+627061.batch      242.0     0.0
+627061.cesm.exe   968.0   441.7
+
+Job 627061 completed at Thu May 11 04:07:07 CEST 2023
+Starting job 627082 on b[1255-1256,1260,1264] on betzy at Thu May 11 07:00:30 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-11 07:00:34 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-11 07:00:35 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-11 07:00:36 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-11 07:00:36 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-11 07:00:36 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-11 07:00:36 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-11 07:00:37 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-11 07:00:37 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-11 07:00:37 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-11 07:00:37 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 11
+
+Job 627082 consumed 749.7 billing hours from project nn9039k.
+
+Submitted 2023-05-11T04:07:42; waited 2.9 hours in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.5 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+627082            512            0.0 %  2023-05-11T07:00:26    1.5 h  0
+627082.batch      128      1     0.0 %  2023-05-11T07:00:26    1.5 h  0
+627082.cesm.exe   512    512    99.9 %  2023-05-11T07:00:38    1.5 h  0
+
+Used CPU time:   31.1 CPU days
+Unused CPU time: 2.7 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+627082            968.0        
+627082.batch      242.0     0.0
+627082.cesm.exe   968.0   436.1
+
+Job 627082 completed at Thu May 11 08:28:19 CEST 2023
+Starting job 627129 on b[1255-1256,1260,1264] on betzy at Thu May 11 08:29:03 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-11 08:29:07 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-11 08:29:08 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-11 08:29:09 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-11 08:29:09 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-11 08:29:10 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-11 08:29:10 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-11 08:29:10 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-11 08:29:10 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-11 08:29:10 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-11 08:29:10 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+check for resubmit
+dout_s True 
+mach betzy 
+resubmit_num 10
+
+Job 627129 consumed 701.0 billing hours from project nn9039k.
+
+Submitted 2023-05-11T08:28:54; waited 9.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   1.4 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+627129            512            0.0 %  2023-05-11T08:29:03    1.4 h  0
+627129.batch      128      1     0.0 %  2023-05-11T08:29:03    1.4 h  0
+627129.cesm.exe   512    512    99.8 %  2023-05-11T08:29:11    1.4 h  0
+
+Used CPU time:   29.1 CPU days
+Unused CPU time: 2.6 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+627129            968.0        
+627129.batch      242.0     0.0
+627129.cesm.exe   968.0   445.3
+
+Job 627129 completed at Thu May 11 09:51:14 CEST 2023
+Starting job 627168 on b[1251-1253,1255] on betzy at Thu May 11 09:51:51 CEST 2023
+
+Setting Environment KMP_STACKSIZE=64M
+Setting Environment MKL_DEBUG_CPU_TYPE=5
+Setting Environment OMPI_MCA_mpi_leave_pinned=1
+Setting Environment OMPI_MCA_btl=self,vader
+Setting Environment OMPI_MCA_rmaps_rank_file_physical=1
+Setting Environment OMPI_MCA_coll_hcoll_enable=1
+Setting Environment OMPI_MCA_coll=^fca
+Setting Environment OMPI_MCA_coll_hcoll_priority=95
+Setting Environment OMPI_MCA_coll_hcoll_np=8
+Setting Environment HCOLL_MAIN_IB=mlx5_0:1
+Setting Environment HCOLL_ENABLE_MCAST_ALL=1
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /cluster/home/earnest/models/NorCPM/cases/N2A_f09
+Creating component namelists
+  2023-05-11 09:51:54 atm 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cam//cime_config/buildnml
+CAM namelist copy: file1 /cluster/home/earnest/models/NorCPM/cases/N2A_f09/Buildconf/camconf/atm_in file2 /cluster/work/users/earnest/noresm/N2A_f09/run/atm_in 
+  2023-05-11 09:51:55 lnd 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/clm//cime_config/buildnml
+  2023-05-11 09:51:57 ice 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/cice//cime_config/buildnml
+  2023-05-11 09:51:57 ocn 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/data_comps_mct/docn/cime_config/buildnml
+  2023-05-11 09:51:57 rof 
+   Calling /cluster/work/users/earnest/temp/NorESM/components/mosart//cime_config/buildnml
+  2023-05-11 09:51:57 glc 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sglc/cime_config/buildnml
+  2023-05-11 09:51:58 wav 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/swav/cime_config/buildnml
+  2023-05-11 09:51:58 iac 
+   Running /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/siac/cime_config/buildnml 
+  2023-05-11 09:51:58 esp 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/components/stub_comps_mct/sesp/cime_config/buildnml
+  2023-05-11 09:51:58 cpl 
+   Calling /cluster/work/users/earnest/temp/NorESM/cime/src/drivers/mct/cime_config/buildnml
+   NOTE: ignoring setting of rof2ocn_liq_rmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_fmapname=idmap in seq_maps.rc
+   NOTE: ignoring setting of rof2ocn_ice_rmapname=idmap in seq_maps.rc
+-------------------------------------------------------------------------
+ - Prestage required restarts into /cluster/work/users/earnest/noresm/N2A_f09/run
+ - Case input data directory (DIN_LOC_ROOT) is /cluster/shared/noresm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+run command is srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1  
+ERROR: RUN FAIL: Command 'srun  /cluster/work/users/earnest/noresm/N2A_f09/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /cluster/work/users/earnest/noresm/N2A_f09/run/cesm.log.627168.230511-095153
+
+Job 627168 consumed 118.2 billing hours from project nn9039k.
+
+Submitted 2023-05-11T09:51:50; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 13.0 hours
+Elapsed wallclock time:   13.8 minutes
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+627168            512            0.0 %  2023-05-11T09:51:50  831.0 s  1
+627168.batch      128      1     0.0 %  2023-05-11T09:51:50  831.0 s  1
+627168.cesm.exe   512    512    33.6 %  2023-05-11T09:51:59  822.0 s  1
+
+Used CPU time:   1.6 CPU days
+Unused CPU time: 3.3 CPU days
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+627168            968.0        
+627168.batch      242.0     0.0
+627168.cesm.exe   968.0    38.2
+
+Job 627168 completed at Thu May 11 10:05:42 CEST 2023

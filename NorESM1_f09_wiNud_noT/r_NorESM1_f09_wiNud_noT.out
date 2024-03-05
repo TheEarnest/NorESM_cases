@@ -1,0 +1,260 @@
+Starting job 338866 on b[1201-1204] at Mon Apr 18 10:45:06 CEST 2022
+
+Run number 1 of 13
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000 (F)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000
+CCSM_SCOMPSET=F
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+EBDEVELIOMPI=/cluster/software/iompi/2020a/easybuild/iompi-2020a-easybuild-devel
+EBROOTIOMPI=/cluster/software/iompi/2020a
+EBVERSIONIOMPI=2020a
+OMP_STACKSIZE=64M
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Apr 18 10:45:13 CEST 2022 -- CSM EXECUTION BEGINS HERE
+Mon Apr 18 10:45:30 CEST 2022 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run/cpl.log.220418-104510
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+338866       N1_f09_wiN        512                                             00:00:24      1:0 
+338866.batch      batch        128        1   00:00:00          0   00:00:00   00:00:24      1:0 
+338866.exte+     extern        512        4   00:00:00          3   00:00:00   00:00:24      0:0 
+338866.0       ccsm.exe        512      512   00:00:08        153   00:00:12   00:00:17      0:9 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+338866                                                                           
+338866.batch      8684K          0      8684K       14              0         14 
+338866.exte+       831K          1       767K        3              3          1 
+338866.0          5436K        303    5503830        9            451          1 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+338866                                                                                                
+338866.batch       30.83M               0         30.83M        0.31M                0          0.31M 
+338866.exte+        0.00M               3          0.00M            0                3              0 
+338866.0            9.56M               0          9.46M        8.28M                0          8.17M 
+
+Job 338866 completed at Mon Apr 18 10:45:30 CEST 2022
+Starting job 339036 on b[4201-4203,4205] at Tue Apr 19 08:10:52 CEST 2022
+
+Run number 1 of 13
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000 (F)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000
+CCSM_SCOMPSET=F
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+EBDEVELIOMPI=/cluster/software/iompi/2020a/easybuild/iompi-2020a-easybuild-devel
+EBROOTIOMPI=/cluster/software/iompi/2020a
+EBVERSIONIOMPI=2020a
+OMP_STACKSIZE=64M
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Tue Apr 19 08:10:59 CEST 2022 -- CSM EXECUTION BEGINS HERE
+Tue Apr 19 08:11:17 CEST 2022 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run/cpl.log.220419-081056
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+339036       N1_f09_wiN        512                                             00:00:25      1:0 
+339036.batch      batch        128        1   00:00:01          0   00:00:01   00:00:25      1:0 
+339036.exte+     extern        512        4   00:00:00          2   00:00:00   00:00:25      0:0 
+339036.0       ccsm.exe        512      512   00:00:07        134   00:00:12   00:00:18      0:9 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+339036                                                                           
+339036.batch      8572K          0      8572K       12              0         12 
+339036.exte+       835K          2       834K        3              0          1 
+339036.0          7363K        258    5481240       10             99          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+339036                                                                                                
+339036.batch       30.68M               0         30.68M        0.31M                0          0.31M 
+339036.exte+        0.00M               2          0.00M            0                2              0 
+339036.0            9.56M               0          9.44M        8.28M                0          8.15M 
+
+Job 339036 completed at Tue Apr 19 08:11:17 CEST 2022
+Starting job 339232 on b[5249-5252] at Tue Apr 19 13:07:04 CEST 2022
+
+Run number 1 of 13
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000 (F)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000
+CCSM_SCOMPSET=F
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+EBDEVELIOMPI=/cluster/software/iompi/2020a/easybuild/iompi-2020a-easybuild-devel
+EBROOTIOMPI=/cluster/software/iompi/2020a
+EBVERSIONIOMPI=2020a
+OMP_STACKSIZE=64M
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Tue Apr 19 13:07:11 CEST 2022 -- CSM EXECUTION BEGINS HERE
+Tue Apr 19 13:07:27 CEST 2022 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run/cpl.log.220419-130707
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+339232       N1_f09_wiN        512                                             00:00:23      1:0 
+339232.batch      batch        128        1   00:00:01          0   00:00:01   00:00:23      1:0 
+339232.exte+     extern        512        4   00:00:00          1   00:00:00   00:00:23      0:0 
+339232.0       ccsm.exe        512      512   00:00:08        291   00:00:12   00:00:16      1:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+339232                                                                           
+339232.batch      8690K          0      8690K       14              0         14 
+339232.exte+       835K          3    780.50K        1              1          1 
+339232.0         15920K        488    5543302       10            490          1 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+339232                                                                                                
+339232.batch       30.83M               0         30.83M        0.31M                0          0.31M 
+339232.exte+        0.00M               1          0.00M            0                1              0 
+339232.0            9.56M               0          9.47M        8.28M                0          8.18M 
+
+Job 339232 completed at Tue Apr 19 13:07:27 CEST 2022
+Starting job 339330 on b[3353-3354,3359-3360] at Tue Apr 19 15:11:41 CEST 2022
+
+Run number 1 of 13
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000 (F)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000
+CCSM_SCOMPSET=F
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+EBDEVELIOMPI=/cluster/software/iompi/2020a/easybuild/iompi-2020a-easybuild-devel
+EBROOTIOMPI=/cluster/software/iompi/2020a
+EBVERSIONIOMPI=2020a
+OMP_STACKSIZE=64M
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Tue Apr 19 15:11:48 CEST 2022 -- CSM EXECUTION BEGINS HERE
+Tue Apr 19 15:12:04 CEST 2022 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/NorESM1_f09_wiNud_noT/run/cpl.log.220419-151144
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+339330       N1_f09_wiN        512                                             00:00:23      1:0 
+339330.batch      batch        128        1   00:00:00          0   00:00:00   00:00:23      1:0 
+339330.exte+     extern        512        4   00:00:00          2   00:00:00   00:00:23      0:0 
+339330.0       ccsm.exe        512      512   00:00:08        342   00:00:12   00:00:16      1:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+339330                                                                           
+339330.batch      8690K          0      8690K       14              0         14 
+339330.exte+       833K          3    831.50K        1              2          1 
+339330.0         17194K        337    5531302       10            337          1 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+339330                                                                                                
+339330.batch       30.83M               0         30.83M        0.31M                0          0.31M 
+339330.exte+        0.00M               2          0.00M            0                2              0 
+339330.0            9.53M             258          9.47M        8.25M              511          8.18M 
+
+Job 339330 completed at Tue Apr 19 15:12:05 CEST 2022

@@ -1,0 +1,17 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/NorESM1_f09_wiNud_noT -compset F -res f09_f09 -mach betzy -pecount=X1
+case created 2022-04-18 10:21:28
+configure -case 2022-04-18 10:25:41
+build complete 2022-04-18 10:41:18
+run submitted 2022-04-18 10:45:05
+run started 2022-04-18 10:45:13
+run FAILED 2022-04-18 10:45:30
+run submitted 2022-04-19 08:10:38
+run started 2022-04-19 08:10:59
+run FAILED 2022-04-19 08:11:17
+build complete 2022-04-19 12:17:06
+run submitted 2022-04-19 13:07:03
+run started 2022-04-19 13:07:11
+run FAILED 2022-04-19 13:07:27
+run submitted 2022-04-19 15:11:40
+run started 2022-04-19 15:11:48
+run FAILED 2022-04-19 15:12:04

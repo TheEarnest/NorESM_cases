@@ -1,0 +1,23 @@
+&clm_inparm
+ co2_type = 'diagnostic'
+ create_crop_landunit = .false.
+ dtime = 1800
+ fatmlndfrc = '/cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc'
+ finidat = '/cluster/shared/noresm/inputdata/lnd/clm2/initdata/clmi.BCN.2000-01-01_0.9x1.25_gx1v6_simyr2000_c100303.nc'
+ fpftcon = '/cluster/shared/noresm/inputdata/lnd/clm2/pftdata/pft-physiology.c110425.nc'
+ fsnowaging = '/cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc'
+ fsnowoptics = '/cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc'
+ fsurdat = '/cluster/shared/noresm/inputdata/lnd/clm2/surfdata/surfdata_0.9x1.25_simyr2000_c110921.nc'
+ maxpatch_glcmec = 0
+ nsegspc = 20
+ urban_hac = 'ON_WASTEHEAT'
+ urban_traffic = .false.
+/
+&ndepdyn_nml
+/
+#!--------------------------------------------------------------------------------------------------------------------------
+#! lnd_in:: Comment:
+#! This namelist was created using the following command-line:
+#!     /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/lnd/clm/bld/build-namelist -infile /cluster/home/earnest/models/NorCPM/cases/CESM112_FC5_f09_p/Buildconf/clmconf/cesm_namelist -csmdata /cluster/shared/noresm/inputdata -inputdata /cluster/home/earnest/models/NorCPM/cases/CESM112_FC5_f09_p/Buildconf/clm.input_data_list -namelist &clm_inparm  / -use_case 2000_control -res 0.9x1.25 -clm_start_type default -l_ncpl 48 -lnd_frac /cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc -glc_nec 0 -co2_ppmv 367.0 -co2_type diagnostic -config /cluster/home/earnest/models/NorCPM/cases/CESM112_FC5_f09_p/Buildconf/clmconf/config_cache.xml
+#! For help on options use: /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/lnd/clm/bld/build-namelist -help
+#!--------------------------------------------------------------------------------------------------------------------------

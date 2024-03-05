@@ -1,0 +1,7 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_noNudwiP2-1e-01 -compset F -res f19_f19 -mach fram -pecount 128
+case created 2019-10-22 16:07:05
+configure -case 2019-10-22 16:08:21
+build complete 2019-10-22 16:18:48
+run submitted 2019-10-22 16:21:31
+run started 2019-10-22 22:18:06
+run SUCCESSFUL 2019-10-22 22:38:34

@@ -1,0 +1,14 @@
+ 
+  ----------------------------------------------------------------------- 
+   Origin of  cesm_me_00010101_mem01 pop2 input_template datasets used in this run        
+   Wed Jan  2 10:06:03 CET 2019                                                               
+  ----------------------------------------------------------------------- 
+ 
+-rwxrwxr-x 1 earnest earnest 540 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_depth_accel
+-rwxrwxr-x 1 earnest earnest 41 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_history_contents
+-rwxrwxr-x 1 earnest earnest 10 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_movie_contents
+-rwxrwxr-x 1 earnest earnest 790 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_region_ids
+-rwxrwxr-x 1 earnest earnest 1121 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_tavg_contents
+-rwxrwxr-x 1 earnest earnest 603 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_transport_contents
+-rwxrwxr-x 1 earnest earnest 2280 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_vert_grid
+-rwxrwxr-x 1 earnest earnest 12688 Oct  4 19:35 /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/models/ocn/pop2/input_templates/gx1v6_overflow

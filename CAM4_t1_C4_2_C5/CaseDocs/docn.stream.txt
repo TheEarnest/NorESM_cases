@@ -1,0 +1,47 @@
+<streamstemplate>
+      <general_comment>
+         streams template for docn in CCSM4
+      </general_comment>
+<stream>
+      <comment>
+         Stream description file for generic SST/ifrac data on the CAM grid
+      </comment>
+      <dataSource>
+         Generic data source for CAMDATA
+      </dataSource>
+      <domainInfo>
+         <variableNames>
+            time time
+            xc   lon
+            yc   lat
+            area area
+            mask mask
+         </variableNames>
+         <filePath>
+            /cluster/shared/noresm/inputdata/atm/cam/ocnfrac
+         </filePath>
+         <fileNames>
+            domain.camocn.1.9x2.5_gx1v6_090403.nc
+         </fileNames>
+      </domainInfo>
+      <fieldInfo>
+         <variableNames>
+            SST_cpl    t
+         </variableNames>
+         <filePath>
+            /cluster/projects/nn9385k/CMIP6_forcing/AMIP
+         </filePath>
+         <fileNames>
+            sst_HadOIBl_bc_1.9x2.5_1850_2008_c100127.nc
+         </fileNames>
+      </fieldInfo>
+      <!-- Information on the program that created this file -->
+      <build_streams_documentation>
+         This CCSM stream text file was created by build_streams using the command line:
+               /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/scripts/ccsm_utils/Tools/build_streams -t /cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_C5/Tools/Templates/docn.template.streams.xml -s CAMDATA -dp /cluster/shared/noresm/inputdata/atm/cam/ocnfrac -do domain.camocn.1.9x2.5_gx1v6_090403.nc -p /cluster/projects/nn9385k/CMIP6_forcing/AMIP -filename sst_HadOIBl_bc_1.9x2.5_1850_2008_c100127.nc   
+         For more information on build_streams:  
+             /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a/scripts/ccsm_utils/Tools/build_streams -help          
+      </build_streams_documentation>
+</stream>
+</streamstemplate>
+

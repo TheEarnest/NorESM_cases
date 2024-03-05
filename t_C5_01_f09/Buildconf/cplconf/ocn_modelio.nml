@@ -1,0 +1,11 @@
+&modelio
+ diri = '/cluster/work/users/earnest/noresm/t_C5_01_f09/bld/ocn'
+ diro = '/cluster/work/users/earnest/noresm/t_C5_01_f09/run'
+ logfile = 'ocn.log.231129-103127'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = 0
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

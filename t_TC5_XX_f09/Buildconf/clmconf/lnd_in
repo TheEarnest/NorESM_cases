@@ -1,0 +1,26 @@
+&clm_inparm
+ albice = 0.80,0.55
+ co2_type = 'diagnostic'
+ create_crop_landunit = .false.
+ dtime = 1800
+ f3dtopo = '/cluster/shared/noresm/inputdata/TaiESM_Input/3D-Topo/topo_3d_0.9x1.25_c150322.nc'
+ fatmlndfrc = '/cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc'
+ finidat = '/cluster/shared/noresm/inputdata/lnd/clm2/initdata/clmi.BCN.2000-01-01_0.9x1.25_gx1v6_simyr2000_c100303.nc'
+ fpftcon = '/cluster/shared/noresm/inputdata/lnd/clm2/pftdata/pft-physiology.clm40.c130424.nc'
+ fsnowaging = '/cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc'
+ fsnowoptics = '/cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc'
+ fsurdat = '/cluster/shared/noresm/inputdata/lnd/clm2/surfdata/surfdata_0.9x1.25_simyr2000_c110921.nc'
+ maxpatch_glcmec = 0
+ nsegspc = 20
+ rad_3d_topo = .true.
+ urban_hac = 'ON_WASTEHEAT'
+ urban_traffic = .false.
+/
+&ndepdyn_nml
+/
+#!--------------------------------------------------------------------------------------------------------------------------
+#! lnd_in:: Comment:
+#! This namelist was created using the following command-line:
+#!     /cluster/projects/nn9385k/people/earnest/taiesm/ver170803/models/lnd/clm/bld/CLM build-namelist -infile /cluster/home/earnest/models/NorCPM/cases/t_TC5_XX_f09/Buildconf/clmconf/cesm_namelist -csmdata /cluster/shared/noresm/inputdata -inputdata /cluster/home/earnest/models/NorCPM/cases/t_TC5_XX_f09/Buildconf/clm.input_data_list -ignore_ic_year -namelist &clm_inparm start_ymd = 19800101  / -use_case 2000_control -res 0.9x1.25 -clm_start_type default -l_ncpl 48 -lnd_frac /cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc -glc_nec 0 -co2_ppmv 367.0 -co2_type diagnostic -config /cluster/home/earnest/models/NorCPM/cases/t_TC5_XX_f09/Buildconf/clmconf/config_cache.xml
+#! For help on options use: /cluster/projects/nn9385k/people/earnest/taiesm/ver170803/models/lnd/clm/bld/CLM build-namelist -help
+#!--------------------------------------------------------------------------------------------------------------------------

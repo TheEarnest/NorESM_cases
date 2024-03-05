@@ -1,0 +1,10 @@
+&rtm_inparm
+ do_rtm = .true.
+ finidat_rtm = 'cesm_hist_19500101_mem01.rtm.r.1980-01-01-00000.nc'
+ frivinp_rtm = '/cluster/shared/noresm/inputdata/lnd/clm2/rtmdata/rdirc_0.5x0.5_simyr2000_c101124.nc'
+ ice_runoff = .true.
+ rtm_tstep = 10800
+ rtmhist_mfilt = 30
+ rtmhist_ndens = 2
+ rtmhist_nhtfrq = 0
+/

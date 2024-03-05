@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+                            CESM1.1.2 README
+
+For both a quick start as well as a detailed summary of creating and running
+a CESM model case, see the CESM1.1 User's Guide at
+http://www.cesm.ucar.edu/models/cesm1.1
+
+             IMPORTANT INFORMATION ABOUT CESM1.1.2 SCIENTIFIC VALIDATION
+
+CESM1.1.2 has the flexibility to configure cases with many different combinations
+of component models, grids, and models settings. However, at this time it 
+has only been validated scientifically for the following configurations:
+    
+        0.9x1.25_gx1v6    B_1850_CAM5_CN
+        1.9x2.5_gx1v6     B_1850_CAM5_CN
+
+We are in the process of scientifically validating more resolutions and component sets,
+primarily targeted to CAM5 component sets.  We will notify the community of updated
+scientific support as this happens. To find out which additional grids and component
+sets have been validated, please routinely check the documentation at
+http://www.cesm.ucar.edu/models/cesm1.1/
+-------------------------------------------------------------------------------- 
+

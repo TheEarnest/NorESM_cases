@@ -1,0 +1,14 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CAM5_t0_p01 -compset FC5 -res f09_f09 -mach betzy -pecount=L
+case created 2023-03-13 17:45:17
+configure -case 2023-03-13 17:46:08
+build complete 2023-03-13 17:56:11
+run submitted 2023-03-13 17:57:01
+configure -cleannamelist 2023-03-13 17:59:33
+configure -case 2023-03-13 17:59:39
+build complete 2023-03-13 18:01:55
+run started 2023-03-13 18:09:14
+run SUCCESSFUL 2023-03-13 19:31:13
+run started 2023-03-13 19:31:32
+run FAILED 2023-03-13 20:18:19
+run submitted 2023-03-13 21:15:24
+run started 2023-03-13 21:15:39

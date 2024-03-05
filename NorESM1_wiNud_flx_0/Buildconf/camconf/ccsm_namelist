@@ -1,0 +1,6 @@
+ &cam_inparm
+ dtime          =  1800
+ cam_branch_file= ' '
+ co2vmr         = 379.000e-6
+ ncdata  = 'NorESM1-ME_historicalExt_noAssim_mem01.cam2.i.1980-01-01-00000.nc'
+/

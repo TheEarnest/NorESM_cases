@@ -1,0 +1,51 @@
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-121644’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-122302’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-122854’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-123508’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-124120’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-124740’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-125358’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-130029’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-130703’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-131319’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-131944’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-132602’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-140022’: No such file or directory
+slurmstepd: error: *** JOB 314085 ON c73-7 CANCELLED AT 2019-06-06T14:07:50 ***
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-141145’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-141818’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-142423’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-143054’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-143709’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-144320’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-144953’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-145627’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-150301’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-150909’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-151545’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_wiNud/timing/ccsm_timing.CAM4_t0_S_wiNud.190606-152223’: No such file or directory

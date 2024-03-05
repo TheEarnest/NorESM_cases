@@ -1,0 +1,38 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CESM112_OA_f09_5n -compset B20TRC5CN -res f09_g16 -mach betzy -pecount L
+
+
+(COMPSET)  B_1850-2000_CAM5_CN 
+(default)  BUDGETS: TRUE 
+(default)  CAM_CONFIG_OPTS: -phys cam4 
+(default)  CCSM_CCOST: 0 
+(default)  COMP_ATM: cam 
+(default)  COMP_GLC: sglc 
+(default)  COMP_ICE: cice 
+(default)  COMP_LND: clm 
+(default)  COMP_OCN: pop2 
+(default)  COMP_ROF: rtm 
+(default)  ROF_NCPL: 8 
+(default)  CAM_NML_USE_CASE: 1850_cam4 
+(default)  CCSM_BGC: CO2A 
+(default)  CCSM_CO2_PPMV: 284.7 
+(default)  CLM_CO2_TYPE: diagnostic 
+(default)  CLM_NML_USE_CASE: 1850_control 
+(default)  CAM_NML_USE_CASE: 1850-2005_cam4 
+(default)  CCSM_BGC: CO2A 
+(default)  CCSM_CO2_PPMV: 0.000001 
+(default)  CLM_CO2_TYPE: diagnostic 
+(default)  CLM_NML_USE_CASE: 20thC_transient 
+(default)  OCN_TRACER_MODULES: iage cfc 
+(default)  OCN_TRANSIENT: 1850-2000 
+(default)  RUN_STARTDATE: 1850-01-01 
+(compset)  CLM_CONFIG_OPTS: -bgc cn 
+(compset)  CAM_CONFIG_OPTS: -phys cam5 
+(compset)  CCSM_CCOST: 1 
+(compset)  CICE_NAMELIST_OPTS: cam5=.true. 
+(gridset)  GET_REFCASE: TRUE 
+(gridset)  RUN_REFCASE: b40_1850_1d_b08c5cn_138j 
+(gridset)  RUN_REFDATE: 0320-01-01 
+(gridset)  RUN_TYPE: hybrid 
+(name   )  CAM_NML_USE_CASE: 1850-2005_cam5 
+Component set     : B_1850-2000_CAM5_CN (B20TRC5CN) 
+Desc              : All active components, 1850 to 2000 transient, cam5 physics, with CN (Carbon Nitrogen) in CLM 

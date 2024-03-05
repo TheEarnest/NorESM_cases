@@ -1,0 +1,33 @@
+NorESM/physpkg.F90:    use nudging,            only: Nudge_Model, nudging_init
+NorESM/physpkg.F90:    if(Nudge_Model) call nudging_init
+NorESM/physpkg.F90:    use nudging,            only: Nudge_Model,Nudge_ON,nudging_timestep_tend
+NorESM/physpkg.F90:    if((Nudge_Model).and.(Nudge_ON)) then
+NorESM/physpkg.F90:  use nudging,             only: Nudge_Model, nudging_timestep_init
+NorESM/physpkg.F90:  if(Nudge_Model) call nudging_timestep_init(phys_state)
+NorESM/physpkg.F90.thomas:    use nudging,            only: Nudge_Model, nudging_init
+NorESM/physpkg.F90.thomas:    if(Nudge_Model) call nudging_init
+NorESM/physpkg.F90.thomas:    use nudging,            only: Nudge_Model,Nudge_ON,nudging_timestep_tend
+NorESM/physpkg.F90.thomas:    if((Nudge_Model).and.(Nudge_ON)) then
+NorESM/physpkg.F90.thomas:  use nudging,             only: Nudge_Model, nudging_timestep_init
+NorESM/physpkg.F90.thomas:  if(Nudge_Model) call nudging_timestep_init(phys_state)
+physics/cam/nudging.F90:!      Nudge_Model         - LOGICAL toggle to activate nudging.
+physics/cam/nudging.F90:  public:: Nudge_Model,Nudge_ON
+physics/cam/nudging.F90:  logical          :: Nudge_Model       =.false.
+physics/cam/nudging.F90:   namelist /nudging_nl/ Nudge_Model,Nudge_Path,                       &
+physics/cam/nudging.F90:   Nudge_Model         = .false.
+physics/cam/nudging.F90:   call mpibcast(Nudge_Model        , 1, mpilog, 0, mpicom)
+physics/cam/nudging.F90:       Nudge_Model=.false.
+physics/cam/nudging.F90:     write(iulog,*) 'NUDGING: Nudge_Model=',Nudge_Model
+physics/cam/nudging.F90:   call mpibcast(Nudge_Model         ,            1, mpilog, 0, mpicom)
+physics/cam/physpkg.F90:    use nudging,            only: Nudge_Model, nudging_init
+physics/cam/physpkg.F90:    if(Nudge_Model) call nudging_init
+physics/cam/physpkg.F90:    use nudging,            only: Nudge_Model,Nudge_ON,nudging_timestep_tend
+physics/cam/physpkg.F90:    if((Nudge_Model).and.(Nudge_ON)) then
+physics/cam/physpkg.F90:  use nudging,             only: Nudge_Model, nudging_timestep_init
+physics/cam/physpkg.F90:  if(Nudge_Model) call nudging_timestep_init(phys_state)
+physics/cam/physpkg.F90.original:    use nudging,            only: Nudge_Model, nudging_init
+physics/cam/physpkg.F90.original:    if(Nudge_Model) call nudging_init
+physics/cam/physpkg.F90.original:    use nudging,            only: Nudge_Model,Nudge_ON,nudging_timestep_tend
+physics/cam/physpkg.F90.original:    if((Nudge_Model).and.(Nudge_ON)) then
+physics/cam/physpkg.F90.original:  use nudging,             only: Nudge_Model, nudging_timestep_init
+physics/cam/physpkg.F90.original:  if(Nudge_Model) call nudging_timestep_init(phys_state)

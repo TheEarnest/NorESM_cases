@@ -1,0 +1,4 @@
+&rtm_inparm
+ do_rtm = .false.
+ nrevsn_rtm = 'C1_FC5_f09.rtm.r.2022-01-01-00000.nc'
+/

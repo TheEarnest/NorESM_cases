@@ -1,0 +1,115 @@
+
+setenv CONTINUE_RUN  TRUE     # TRUE,FALSE
+setenv RESUBMIT  0     # if RESUBMIT is greater than 0, then case will automatically resubmit
+setenv RESTART  11     # if RESTART is greater than 0, then case will automatically restart
+
+setenv CCSM_REPOTAG  cesm1_0_4     # CCSM tag
+setenv CASESTR  UNSET     # case description
+
+setenv STOP_OPTION  nmonths     # none,never,nsteps,nstep,nseconds,nsecond,nminutes,nminute,nhours,nhour,ndays,nday,nmonths,nmonth,nyears,nyear,date,ifdays0,end
+setenv STOP_N  1     # sets the run length with STOP_OPTION and STOP_DATE
+setenv STOP_DATE  -999     # date in yyyymmdd format, sets the run length with STOP_OPTION and STOP_N
+
+setenv REST_OPTION  $STOP_OPTION     # sets frequency of model restart writes (same options as STOP_OPTION)
+setenv REST_N  $STOP_N     # sets model restart writes with REST_OPTION and REST_DATE
+setenv REST_DATE  $STOP_DATE     # date in yyyymmdd format, sets model restart write date with REST_OPTION and REST_N
+
+setenv PIO_ASYNC_INTERFACE  FALSE     # TRUE,FALSE
+setenv PIO_STRIDE  -1     # mpi task stride between io tasks
+setenv PIO_ROOT  1     # pio root processor
+setenv PIO_NUMTASKS  -1     # pio number of io tasks
+setenv PIO_TYPENAME  netcdf     # pio io type
+setenv PIO_DEBUG_LEVEL  0     # 0,1,2,3,4,5,6
+setenv OCN_PIO_STRIDE  1     # pio stride
+setenv OCN_PIO_ROOT  0     # pio root processor
+setenv OCN_PIO_NUMTASKS  1     # pio number of io tasks
+setenv OCN_PIO_TYPENAME  nothing     # pio io type
+setenv LND_PIO_STRIDE  1     # pio stride
+setenv LND_PIO_ROOT  3     # pio root processor
+setenv LND_PIO_NUMTASKS  1     # pio number of io tasks
+setenv LND_PIO_TYPENAME  nothing     # pio io type
+setenv ICE_PIO_STRIDE  1     # pio stride
+setenv ICE_PIO_ROOT  4     # pio root processor
+setenv ICE_PIO_NUMTASKS  1     # pio number of io tasks
+setenv ICE_PIO_TYPENAME  nothing     # pio io type
+setenv ATM_PIO_STRIDE  1     # pio stride
+setenv ATM_PIO_ROOT  2     # pio root processor
+setenv ATM_PIO_NUMTASKS  1     # atm pio number of io tasks
+setenv ATM_PIO_TYPENAME  nothing     # pio io type
+setenv CPL_PIO_STRIDE  1     # pio stride
+setenv CPL_PIO_ROOT  5     # pio root processor
+setenv CPL_PIO_NUMTASKS  1     # pio number of io tasks
+setenv CPL_PIO_TYPENAME  nothing     # pio io type
+setenv GLC_PIO_STRIDE  1     # pio stride
+setenv GLC_PIO_ROOT  6     # pio root processor
+setenv GLC_PIO_NUMTASKS  1     # pio number of io tasks
+setenv GLC_PIO_TYPENAME  nothing     # pio io type
+
+setenv CALENDAR  NO_LEAP     # NO_LEAP,GREGORIAN
+setenv START_TOD  0     # start time-of-day
+setenv BUDGETS  FALSE     # TRUE,FALSE
+setenv DRV_THREADING  FALSE     # TRUE,FALSE
+setenv BFBFLAG  FALSE     # TRUE,FALSE
+setenv CHECK_TIMING  TRUE     # TRUE,FALSE
+setenv SAVE_TIMING  FALSE     # TRUE,FALSE
+setenv INFO_DBUG  1     # 0,1,2,3
+setenv TIMING_BARRIER  FALSE     # TRUE,FALSE
+setenv TIMER_LEVEL  4     # 1,2,3,4,5,6,7,8,9,10
+setenv COMP_RUN_BARRIERS  FALSE     # TRUE,FALSE
+setenv ORBITAL_MODE  fixed_year     # fixed_year,variable_year,fixed_parameters
+setenv ORBITAL_YEAR  1990     # orbital year
+setenv ORBITAL_YEAR_ALIGN  1990     # model year associated with orbital year for varying orbital years
+setenv EPS_FRAC  1.0e-02     # error tolerance for differences in fractions in domain checking
+setenv EPS_AMASK  1.0e-13     # error tolerance for differences in atm/land masks in domain checking
+setenv EPS_AGRID  1.0e-12     # error tolerance for differences in atm/land lon/lat in domain checking
+setenv EPS_AAREA  9.0e-07     # error tolerance for differences in atm/land areas in domain checking
+setenv EPS_OMASK  1.0e-06     # error tolerance for differences in ocean/ice masks in domain checking
+setenv EPS_OGRID  1.0e-02     # error tolerance for differences in ocean/ice lon/lat in domain checking
+setenv EPS_OAREA  1.0e-01     # error tolerance for differences in ocean/ice areas in domain checking
+setenv SHR_MAP_DOPOLE  TRUE     # TRUE,FALSE
+setenv TURB_FLUX_SCHEME  0     # 0,1
+setenv VECT_MAP  npfix     # none,npfix,cart3d,cart3d_diag,cart3d_uvw,cart3d_uvw_diag
+setenv AOFLUX_GRID  ocn     # ocn,atm,exch
+
+setenv TPROF_OPTION  never     # sets timing output file frequency (like REST_OPTION but relative to run start date)
+setenv TPROF_N  -999     # sets timing output file frequency (like REST_N)
+setenv TPROF_DATE  -999     # yyyymmdd format, sets timing output file date (like REST_DATE)
+
+setenv AVGHIST_OPTION  never     # sets coupler time-average history file frequency (like REST_OPTION)
+setenv AVGHIST_N  -999     # sets coupler time-average history file frequency (like REST_N)
+setenv AVGHIST_DATE  -999     # yyyymmdd format, sets coupler time-average history date (like REST_DATE)
+setenv HISTINIT  FALSE     # TRUE,FALSE
+setenv HIST_OPTION  never     # sets coupler snapshot history file frequency (like REST_OPTION)
+setenv HIST_N  -999     # sets coupler snapshot history file frequency (like REST_N)
+setenv HIST_DATE  -999     # yyyymmdd format, sets coupler snapshot history date (like REST_DATE)
+setenv BUDGET_INST  0     # 0,1,2,3
+setenv BUDGET_DAILY  0     # 0,1,2,3
+setenv BUDGET_MONTHLY  1     # 0,1,2,3
+setenv BUDGET_ANNUAL  1     # 0,1,2,3
+setenv BUDGET_LONGTERM_EOY  1     # 0,1,2,3
+setenv BUDGET_LONGTERM_STOP  0     # 0,1,2,3
+
+setenv OCN_TIGHT_COUPLING  TRUE     # TRUE,FALSE
+
+setenv BATCHQUERY  UNSET     # command used to query batch system
+setenv BATCHSUBMIT  sbatch     # command used to submit to batch system
+
+setenv DIN_LOC_ROOT_CSMDATA  /cluster/shared/noresm/inputdata     # general ccsm inputdata directory
+setenv DIN_LOC_ROOT_CLMQIAN  UNSET     # general ccsm inputdata directory for CLM QIAN datm forcing files
+setenv DIN_LOC_ROOT  $DIN_LOC_ROOT_CSMDATA     # local inputdata directory for CCSM prestaged data
+
+setenv LOGDIR  /cluster/work/users/$CCSMUSER/archive/logs     # directory where log files should be copied
+setenv DOUT_S  TRUE     # TRUE,FALSE
+setenv DOUT_S_ROOT  /cluster/work/users/$CCSMUSER/archive/$CASE     # local short term archiving root directory
+setenv DOUT_S_SAVE_INT_REST_FILES  FALSE     # TRUE,FALSE
+setenv DOUT_L_MS  FALSE     # TRUE,FALSE
+setenv DOUT_L_MSROOT  UNSET     # local long term archiving root directory
+setenv DOUT_L_HPSS_ACCNT  00000000     # hpss account number
+setenv DOUT_L_HTAR  FALSE     # TRUE,FALSE
+setenv DOUT_L_MSHOST  UNSET     # remote host for long term archiving
+setenv CCSM_BASELINE  UNSET     # standard ccsm baselines directory for testing
+setenv CCSM_CPRNC  UNSET     # standard location of the cprnc tool
+
+
+setenv OCN_TAVG_TRACER_BUDGET  FALSE     # TRUE,FALSE
+setenv OCN_TAVG_HIFREQ  FALSE     # TRUE,FALSE

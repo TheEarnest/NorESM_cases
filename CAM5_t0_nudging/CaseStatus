@@ -1,0 +1,7 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CAM5_t0_nudging -compset FC5 -res f09_f09 -mach betzy -pecount=L
+case created 2023-03-13 17:44:24
+configure -case 2023-03-13 18:16:36
+configure -cleanmach 2023-03-13 18:52:25
+configure -cleannamelist 2023-03-13 19:07:36
+configure -case 2023-03-13 19:07:45
+build complete 2023-03-13 19:25:18

@@ -1,0 +1,9 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value !pertlim  = 3.2756920718424788e-9 
+
+ fincl2   = 'T500', 'T850', 'U850', 'V850', 'Q850', 'U', 'PS'
+ mfilt     = 12,1
+ nhtfrq    = 0,1
+
+ dtime    = 1800 
+ pertlim  = 3.2756920718424788e-11 

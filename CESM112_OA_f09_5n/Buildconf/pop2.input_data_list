@@ -1,0 +1,11 @@
+niw_energy_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/forcing/niw_gx1v6_20100915.ieeer8
+chl_filename = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/forcing/chl_filled_20061230.ieeer8
+init_ts_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/ic/ts_PHC2_jan_ic_gx1v6_20090205.ieeer8
+shf_filename = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/forcing/shf_mm_all_85-88_20010308.ieeer8
+pcfc_file = /cluster/shared/noresm/inputdata/ocn/pop/res_indpt/forcing/pcfc1112_atm_20091117.nc
+init_cfc_init_file = same_as_TS
+tidal_energy_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/forcing/tidal_energy_gx1v6_20090205.ieeer8
+sfwf_filename = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/forcing/sfwf_mm_PHC2_salx_flxio_20090205.ieeer8
+region_mask_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/grid/region_mask_20090205.ieeei4
+horiz_grid_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/grid/horiz_grid_20010402.ieeer8
+topography_file = /cluster/shared/noresm/inputdata/ocn/pop/gx1v6/grid/topography_20090204.ieeei4

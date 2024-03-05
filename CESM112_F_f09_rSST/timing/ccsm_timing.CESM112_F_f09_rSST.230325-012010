@@ -1,0 +1,142 @@
+
+---------------- CCSM TIMING PROFILE ---------------------
+
+  Case        : CESM112_F_f09_rSST
+  LID         : 230325-012010
+  Machine     : betzy
+  Caseroot    : /cluster/home/earnest/models/NorCPM/cases/CESM112_F_f09_rSST
+  Timeroot    : /cluster/home/earnest/models/NorCPM/cases/CESM112_F_f09_rSST/Tools
+  CCSM User   : earnest
+  CCSM Tag    : cesm1_1_2  (best guess)
+  Curr Date   : Sat Mar 25 01:49:38 CET 2023
+
+  grid        : 0.9x1.25_0.9x1.25
+  compset     : F_2000 (F)
+  run_type    : startup, continue_run = TRUE (inittype = FALSE)
+  stop_option : nyears, stop_n = 1
+  run_length  : 365 days (365 for ocean)
+
+
+
+  component       comp_pes    root_pe   tasks  x threads instances (stride) 
+  ---------        ------     -------   ------   ------  ---------  ------  
+  cpl = cpl        512         0        512    x 1       1      (1     ) 
+  glc = sglc       512         0        512    x 1       1      (1     ) 
+  lnd = clm        512         0        512    x 1       1      (1     ) 
+  rof = rtm        512         0        512    x 1       1      (1     ) 
+  ice = cice       512         0        512    x 1       1      (1     ) 
+  atm = cam        512         0        512    x 1       1      (1     ) 
+  ocn = docn       512         0        512    x 1       1      (1     ) 
+
+  total pes active           : 512 
+  pes per node               : 128 
+  pe count for cost estimate : 128 
+
+  Overall Metrics: 
+    Model Cost:              60.54   pe-hrs/simulated_year 
+    Model Throughput:        50.75   simulated_years/day 
+
+    Init Time   :       7.217 seconds 
+    Run Time    :    1702.601 seconds        4.665 seconds/day 
+    Final Time  :       0.250 seconds 
+
+    Actual Ocn Init Wait Time     :       0.000 seconds 
+    Estimated Ocn Init Run Time   :       0.000 seconds 
+    Estimated Run Time Correction :       0.000 seconds 
+      (This correction has been applied to the ocean and total run times) 
+
+Runs Time in total seconds, seconds/model-day, and model-years/wall-day 
+CPL Run Time represents time in CPL pes alone, not including time associated with data exchange with other components 
+
+    TOT Run Time:    1702.601 seconds        4.665 seconds/mday        50.75 myears/wday 
+    LND Run Time:      85.901 seconds        0.235 seconds/mday      1005.81 myears/wday 
+    ROF Run Time:       0.000 seconds        0.000 seconds/mday         0.00 myears/wday 
+    ICE Run Time:      30.039 seconds        0.082 seconds/mday      2876.26 myears/wday 
+    ATM Run Time:    1524.363 seconds        4.176 seconds/mday        56.68 myears/wday 
+    OCN Run Time:       1.567 seconds        0.004 seconds/mday     55137.20 myears/wday 
+    GLC Run Time:       0.000 seconds        0.000 seconds/mday         0.00 myears/wday 
+    CPL Run Time:      29.861 seconds        0.082 seconds/mday      2893.41 myears/wday 
+
+
+---------------- DRIVER TIMING FLOWCHART --------------------- 
+
+   NOTE: min:max driver timers (seconds/day):   
+                            CPL (pes 0 to 511) 
+                                                OCN (pes 0 to 511) 
+                                                LND (pes 0 to 511) 
+                                                ROF (pes 0 to 511) 
+                                                ICE (pes 0 to 511) 
+                                                ATM (pes 0 to 511) 
+                                                GLC (pes 0 to 511) 
+
+  DRIVER_CLOCK_ADVANCE        0.003:   0.004 
+  DRIVER_OCNPREP              0.005:   0.006 
+  DRIVER_LNDPREP              0.002:   0.044 
+  DRIVER_C2L                     <---->           0.011:   0.053 
+  DRIVER_ICEPREP              0.003:   0.004 
+  DRIVER_C2I                     <---->           0.015:   0.020 
+  DRIVER_ICE_RUN                                  0.071:   0.082 
+  DRIVER_LND_RUN                                  0.187:   0.235 
+  DRIVER_OCN_RUN                                  0.002:   0.004 
+  DRIVER_O2CT                    <---->           0.001:   0.050 
+  DRIVER_OCNPOSTT             0.000:   0.000 
+  DRIVER_ATMOCNP              0.001:   0.004 
+  DRIVER_L2C                     <---->           0.003:   0.017 
+  DRIVER_LNDPOST              0.000:   0.000 
+  DRIVER_I2C                     <---->           0.006:   0.024 
+  DRIVER_ICEPOST              0.000:   0.000 
+  DRIVER_FRACSET              0.002:   0.003 
+  DRIVER_ATMPREP              0.014:   0.021 
+  DRIVER_C2A                     <---->           0.009:   0.016 
+  DRIVER_ATM_RUN                                  3.973:   4.176 
+  DRIVER_A2C                     <---->           0.037:   0.252 
+  DRIVER_ATMPOST              0.000:   0.000 
+  DRIVER_RESTART              0.004:   0.004 
+  DRIVER_HISTORY              0.000:   0.000 
+  DRIVER_TSTAMP_WRITE         0.000:   0.000 
+  DRIVER_TPROF_WRITE          0.000:   0.000 
+  DRIVER_RUN_LOOP_BSTOP       0.000:   0.000 
+
+
+More info on coupler timing:
+
+  DRIVER_OCNPREP              0.005:   0.006 
+  driver_ocnprep_atm2ocn      0.005:   0.006 
+
+  DRIVER_LNDPREP              0.002:   0.044 
+  driver_lndprep_atm2lnd      0.001:   0.043 
+  driver_lndprep_mrgx2l       0.001:   0.001 
+
+  DRIVER_ICEPREP              0.003:   0.004 
+  driver_iceprep_ocn2ice      0.000:   0.001 
+  driver_iceprep_atm2ice      0.001:   0.001 
+  driver_iceprep_mrgx2i       0.001:   0.002 
+
+
+  DRIVER_OCNPOSTT             0.000:   0.000 
+
+  DRIVER_ATMOCNP              0.001:   0.004 
+  driver_atmocnp_fluxo        0.001:   0.003 
+
+  DRIVER_LNDPOST              0.000:   0.000 
+
+
+
+  DRIVER_ICEPOST              0.000:   0.000 
+
+
+  DRIVER_ATMPREP              0.014:   0.021 
+  driver_atmprep_ocn2atmf     0.003:   0.003 
+  driver_atmprep_ocn2atm1     0.001:   0.001 
+  driver_atmprep_ocn2atm2     0.001:   0.001 
+  driver_atmprep_ocn2atmb     0.001:   0.001 
+  driver_atmprep_ice2atm      0.003:   0.003 
+  driver_atmprep_lnd2atm      0.003:   0.009 
+  driver_atmprep_mrgx2a       0.002:   0.002 
+
+
+  DRIVER_ATMPOST              0.000:   0.000 
+
+
+
+

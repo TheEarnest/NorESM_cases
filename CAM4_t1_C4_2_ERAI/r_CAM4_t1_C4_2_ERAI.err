@@ -1,0 +1,9 @@
+cp: No match.
+ln: failed to create hard link ‘./CAM4_t1_C4_2_ERAI.clm2.h0.1980-01.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_ERAI/timing/ccsm_timing.CAM4_t1_C4_2_ERAI.190705-122150’: No such file or directory
+cp: No match.
+ln: failed to create hard link ‘./CAM4_t1_C4_2_ERAI.clm2.h0.1980-02.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_ERAI/timing/ccsm_timing.CAM4_t1_C4_2_ERAI.190705-123032’: No such file or directory
+cp: No match.
+ln: failed to create hard link ‘./CAM4_t1_C4_2_ERAI.clm2.h0.1980-03.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t1_C4_2_ERAI/timing/ccsm_timing.CAM4_t1_C4_2_ERAI.190705-123832’: No such file or directory

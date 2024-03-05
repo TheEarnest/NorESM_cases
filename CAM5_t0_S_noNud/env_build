@@ -1,0 +1,26 @@
+
+setenv EXEROOT  /cluster/work/users/$CCSMUSER/noresm/$CASE     # executable root directory
+setenv COMP_INTERFACE  MCT     # MCT,ESMF
+setenv ESMF_LIBDIR       # directory of esmf.mk in pre-built ESMF library
+setenv USE_ESMF_LIB  FALSE     # TRUE,FALSE
+setenv DEBUG  FALSE     # TRUE,FALSE
+setenv BUILD_THREADED  FALSE     # TRUE,FALSE
+setenv PIO_CONFIG_OPTS  " --disable-mct --disable-timing "     # PIO configure options, see PIO configure utility for details
+setenv GLC_NEC  0     # 0,3,5,10
+setenv GMAKE  gmake     # GNU make command
+setenv GMAKE_J  8     # Number of processors for gmake
+
+setenv RUNDIR  $EXEROOT/run     # case run directory
+setenv OBJROOT  $EXEROOT     # case build directory
+setenv LIBROOT  $EXEROOT/lib     # case lib directory
+setenv INCROOT  $EXEROOT/lib/include     # case lib include directory
+
+setenv BUILD_COMPLETE  TRUE     # TRUE,FALSE
+setenv SMP_BUILD  a0l0i0o0g0c0     # smp status of previous build, coded string. (DO NOT EDIT)
+setenv SMP_VALUE  a0l0i0o0g0c0     # smp status of current setup, coded string (DO NOT EDIT)
+setenv BUILD_STATUS  0     # Status of prior build. (DO NOT EDIT)
+
+setenv CICE_BLCKX  9     # Size of cice block in first horiz dimension
+setenv CICE_BLCKY  48     # Size of cice block in second horiz dimension
+setenv CICE_MXBLCKS  1     # Max number of cice blocks per processor
+setenv CICE_DECOMPTYPE  cartesian     # cice block distribution type

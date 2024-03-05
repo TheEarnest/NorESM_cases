@@ -1,0 +1,5 @@
+ &cam_inparm
+ dtime          =  1800
+ cam_branch_file= ' '
+ co2vmr         = 284.7e-6
+/

@@ -1,0 +1,48 @@
+
+setenv CASE  CAM5_t0_S_noNud     # case name
+setenv CASEROOT  /cluster/home/earnest/models/NorCPM/cases/CAM5_t0_S_noNud     # full path of case
+setenv CCSMROOT  /cluster/home/earnest/models/NorCPM/models/noresm1-me-intel2018a     # ccsm source root directory
+setenv GRID  0.9x1.25_0.9x1.25     # CCSM grid
+setenv CCSM_COMPSET  "F_2000_CAM5 (FC5)"     # CCSM component set
+setenv MACH  fram     # current machine name
+setenv PTS_MODE  FALSE     # TRUE,FALSE
+
+setenv CCSMUSER  earnest     # case user name
+setenv CASETOOLS  $CASEROOT/Tools     # Case Tools directory location
+setenv CASEBUILD  $CASEROOT/Buildconf     # Buildconf directory location
+setenv SCRIPTSROOT  $CCSMROOT/scripts     # CCSM source scripts directory location
+setenv UTILROOT  $CCSMROOT/scripts/ccsm_utils     # CCSM source scripts utils directory location
+setenv BLDROOT  $CCSMROOT/scripts/ccsm_utils/Build     # CCSM source scripts build directory location
+setenv CODEROOT  $CCSMROOT/models     # CCSM source models directory location
+setenv SHAREROOT  $CCSMROOT/models/csm_share     # CCSM source models share code location
+
+setenv COMP_ATM  cam     # cam,datm,xatm,satm
+setenv COMP_LND  clm     # clm,dlnd,xlnd,slnd
+setenv COMP_ICE  cice     # cice,dice,xice,sice
+setenv COMP_GLC  sglc     # xglc,sglc,cism
+setenv COMP_OCN  docn     # pop2,docn,xocn,socn,camdom,micom
+setenv COMP_CPL  cpl     # cpl
+
+setenv ATM_GRID  0.9x1.25     # atmosphere grid
+setenv LND_GRID  0.9x1.25     # land grid
+setenv OCN_GRID  0.9x1.25     # ocn grid
+setenv ICE_GRID  0.9x1.25     # ice grid (must equal ocn grid)
+setenv ATM_NX  288     # number of atmosphere cells in i direction
+setenv ATM_NY  192     # number of atmosphere cells in j direction
+setenv LND_NX  288     # number of land cells in i direction
+setenv LND_NY  192     # number of land cells in j direction
+setenv GLC_NX  288     # number of glc cells in i direction
+setenv GLC_NY  192     # number of glc cells in j direction
+setenv ICE_NX  288     # number of ice cells in i direction
+setenv ICE_NY  192     # number of ice cells in j direction
+setenv OCN_NX  288     # number of ocn cells in i direction
+setenv OCN_NY  192     # number of ocn cells in j direction
+
+setenv OS  Linux     # operating system
+
+setenv CCSM_LCOMPSET  F_2000_CAM5     # CCSM component set, longname
+setenv CCSM_SCOMPSET  FC5     # CCSM component set, shortname
+setenv CCSM_CCOST  0     # relative cost of compset where B is 1 (DO NOT EDIT)
+setenv CCSM_GCOST  2     # relative cost of grid where f19_g15 is 1 (DO NOT EDIT)
+setenv CCSM_MCOST  0     # relative cost of machine (DO NOT EDIT)
+setenv XMLMODE  normal     # normal,expert

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<config_definition>
+
+<commandline>
+/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/lnd/clm/bld/configure -comp_intf MCT -usr_src /cluster/home/earnest/models/NorCPM/cases/CESM112_A_wiNdg/SourceMods/src.clm
+</commandline>
+<entry id="bgc" value="none" list="" valid_values="none,cn,cndv">
+CLM Biogeochemistry mode
+   none = Satellite Phenology (SP)
+   cn   = Carbon Nitrogen model
+   cndv = Carbon Nitrogen with Dynamic Global Vegetation Model
+</entry>
+<entry id="c13" value="off" list="" valid_values="on,off">
+Toggle to turn on C13 isotopes as part of the CN biogeochemistry model
+(C13 is EXPERIMENTAL NOT SUPPORTED!)
+</entry>
+<entry id="clm_root" value="/cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/lnd/clm" list="" valid_values="">
+Root directory of CLM source distribution (directory above configure).
+</entry>
+<entry id="comp_intf" value="MCT" list="" valid_values="ESMF,MCT">
+Component framework interface to use 
+(Model Coupling Toolkit, or Earth System Modeling Framework)
+</entry>
+<entry id="cppdefs" value="" list="" valid_values="">
+User specified CPP defines to append to Makefile defaults.
+Note: It's recommended to use configure options to set standard CPP values rather
+than defining them here.
+</entry>
+<entry id="crop" value="off" list="" valid_values="on,off">
+Toggle to turn on the prognostic crop model
+</entry>
+<entry id="maxpft" value="17" list="" valid_values="17,21">
+Maximum number of plant function types (PFT)  per gridcell
+(Either 17 for a standard vegetated case or 21 for prognostic CROP)
+</entry>
+<entry id="nofire" value="off" list="" valid_values="on,off">
+Toggle to make wild-fires inactive for biogeochemistry=CN mode
+</entry>
+<entry id="noio" value="off" list="" valid_values="on,off">
+Toggle to turn all history output completely OFF (possibly used for testing)
+</entry>
+<entry id="pergro" value="off" list="" valid_values="on,off">
+Toggle to turn on perturbation error growth test
+</entry>
+<entry id="sitespf_pt" value="none" list="" valid_values="none,1x1_brazil,1x1_tropicAtl,5x5_amazon,1x1_camdenNJ,1x1_vancouverCAN,1x1_mexicocityMEX,1x1_asphaltjungleNJ,1x1_urbanc_alpha,1x1_numaIA,1x1_smallvilleIA,us20,wus12">
+Flag to turn on site specific special configuration flags for supported single 
+point resolutions. See the specific config_defaults_*.xml file for the special 
+settings that are set for a particular site.
+</entry>
+<entry id="snicar_frc" value="off" list="" valid_values="on,off">
+Toggle to turn on calculation of SNow and Ice Aerosol Radiation model (SNICAR) radiative forcing
+(SNICAR_FRC .true.is EXPERIMENTAL NOT SUPPORTED!)
+</entry>
+<entry id="spinup" value="normal" list="" valid_values="AD,exit,normal">
+ Spinup mode for the CN Carbon Nitrogen BGC model
+    AD            turn on accelerated decomposition spinup for CN biogeochemistry model
+    exit          jump from AD spinup mode to normal mode
+    normal        no acceleration of decompositon (i.e. "final spinup")
+</entry>
+<entry id="usr_src" value="/cluster/home/earnest/models/NorCPM/cases/CESM112_A_wiNdg/SourceMods/src.clm" list="1" valid_values="">
+User source directories to prepend to the filepath.  Multiple directories
+are specified as a comma separated list with no embedded white space.
+Normally this is SourceMods/src.clm in your case.
+</entry>
+
+</config_definition>

@@ -1,0 +1,197 @@
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: camconf
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: cam.input_data_list
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: ciceconf
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: cice.input_data_list
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: clmconf
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: clm.input_data_list
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: cplconf
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: cpl.input_data_list
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: docnconf
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: docn.input_data_list
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: docn.template.streams.xml
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: rtmconf
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf: rtm.input_data_list
+Only in ./: C1_FC5_f09.build
+Only in ./: C1_FC5_f09.clean_build
+Only in ./: C1_FC5_f09.l_archive
+Only in ./: C1_FC5_f09.submit
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: CaseDocs
+diff -r ./CaseStatus /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/CaseStatus
+1,2c1,11
+< create_newcase -case /cluster/home/earnest/models/NorCPM/cases/C1_FC5_f09 -compset FC5 -res f09_f09 -mach betzy -pecount L
+< case created 2023-08-27 10:01:35
+---
+> create_newcase -case /cluster/work/users/earnest/stercp_exp//g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2 -compset FC5 -res f09_f09 -mach betzy -pecount L
+> case created 2023-08-27 03:02:54
+> build complete 2023-08-27 03:04:38
+> build complete 2023-08-27 03:05:52
+> run started 2023-08-27 03:05:55
+> run SUCCESSFUL 2023-08-27 03:51:37
+> build complete 2023-08-27 03:52:16
+> run started 2023-08-27 03:52:19
+> run SUCCESSFUL 2023-08-27 04:34:27
+> build complete 2023-08-27 04:35:02
+> run started 2023-08-27 04:35:04
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: CESM112_1_g_6_I41_C5_PBL_gpP2.build
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: CESM112_1_g_6_I41_C5_PBL_gpP2.clean_build
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: CESM112_1_g_6_I41_C5_PBL_gpP2.l_archive
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: CESM112_1_g_6_I41_C5_PBL_gpP2.run
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: CESM112_1_g_6_I41_C5_PBL_gpP2.submit
+diff -r ./env_build.xml /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/env_build.xml
+38c38
+< <entry id="EXEROOT"   value="/cluster/work/users/$CCSMUSER/noresm/$CASE/bld"  />    
+---
+> <entry id="EXEROOT"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run/../bld"  />    
+67c67
+< <entry id="CAM_CONFIG_OPTS"   value="-phys cam5"  />    
+---
+> <entry id="CAM_CONFIG_OPTS"   value="-phys cam5 -offline_dyn "  />    
+88c88
+< <entry id="CICE_BLCKX"   value="0"  />    
+---
+> <entry id="CICE_BLCKX"   value="4"  />    
+91c91
+< <entry id="CICE_BLCKY"   value="0"  />    
+---
+> <entry id="CICE_BLCKY"   value="6"  />    
+94c94
+< <entry id="CICE_MXBLCKS"   value="0"  />    
+---
+> <entry id="CICE_MXBLCKS"   value="5"  />    
+97c97
+< <entry id="CICE_DECOMPTYPE"   value="0"  />    
+---
+> <entry id="CICE_DECOMPTYPE"   value="blkrobin"  />    
+112c112
+< <entry id="BUILD_COMPLETE"   value="FALSE"  />    
+---
+> <entry id="BUILD_COMPLETE"   value="TRUE"  />    
+115c115
+< <entry id="SMP_BUILD"   value="0"  />    
+---
+> <entry id="SMP_BUILD"   value="a0l0r0i0o0g0c0"  />    
+118c118
+< <entry id="SMP_VALUE"   value="0"  />    
+---
+> <entry id="SMP_VALUE"   value="a0l0r0i0o0g0c0"  />    
+121c121
+< <entry id="NINST_BUILD"   value="0"  />    
+---
+> <entry id="NINST_BUILD"   value="a1l1r1i1o1g1"  />    
+124c124
+< <entry id="NINST_VALUE"   value="0"  />    
+---
+> <entry id="NINST_VALUE"   value="a1l1r1i1o1g1"  />    
+diff -r ./env_case.xml /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/env_case.xml
+16c16
+< <entry id="CASE"   value="C1_FC5_f09"  />    
+---
+> <entry id="CASE"   value="CESM112_1_g_6_I41_C5_PBL_gpP2"  />    
+19c19
+< <entry id="CASEROOT"   value="/cluster/home/earnest/models/NorCPM/cases/C1_FC5_f09"  />    
+---
+> <entry id="CASEROOT"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2"  />    
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: env_derived
+diff -r ./env_mach_pes.xml /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/env_mach_pes.xml
+110c110
+< <entry id="TOTALPES"   value="0"  />    
+---
+> <entry id="TOTALPES"   value="512"  />    
+116c116
+< <entry id="CCSM_PCOST"   value="0"  />    
+---
+> <entry id="CCSM_PCOST"   value="-2"  />    
+118c118
+< <entry id="CCSM_ESTCOST"   value="0"  />    
+---
+> <entry id="CCSM_ESTCOST"   value="4"  />    
+diff -r ./env_run.xml /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/env_run.xml
+19c19
+< <entry id="RUNDIR"   value="/cluster/work/users/$CCSMUSER/noresm/$CASE/run"  />    
+---
+> <entry id="RUNDIR"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run"  />    
+33c33
+< <entry id="RUN_STARTDATE"   value="0001-01-01"  />    
+---
+> <entry id="RUN_STARTDATE"   value="1980-01-01"  />    
+39c39
+< <entry id="RUN_REFCASE"   value="case.std"  />    
+---
+> <entry id="RUN_REFCASE"   value="cesm_hist_19500101_mem01"  />    
+42c42
+< <entry id="RUN_REFDATE"   value="0001-01-01"  />    
+---
+> <entry id="RUN_REFDATE"   value="1980-01-01"  />    
+56c56
+< <entry id="STOP_OPTION"   value="ndays"  />    
+---
+> <entry id="STOP_OPTION"   value="nmonths"  />    
+59c59
+< <entry id="STOP_N"   value="5"  />    
+---
+> <entry id="STOP_N"   value="1"  />    
+76c76
+< <entry id="CONTINUE_RUN"   value="FALSE"  />    
+---
+> <entry id="CONTINUE_RUN"   value="TRUE"  />    
+281c281
+< <entry id="LOGDIR"   value="$CASEROOT/logs"  />    
+---
+> <entry id="LOGDIR"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run/../bld/logs"  />    
+287c287
+< <entry id="DOUT_S_ROOT"   value="/cluster/work/users/$CCSMUSER/archive/$CASE"  />    
+---
+> <entry id="DOUT_S_ROOT"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run/../../archive/${CASE}"  />    
+361c361
+< <entry id="SSTICE_DATA_FILENAME"   value="$DIN_LOC_ROOT/atm/cam/sst/sst_HadOIBl_bc_0.9x1.25_clim_c040926.nc"  />    
+---
+> <entry id="SSTICE_DATA_FILENAME"   value="/cluster/projects/nn9385k/people/earnest/AMIP/sst_HadOIBl_bc_0.9x1.25_1850_2008_c100127_p05.nc"  />    
+367c367
+< <entry id="SSTICE_YEAR_ALIGN"   value="1"  />    
+---
+> <entry id="SSTICE_YEAR_ALIGN"   value="1850"  />    
+370c370
+< <entry id="SSTICE_YEAR_START"   value="0"  />    
+---
+> <entry id="SSTICE_YEAR_START"   value="1850"  />    
+373c373
+< <entry id="SSTICE_YEAR_END"   value="0"  />    
+---
+> <entry id="SSTICE_YEAR_END"   value="2008"  />    
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/LockedFiles: env_build.xml.locked
+diff -r ./LockedFiles/env_case.xml.locked /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/LockedFiles/env_case.xml.locked
+16c16
+< <entry id="CASE"   value="C1_FC5_f09"  />    
+---
+> <entry id="CASE"   value="CESM112_1_g_6_I41_C5_PBL_gpP2"  />    
+19c19
+< <entry id="CASEROOT"   value="/cluster/home/earnest/models/NorCPM/cases/C1_FC5_f09"  />    
+---
+> <entry id="CASEROOT"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2"  />    
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/LockedFiles: env_derived.locked
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/LockedFiles: env_mach_pes.xml.locked
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: Macros
+diff -r ./README.case /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/README.case
+1c1
+< create_newcase -case /cluster/home/earnest/models/NorCPM/cases/C1_FC5_f09 -compset FC5 -res f09_f09 -mach betzy -pecount L
+---
+> create_newcase -case /cluster/work/users/earnest/stercp_exp//g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2 -compset FC5 -res f09_f09 -mach betzy -pecount L
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: cam_comp.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: cam_diagnostics.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: cd_core.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: check_energy.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: dyn_comp.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: metdata.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: mo_drydep.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: pfixer.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: radheat.F90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: rrtmg_lw_rtrnmc.f90
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods/src.cam: runtime_opts.F90
+Only in ./: tempcheck
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: timing
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: user_nl_cam
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: user_nl_cice
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: user_nl_clm
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: user_nl_cpl
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: user_nl_docn
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2: user_nl_rtm

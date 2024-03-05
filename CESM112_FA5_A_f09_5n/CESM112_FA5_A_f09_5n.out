@@ -1,0 +1,746 @@
+Starting job 206041 on b[1320,1322,1344,1346] at Tue Aug 10 17:58:25 CEST 2021
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CESM112_FA5_A_f09_5n/run
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Use of qw(...) as parentheses is deprecated at /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/drv/bld/build-namelist line 790.
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 20thC_transient defaults for var clm_demand with val fpftdyn 
+CLM adding use_case 20thC_transient defaults for var clm_start_type with val startup 
+CLM adding use_case 20thC_transient defaults for var model_year_align_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year_range with val 1850-2000 
+CLM adding use_case 20thC_transient defaults for var stream_year_first_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var stream_year_last_ndep with val 2005 
+CLM adding use_case 20thC_transient defaults for var use_case_desc with val Simulate transient land-use, aerosol deposition, and Nitrogen deposition changes from 1850 to 2005 
+CICE configure done.
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Aug 10 17:58:58 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Tue Aug 10 17:58:59 CEST 2021 -- CSM EXECUTION HAS FINISHED
+ls: No match.
+Model did not complete - no cpl.log file present - exiting
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+206041        C_FA5_A_f        512                                             00:00:34    127:0 
+206041.batch      batch        128        1   00:00:00          0   00:00:00   00:00:34    127:0 
+206041.exte+     extern        512        4   00:00:00          1   00:00:00   00:00:34      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+206041                                                                           
+206041.batch      1767K          0      1767K        3              0          3 
+206041.exte+       804K          3       802K        3              3          2 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+206041                                                                                                
+206041.batch       39.03M               0         39.03M        0.37M                0          0.37M 
+206041.exte+        0.00M               1          0.00M            0                1              0 
+
+Job 206041 completed at Tue Aug 10 17:58:59 CEST 2021
+Starting job 206087 on b[1280,1282,1284-1285] at Tue Aug 10 22:44:20 CEST 2021
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CESM112_FA5_A_f09_5n/run
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Use of qw(...) as parentheses is deprecated at /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/drv/bld/build-namelist line 790.
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 20thC_transient defaults for var clm_demand with val fpftdyn 
+CLM adding use_case 20thC_transient defaults for var clm_start_type with val startup 
+CLM adding use_case 20thC_transient defaults for var model_year_align_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year_range with val 1850-2000 
+CLM adding use_case 20thC_transient defaults for var stream_year_first_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var stream_year_last_ndep with val 2005 
+CLM adding use_case 20thC_transient defaults for var use_case_desc with val Simulate transient land-use, aerosol deposition, and Nitrogen deposition changes from 1850 to 2005 
+CICE configure done.
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Tue Aug 10 22:44:53 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Wed Aug 11 00:29:12 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+cp: No match.
+Archiving ccsm output to /cluster/work/users/earnest/archive/CESM112_FA5_A_f09_5n
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+mv: cannot stat ‘/cluster/work/users/earnest/archive/CESM112_FA5_A_f09_5n/*’: No such file or directory
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+RESUBMIT is now 39
+Submitted batch job 206094
+Starting job 206094 on b[1286-1288,1292] at Wed Aug 11 00:29:18 CEST 2021
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CESM112_FA5_A_f09_5n/run
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+206087        C_FA5_A_f        512                                             01:45:00      0:0 
+206087.batch      batch        128        1   00:00:06          0   00:00:06   01:45:00      0:0 
+206087.exte+     extern        512        4   00:00:00          2   00:00:00   01:45:01      0:0 
+206087.0       cesm.exe        512      512   01:43:17          1   01:44:12   01:44:19      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+206087                                                                           
+206087.batch      7292K          0      7292K       13              0         13 
+206087.exte+       812K          3     651008        3              3          2 
+206087.0        609844K          1  404542536       21             20          4 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+206087                                                                                                
+206087.batch       52.08M               0         52.08M       12.13M                0         12.13M 
+206087.exte+        0.00M               2          0.00M            0                2              0 
+206087.0         3067.63M               1         11.21M    11009.41M                1         23.64M 
+
+Job 206087 completed at Wed Aug 11 00:29:21 CEST 2021
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Use of qw(...) as parentheses is deprecated at /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/drv/bld/build-namelist line 790.
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 20thC_transient defaults for var clm_demand with val fpftdyn 
+CLM adding use_case 20thC_transient defaults for var clm_start_type with val startup 
+CLM adding use_case 20thC_transient defaults for var model_year_align_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year_range with val 1850-2000 
+CLM adding use_case 20thC_transient defaults for var stream_year_first_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var stream_year_last_ndep with val 2005 
+CLM adding use_case 20thC_transient defaults for var use_case_desc with val Simulate transient land-use, aerosol deposition, and Nitrogen deposition changes from 1850 to 2005 
+CICE configure done.
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Wed Aug 11 00:29:51 CEST 2021 -- CSM EXECUTION BEGINS HERE
+Wed Aug 11 02:14:32 CEST 2021 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+cp: No match.
+Archiving ccsm output to /cluster/work/users/earnest/archive/CESM112_FA5_A_f09_5n
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+get_inst_suffixa 1 1 
+get_inst_suffixb 1 1 
+st_archive.sh: short-term archiving completed successfully
+RESUBMIT is now 38
+Submitted batch job 206103
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Starting job 206103 on b[4106-4107,4109,4111] at Wed Aug 11 02:14:38 CEST 2021
+
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+206094        C_FA5_A_f        512                                             01:45:23      0:0 
+206094.batch      batch        128        1   00:00:08          0   00:00:00   01:45:23      0:0 
+206094.exte+     extern        512        4   00:00:00          1   00:00:00   01:45:23      0:0 
+206094.0       cesm.exe        512      512   01:44:06          1   01:44:35   01:44:41      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+206094                                                                           
+206094.batch      7283K          0      7283K       13              0          4 
+206094.exte+       805K          3     820992        3              2          2 
+206094.0        609039K          1  403706388       14            335          4 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+206094                                                                                                
+206094.batch     3522.26M               0       3522.26M     3447.57M                0       3447.57M 
+206094.exte+        0.00M               1          0.00M            0                1              0 
+206094.0         3075.95M               1         11.20M    11009.44M                1         23.64M 
+
+Job 206094 completed at Wed Aug 11 02:14:42 CEST 2021
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CESM112_FA5_A_f09_5n/run
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Use of qw(...) as parentheses is deprecated at /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/drv/bld/build-namelist line 790.
+CAM writing dry deposition namelist to drv_flds_in 
+Writing ocean component namelist to ./docn_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 20thC_transient defaults for var clm_demand with val fpftdyn 
+CLM adding use_case 20thC_transient defaults for var clm_start_type with val startup 
+CLM adding use_case 20thC_transient defaults for var model_year_align_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year with val 1850 
+CLM adding use_case 20thC_transient defaults for var sim_year_range with val 1850-2000 
+CLM adding use_case 20thC_transient defaults for var stream_year_first_ndep with val 1850 
+CLM adding use_case 20thC_transient defaults for var stream_year_last_ndep with val 2005 
+CLM adding use_case 20thC_transient defaults for var use_case_desc with val Simulate transient land-use, aerosol deposition, and Nitrogen deposition changes from 1850 to 2005 
+CICE configure done.
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0         (H)
+  4) binutils/2.34-GCCcore-9.3.0       (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.6
+  7) OpenMPI/4.0.3-iccifort-2020.1.217
+  8) iompi/2020a
+  9) imkl/2020.1.217-iompi-2020a
+ 10) Szip/2.1.1-GCCcore-9.3.0          (H)
+ 11) HDF5/1.10.6-iompi-2020a
+ 12) cURL/7.69.1-GCCcore-9.3.0         (H)
+ 13) netCDF/4.7.4-iompi-2020a
+ 14) netCDF-Fortran/4.5.2-iompi-2020a
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Wed Aug 11 02:15:14 CEST 2021 -- CSM EXECUTION BEGINS HERE
+slurmstepd: error: *** JOB 206103 ON b4106 CANCELLED AT 2021-08-11T17:14:52 DUE TO TIME LIMIT ***
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+206103        C_FA5_A_f        512                                             15:00:14      0:0 
+206103.batch      batch        128        1   00:00:00          0   00:00:00   15:00:15     0:15 
+206103.exte+     extern        512        4   00:00:00          3   00:00:00   15:00:14      0:0 
+206103.0       cesm.exe        512      512                                    14:59:23      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+206103                                                                           
+206103.batch      7627K          0      7627K       13              0         13 
+206103.exte+       799K          1     654080        3              3          2 
+206103.0                                                                         
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+206103                                                                                                
+206103.batch       40.95M               0         40.95M        1.57M                0          1.57M 
+206103.exte+        0.00M               3          0.00M            0                3              0 
+206103.0                                                                                              
+
+Job 206103 completed at Wed Aug 11 17:14:54 CEST 2021

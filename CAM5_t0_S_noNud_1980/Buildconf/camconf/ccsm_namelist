@@ -1,0 +1,6 @@
+ &cam_inparm
+ dtime          =  1800
+ cam_branch_file= ' '
+ co2vmr         = 367.0e-6
+ ncdata  = 'CAM5_t0_S_noNud.cam2.i.1980-01-01-00000.nc'
+/

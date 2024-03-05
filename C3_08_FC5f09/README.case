@@ -1,0 +1,35 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/C3_08_FC5f09 -compset FC5 -res f09_f09 -mach betzy -pecount L
+
+
+(COMPSET)  F_2000_CAM5 
+(default)  CAM_CONFIG_OPTS: -phys cam4 
+(default)  CCSM_BGC: CO2A 
+(default)  CCSM_CCOST: 0 
+(default)  CICE_MODE: prescribed 
+(default)  CLM_CO2_TYPE: diagnostic 
+(default)  COMP_ATM: cam 
+(default)  COMP_GLC: sglc 
+(default)  COMP_ICE: cice 
+(default)  COMP_LND: clm 
+(default)  COMP_OCN: docn 
+(default)  COMP_ROF: rtm 
+(default)  DOCN_MODE: prescribed 
+(default)  OCN_NCPL: $ATM_NCPL 
+(default)  OCN_TIGHT_COUPLING: TRUE 
+(default)  ROF_GRID: null 
+(default)  ROF_NCPL: 8 
+(default)  CCSM_CO2_PPMV: 367.0 
+(default)  CLM_NML_USE_CASE: 2000_control 
+(default)  SSTICE_DATA_FILENAME: $DIN_LOC_ROOT/atm/cam/sst/sst_HadOIBl_bc_1x1_clim_c101029.nc 
+(default)  SSTICE_GRID_FILENAME: $DIN_LOC_ROOT/ocn/docn7/domain.ocn.1x1.111007.nc 
+(default)  SSTICE_STREAM: CAMDATA 
+(default)  SSTICE_YEAR_ALIGN: 1 
+(default)  SSTICE_YEAR_END: 0 
+(default)  SSTICE_YEAR_START: 0 
+(compset)  CAM_CONFIG_OPTS: -phys cam5 
+(compset)  CCSM_CCOST: 1 
+(compset)  CICE_NAMELIST_OPTS: cam5=.true. 
+(gridset)  SSTICE_DATA_FILENAME: $DIN_LOC_ROOT/atm/cam/sst/sst_HadOIBl_bc_0.9x1.25_clim_c040926.nc 
+(gridset)  SSTICE_GRID_FILENAME: $DIN_LOC_ROOT/atm/cam/ocnfrac/domain.camocn.0.9x1.25_gx1v6_090403.nc 
+Component set     : F_2000_CAM5 (FC5) 
+Desc              : Stand-alone cam default, prescribed ocn/ice, cam5 physics 

@@ -1,0 +1,11 @@
+&modelio
+ diri = '/cluster/work/users/earnest/taiesm_work/TaiESM1_couple/bld/cpl'
+ diro = '/cluster/work/users/earnest/taiesm_work/TaiESM1_couple/run'
+ logfile = 'cpl.log.231122-144618'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

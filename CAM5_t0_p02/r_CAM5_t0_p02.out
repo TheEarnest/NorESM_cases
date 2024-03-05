@@ -1,0 +1,145 @@
+
+Job 579270 consumed 1116.4 billing hours from project nn9385k.
+
+Submitted 2023-03-13T15:46:44; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   2.2 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+579270            512            0.0 %  2023-03-13T15:46:44    2.2 h  0
+579270.batch      128      1     0.0 %  2023-03-13T15:46:44    2.2 h  Signal 15
+579270.ccsm.exe   512    512    99.9 %  2023-03-13T15:46:54    0.4 h  0
+579270.ccsm.exe   512    512    98.9 %  2023-03-13T16:10:24    0.4 h  0
+579270.ccsm.exe   512    512    99.8 %  2023-03-13T16:35:39    0.4 h  0
+579270.ccsm.exe   512    512    99.9 %  2023-03-13T16:59:06    0.4 h  0
+579270.ccsm.exe   512    512    99.9 %  2023-03-13T17:22:36    0.4 h  0
+579270.ccsm.exe   512    512    90.8 %  2023-03-13T17:46:02    0.2 h  Signal 6
+
+Used CPU time:   45.7 CPU days
+Unused CPU time: 19.5 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+579270            968.0        
+579270.batch      242.0     0.0
+579270.ccsm.exe   968.0    92.1
+579270.ccsm.exe   968.0    93.4
+579270.ccsm.exe   968.0    93.3
+579270.ccsm.exe   968.0    93.4
+579270.ccsm.exe   968.0    93.2
+579270.ccsm.exe   968.0   160.7
+
+Job 579270 completed at Mon Mar 13 17:58:57 CET 2023
+Starting job 579522 on b[2288,2290-2292] on betzy at Mon Mar 13 18:52:08 CET 2023
+
+Run number 1 of 26
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+EBDEVELIOMPI=/cluster/software/iompi/2020a/easybuild/iompi-2020a-easybuild-devel
+EBROOTIOMPI=/cluster/software/iompi/2020a
+EBVERSIONIOMPI=2020a
+OMP_STACKSIZE=64M
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_p02/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Mar 13 18:52:28 CET 2023 -- CSM EXECUTION BEGINS HERE
+Mon Mar 13 20:12:39 CET 2023 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving ccsm output to /cluster/work/users/earnest/archive/CAM5_t0_p02
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+Restarts model without resubmit
+Run number 2 of 26
+OMP_NUM_THREADS=1
+CCSM_COMPSET=F_2000_CAM5 (FC5)
+COMP_ATM=cam
+COMP_LND=clm
+COMP_ICE=cice
+COMP_GLC=sglc
+COMP_OCN=docn
+COMP_CPL=cpl
+CCSM_LCOMPSET=F_2000_CAM5
+CCSM_SCOMPSET=FC5
+COMP_RUN_BARRIERS=FALSE
+COMP_INTERFACE=MCT
+BUILD_COMPLETE=TRUE
+SMP_BUILD=a0l0i0o0g0c0
+SMP_VALUE=a0l0i0o0g0c0
+CICE_DECOMPTYPE=cartesian
+CICE_AUTO_DECOMP=true
+OMP_STACKSIZE=64M
+EBDEVELIOMPI=/cluster/software/iompi/2020a/easybuild/iompi-2020a-easybuild-devel
+EBROOTIOMPI=/cluster/software/iompi/2020a
+EBVERSIONIOMPI=2020a
+COMPLIBS=
+-------------------------------------------------------------------------
+ CCSM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/noresm/CAM5_t0_p02/run
+ - Create modelio namelist input files
+ CCSM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+ CCSM PRESTAGE SCRIPT STARTING
+ - CCSM input data directory, DIN_LOC_ROOT_CSMDATA, is /cluster/shared/noresm/inputdata
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ create link to inputdata folder in run directory
+ CCSM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+Mon Mar 13 20:13:01 CET 2023 -- CSM EXECUTION BEGINS HERE
+Mon Mar 13 20:45:59 CET 2023 -- CSM EXECUTION HAS FINISHED
+Model did not complete - see /cluster/work/users/earnest/noresm/CAM5_t0_p02/run/cpl.log.230313-201256
+
+Job 579522 consumed 971.5 billing hours from project nn9385k.
+
+Submitted 2023-03-13T18:52:03; waited 5.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   1.9 hours
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+579522            512            0.0 %  2023-03-13T18:52:08    1.9 h  1
+579522.batch      128      1     0.0 %  2023-03-13T18:52:08    1.9 h  1
+579522.ccsm.exe   512    512   100.0 %  2023-03-13T18:52:28    1.3 h  0
+579522.ccsm.exe   512    512    96.9 %  2023-03-13T20:13:01    0.5 h  Signal 6
+
+Used CPU time:   39.9 CPU days
+Unused CPU time: 14.8 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+579522            968.0        
+579522.batch      242.0     0.0
+579522.ccsm.exe   968.0   163.7
+579522.ccsm.exe   968.0   232.0
+
+Job 579522 completed at Mon Mar 13 20:46:02 CET 2023

@@ -1,0 +1,6 @@
+fpftcon = /cluster/shared/noresm/inputdata/lnd/clm2/pftdata/pft-physiology.c110425.nc
+fsnowaging = /cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc
+fatmlndfrc = /cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc
+fsnowoptics = /cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc
+fsurdat = /cluster/shared/noresm/inputdata/lnd/clm2/surfdata/surfdata_0.9x1.25_simyr2000_c110921.nc
+finidat = /cluster/shared/noresm/inputdata/lnd/clm2/initdata/clmi.BCN.2000-01-01_0.9x1.25_gx1v6_simyr2000_c100303.nc

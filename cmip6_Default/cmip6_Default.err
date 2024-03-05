@@ -1,0 +1,2 @@
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cmip6_Default/timing/ccsm_timing.cmip6_Default.190522-203828’: No such file or directory

@@ -1,0 +1,6 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/benchmark_N1M -compset N20TREXTAERCN -res f19_g16 -mach betzy -pecount=L
+case created 2023-05-26 18:04:05
+configure -case 2023-05-26 18:04:06
+build complete 2023-05-26 18:05:04
+run started 2023-05-26 18:05:17
+run SUCCESSFUL 2023-05-26 18:22:44

@@ -1,0 +1,98 @@
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0001-02-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181207-102111’: No such file or directory
+slurmstepd: error: *** JOB 221203 ON c49-2 CANCELLED AT 2018-12-07T11:57:30 DUE TO TIME LIMIT ***
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0002-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181207-131313’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0002-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+ln: failed to create hard link ‘./cesm_me_00010101_mem01.clm2.h0.0001-12.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181208-011337’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0002-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+ln: failed to create hard link ‘./cesm_me_00010101_mem01.clm2.h0.0001-12.nc’: File exists
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181209-195718’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0003-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181210-011258’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0004-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181210-085157’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0005-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181211-083639’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0006-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181212-115029’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0007-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181213-153932’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0008-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181215-143911’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0009-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181215-213143’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0010-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181216-162047’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0011-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181217-075847’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0012-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181218-044817’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0013-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181218-184856’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0014-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181219-082315’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0015-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181220-005453’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0016-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181220-174157’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0017-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181220-235417’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0018-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181221-095434’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0019-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181222-075949’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0020-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181223-040527’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0021-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181223-145007’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0022-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181223-231241’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0023-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181224-073146’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0024-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181224-095934’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0025-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181224-135540’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0026-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181224-183823’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0027-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181224-213434’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0028-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+env_conf: No such file or directory.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.181225-013500’: No such file or directory
+cp: No match.
+head: cannot open ‘/cluster/work/users/earnest/archive/cesm_me_00010101_mem01/rest/0029-01-01-00000/rpointer.ocn’ for reading: No such file or directory
+env_conf: No such file or directory.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01/timing/ccsm_timing.cesm_me_00010101_mem01.190102-100557’: No such file or directory

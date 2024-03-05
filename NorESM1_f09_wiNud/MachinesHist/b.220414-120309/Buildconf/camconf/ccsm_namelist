@@ -1,0 +1,5 @@
+ &cam_inparm
+ dtime          =  1800
+ cam_branch_file= '/cluster/work/users/earnest/noresm/NorESM1_f09_wiNud/run/NorESM1_f09.cam2.r.1980-01-01-00000.nc'
+ co2vmr         = 367.0e-6
+/

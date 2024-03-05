@@ -1,0 +1,8 @@
+fpftcon = /cluster/shared/noresm/inputdata/lnd/clm2/pftdata/pft-physiology.clm40.c130424.nc
+fsnowaging = /cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc
+fsnowoptics = /cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc
+fsurdat = /cluster/shared/noresm/inputdata/lnd/clm2/surfdata/surfdata_0.9x1.25_simyr2000_c110921.nc
+f3dtopo = /cluster/shared/noresm/inputdata/TaiESM_Input/3D-Topo/topo_3d_0.9x1.25_c150322.nc
+fatmlndfrc = /cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc
+finidat = /cluster/shared/noresm/inputdata/lnd/clm2/initdata/clmi.BCN.2000-01-01_0.9x1.25_gx1v6_simyr2000_c100303.nc
+megan_factors_file = /cluster/shared/noresm/inputdata/atm/cam/chem/trop_mozart/emis/megan21_emis_factors_c20120313.nc

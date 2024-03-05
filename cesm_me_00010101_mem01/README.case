@@ -1,0 +1,1 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/cesm_me_00010101_mem01 -compset B1850C5 -res f09_g16 -mach fram

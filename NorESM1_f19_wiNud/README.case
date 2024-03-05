@@ -1,0 +1,1 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/NorESM1_f19_wiNud -compset F -res f19_f19 -mach betzy -pecount L

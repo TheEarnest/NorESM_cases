@@ -1,0 +1,225 @@
+Common subdirectories: ./Buildconf and /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Buildconf
+Common subdirectories: ./CaseDocs and /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/CaseDocs
+diff ./CaseStatus /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/CaseStatus
+1,112c1,11
+< create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CESM112_FC5_f09 -compset FC5 -res f09_f09 -mach betzy -pecount L
+< case created 2023-03-13 11:17:07
+< build complete 2023-03-13 11:51:42
+< build complete 2023-03-13 13:06:23
+< run submitted 2023-03-13 13:07:52
+< run started 2023-03-13 13:14:19
+< run submitted 2023-03-13 13:35:39
+< run started 2023-03-13 13:40:32
+< run FAILED 2023-03-13 13:41:42
+< cesm_setup -clean 2023-03-13 13:45:58
+<  
+< build complete 2023-03-13 13:47:46
+< run submitted 2023-03-13 13:50:39
+< run started 2023-03-13 13:50:43
+< run FAILED 2023-03-13 13:51:49
+< cesm_setup -clean 2023-03-13 13:56:32
+<  
+< build complete 2023-03-13 13:57:10
+< run submitted 2023-03-13 13:57:25
+< run submitted 2023-03-13 13:58:08
+< run started 2023-03-13 13:58:13
+< run SUCCESSFUL 2023-03-13 14:22:35
+< build complete 2023-03-13 21:18:55
+< run submitted 2023-03-13 21:19:35
+< run started 2023-03-13 21:20:06
+< run FAILED 2023-03-13 22:12:15
+< run submitted 2023-03-13 22:38:21
+< run started 2023-03-13 22:38:29
+< run SUCCESSFUL 2023-03-13 23:27:14
+< run started 2023-03-13 23:27:42
+< run submitted 2023-03-13 23:29:38
+< run started 2023-03-13 23:29:42
+< run FAILED 2023-03-13 23:34:39
+< build complete 2023-03-13 23:42:37
+< build complete 2023-03-13 23:56:25
+< run submitted 2023-03-13 23:57:57
+< run started 2023-03-13 23:58:21
+< run SUCCESSFUL 2023-03-14 01:36:17
+< run started 2023-03-14 01:36:53
+< run SUCCESSFUL 2023-03-14 03:17:02
+< run started 2023-03-14 03:17:15
+< run SUCCESSFUL 2023-03-14 04:59:08
+< run started 2023-03-14 04:59:25
+< run SUCCESSFUL 2023-03-14 06:36:50
+< run started 2023-03-14 06:37:05
+< run SUCCESSFUL 2023-03-14 08:15:51
+< run started 2023-03-14 08:16:04
+< run SUCCESSFUL 2023-03-14 09:53:33
+< run started 2023-03-14 09:53:44
+< run SUCCESSFUL 2023-03-14 11:30:31
+< run started 2023-03-14 11:30:51
+< run SUCCESSFUL 2023-03-14 13:11:54
+< run started 2023-03-14 13:12:11
+< run SUCCESSFUL 2023-03-14 14:52:32
+< run started 2023-03-14 14:52:59
+< run SUCCESSFUL 2023-03-14 16:30:11
+< run started 2023-03-14 16:40:35
+< run SUCCESSFUL 2023-03-14 18:16:37
+< run submitted 2023-03-14 18:54:07
+< run started 2023-03-15 15:32:23
+< run SUCCESSFUL 2023-03-15 17:11:02
+< run started 2023-03-15 17:46:52
+< run SUCCESSFUL 2023-03-15 19:24:46
+< run started 2023-03-15 19:25:34
+< run SUCCESSFUL 2023-03-15 21:07:45
+< run started 2023-03-15 21:08:25
+< run SUCCESSFUL 2023-03-15 23:08:41
+< run started 2023-03-16 00:26:14
+< run SUCCESSFUL 2023-03-16 02:04:43
+< run started 2023-03-16 03:45:47
+< run SUCCESSFUL 2023-03-16 05:22:07
+< run started 2023-03-16 08:44:10
+< run SUCCESSFUL 2023-03-16 10:22:21
+< run started 2023-03-16 10:43:28
+< run SUCCESSFUL 2023-03-16 12:43:45
+< run started 2023-03-16 14:32:08
+< run SUCCESSFUL 2023-03-16 16:10:06
+< run started 2023-03-16 19:02:23
+< run SUCCESSFUL 2023-03-16 20:44:05
+< run started 2023-03-17 00:40:35
+< run SUCCESSFUL 2023-03-17 02:24:07
+< run started 2023-03-17 02:57:28
+< run SUCCESSFUL 2023-03-17 05:23:11
+< run started 2023-03-17 05:25:44
+< run SUCCESSFUL 2023-03-17 07:11:56
+< run started 2023-03-17 07:12:50
+< run SUCCESSFUL 2023-03-17 09:45:26
+< build complete 2023-08-26 11:03:55
+< build complete 2023-08-26 11:06:23
+< run submitted 2023-08-26 11:08:27
+< run started 2023-08-26 11:08:51
+< run FAILED 2023-08-26 11:09:41
+< build complete 2023-08-26 11:15:55
+< run submitted 2023-08-26 11:16:09
+< run started 2023-08-26 11:16:38
+< run FAILED 2023-08-26 11:17:29
+< build complete 2023-08-26 11:22:57
+< run submitted 2023-08-26 11:34:51
+< run started 2023-08-26 11:35:20
+< run FAILED 2023-08-26 11:36:09
+< build complete 2023-08-26 12:01:02
+< run submitted 2023-08-26 12:41:17
+< run started 2023-08-26 12:41:47
+< run FAILED 2023-08-26 12:42:36
+< build complete 2023-08-27 08:56:56
+< run submitted 2023-08-27 08:57:06
+< run started 2023-08-27 08:57:36
+< run FAILED 2023-08-27 08:58:25
+< build complete 2023-08-27 09:15:16
+< run submitted 2023-08-27 09:15:31
+< run started 2023-08-27 09:16:08
+< run FAILED 2023-08-27 09:16:57
+---
+> create_newcase -case /cluster/work/users/earnest/stercp_exp//g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2 -compset FC5 -res f09_f09 -mach betzy -pecount L
+> case created 2023-08-27 03:02:54
+> build complete 2023-08-27 03:04:38
+> build complete 2023-08-27 03:05:52
+> run started 2023-08-27 03:05:55
+> run SUCCESSFUL 2023-08-27 03:51:37
+> build complete 2023-08-27 03:52:16
+> run started 2023-08-27 03:52:19
+> run SUCCESSFUL 2023-08-27 04:34:27
+> build complete 2023-08-27 04:35:02
+> run started 2023-08-27 04:35:04
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/: CESM112_1_g_6_I41_C5_PBL_gpP2.build
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/: CESM112_1_g_6_I41_C5_PBL_gpP2.clean_build
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/: CESM112_1_g_6_I41_C5_PBL_gpP2.l_archive
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/: CESM112_1_g_6_I41_C5_PBL_gpP2.run
+Only in /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/: CESM112_1_g_6_I41_C5_PBL_gpP2.submit
+Only in ./: CESM112_FC5_f09.build
+Only in ./: CESM112_FC5_f09.clean_build
+Only in ./: CESM112_FC5_f09.l_archive
+Only in ./: CESM112_FC5_f09.run
+Only in ./: CESM112_FC5_f09.submit
+diff ./env_build.xml /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/env_build.xml
+38c38
+< <entry id="EXEROOT"   value="/cluster/work/users/$CCSMUSER/noresm/$CASE/bld"  />    
+---
+> <entry id="EXEROOT"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run/../bld"  />    
+67c67
+< <entry id="CAM_CONFIG_OPTS"   value="-phys cam5"  />    
+---
+> <entry id="CAM_CONFIG_OPTS"   value="-phys cam5 -offline_dyn "  />    
+diff ./env_case.xml /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/env_case.xml
+16c16
+< <entry id="CASE"   value="CESM112_FC5_f09"  />    
+---
+> <entry id="CASE"   value="CESM112_1_g_6_I41_C5_PBL_gpP2"  />    
+19c19
+< <entry id="CASEROOT"   value="/cluster/home/earnest/models/NorCPM/cases/CESM112_FC5_f09"  />    
+---
+> <entry id="CASEROOT"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2"  />    
+diff ./env_run.xml /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/env_run.xml
+19c19
+< <entry id="RUNDIR"   value="/cluster/work/users/$CCSMUSER/noresm/$CASE/run"  />    
+---
+> <entry id="RUNDIR"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run"  />    
+33c33
+< <entry id="RUN_STARTDATE"   value="1970-01-01"  />    
+---
+> <entry id="RUN_STARTDATE"   value="1980-01-01"  />    
+39c39
+< <entry id="RUN_REFCASE"   value="case.std"  />    
+---
+> <entry id="RUN_REFCASE"   value="cesm_hist_19500101_mem01"  />    
+42c42
+< <entry id="RUN_REFDATE"   value="0001-01-01"  />    
+---
+> <entry id="RUN_REFDATE"   value="1980-01-01"  />    
+59c59
+< <entry id="STOP_N"   value="12"  />    
+---
+> <entry id="STOP_N"   value="1"  />    
+79c79
+< <entry id="RESUBMIT"   value="48"  />    
+---
+> <entry id="RESUBMIT"   value="0"  />    
+281c281
+< <entry id="LOGDIR"   value="$CASEROOT/logs"  />    
+---
+> <entry id="LOGDIR"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run/../bld/logs"  />    
+287c287
+< <entry id="DOUT_S_ROOT"   value="/cluster/work/users/$CCSMUSER/archive/$CASE"  />    
+---
+> <entry id="DOUT_S_ROOT"   value="/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/CESM112_1_g_6_I41_C5_PBL_gpP2/run/../../archive/${CASE}"  />    
+Common subdirectories: ./LockedFiles and /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/LockedFiles
+Only in ./: logs
+Only in ./: PESetupHist
+Only in ./: r_CESM112_FC5_f09.out
+diff ./README.case /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/README.case
+1c1
+< create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CESM112_FC5_f09 -compset FC5 -res f09_f09 -mach betzy -pecount L
+---
+> create_newcase -case /cluster/work/users/earnest/stercp_exp//g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2 -compset FC5 -res f09_f09 -mach betzy -pecount L
+Common subdirectories: ./SourceMods and /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/SourceMods
+Only in ./: tempcheck
+Common subdirectories: ./timing and /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/timing
+Common subdirectories: ./Tools and /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/Tools
+diff ./user_nl_cam /cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/cases/CESM112_1_g_6_I41_C5_PBL_gpP2/user_nl_cam
+6,8c6,12
+<  mfilt     = 12
+<  nhtfrq    = 0
+< 
+---
+>  fincl2   = 'U:I', 'V:I', 'T:I', 'Q:I', 'PS:I', 'T500:I', 'U500:I', 'V500:I', 'Z500:I', 'SST:I', 'T200:I', 'U200:I', 'V200:I', 'Z200:I'
+>  fincl3   = 'T500', 'U500', 'V500', 'Z500', 'SST', 'T200', 'U200', 'V200', 'Z200'
+>  mfilt     = 12,1,1
+>  nhtfrq    = 0,-6,-6
+>  met_data_file = 'SNF_19800101_00000.nc'
+>  met_data_path = '/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/DataIngestion_sp/Data/CESM112_1/1980'
+>  met_filenames_list = '/cluster/work/users/earnest/stercp_exp/g_6_I41_C5_PBL_gpP2/DataIngestion_sp/Data/CESM112_1/1980/../SPN_autogen_CESM112_1_1980.txt'
+9a14,20
+>  met_cell_wall_winds = .false.
+>  met_fix_mass   = .false.
+>  met_max_rlx = .5000000
+>  met_rlx_bot    = 119.
+>  met_rlx_top    = 131.
+>  !met_BLC_factor = 0.,0.,0.,0.,0.,0.,0.,0.134,0.709,-1.
+>  met_BLC_factor = -1.,-1.,-1.,-1.,-1.,-1.,-1.,-1.,-1.,-1.
+10a22
+>   pertlim  = 1.e-9

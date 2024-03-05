@@ -1,0 +1,7 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/cmip6_Default -compset N20TREXTAERCNOCCMIP6 -res f19_g16 -mach fram -pecount L
+case created 2019-05-22 20:21:58
+configure -case 2019-05-22 20:22:17
+build complete 2019-05-22 20:32:23
+run submitted 2019-05-22 20:37:36
+run started 2019-05-22 20:38:42
+run SUCCESSFUL 2019-05-22 20:42:04

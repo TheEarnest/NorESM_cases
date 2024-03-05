@@ -1,0 +1,14 @@
+&drydep_inparm
+ drydep_list		= 'DMS','H2O2','H2SO4','SO2'
+ drydep_method		= 'xactive_lnd'
+/
+&megan_emis_nl
+ megan_factors_file		= '/cluster/shared/noresm/inputdata/atm/cam/chem/trop_mozart/emis/megan21_emis_factors_78pft_c20161108.nc'
+ megan_specifier		= 'isoprene = isoprene', 'monoterp = myrcene + sabinene + limonene+ carene_3 + ocimene_t_b + pinene_b + pinene_a'
+/
+&fire_emis_nl
+/
+&carma_inparm
+/
+&ndep_inparm
+/

@@ -1,0 +1,59 @@
+Starting job 752950 on b[3211-3214] on betzy at Wed Nov 22 14:46:14 CET 2023
+
+-------------------------------------------------------------------------
+ CESM BUILDNML SCRIPT STARTING
+ - To prestage restarts, untar a restart.tar file into /cluster/work/users/earnest/taiesm_work/TaiESM1_couple/run
+ infile is /cluster/home/earnest/models/NorCPM/cases/TaiESM1_couple/Buildconf/cplconf/cesm_namelist 
+CAM writing dry deposition namelist to drv_flds_in 
+CAM writing namelist to atm_in 
+CLM configure done.
+CLM adding use_case 1850_control defaults for var sim_year with val 1850 
+CLM adding use_case 1850_control defaults for var sim_year_range with val constant 
+CLM adding use_case 1850_control defaults for var stream_year_first_ndep with val 1850 
+CLM adding use_case 1850_control defaults for var stream_year_last_ndep with val 1850 
+CLM adding use_case 1850_control defaults for var use_case_desc with val Conditions to simulate 1850 land-use 
+CICE configure done.
+POP2 build-namelist: ocn_grid is gx1v6 
+POP2 build-namelist: ocn_tracer_modules are  iage 
+ CESM BUILDNML SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+ CESM PRESTAGE SCRIPT STARTING
+ - Case input data directory, DIN_LOC_ROOT, is /cluster/shared/noresm/inputdata
+ - Checking the existence of input datasets in DIN_LOC_ROOT
+ CESM PRESTAGE SCRIPT HAS FINISHED SUCCESSFULLY
+-------------------------------------------------------------------------
+Wed Nov 22 14:46:59 CET 2023 -- CSM EXECUTION BEGINS HERE
+Wed Nov 22 14:57:16 CET 2023 -- CSM EXECUTION HAS FINISHED
+(seq_mct_drv): ===============       SUCCESSFUL TERMINATION OF CPL7-CCSM ===============
+Archiving cesm output to /cluster/work/users/earnest/taiesm_work/archive/TaiESM1_couple
+Calling the short-term archiving script st_archive.sh
+
+st_archive.sh: start of short-term archiving
+st_archive.sh: restart files from end of run will be saved, 
+               interim restart files will be deleted
+st_archive.sh: short-term archiving completed successfully
+
+Job 752950 consumed 96.3 billing hours from project nn9385k.
+
+Submitted 2023-11-22T14:46:13; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 5.0 hours
+Elapsed wallclock time:   11.3 minutes
+
+Task and CPU statistics:
+ID               CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+752950            512            0.0 %  2023-11-22T14:46:14  677.0 s  0
+752950.batch      128      1     0.0 %  2023-11-22T14:46:14  677.0 s  0
+752950.cesm.exe   512    512    99.2 %  2023-11-22T14:46:59  617.0 s  0
+
+Used CPU time:   3.6 CPU days
+Unused CPU time: 9.2 CPU hours
+
+Memory statistics, in GiB:
+ID                Alloc   Usage
+752950            968.0        
+752950.batch      242.0     0.0
+752950.cesm.exe   960.0   197.5
+
+Job 752950 completed at Wed Nov 22 14:57:32 CET 2023

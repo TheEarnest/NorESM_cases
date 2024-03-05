@@ -1,0 +1,6 @@
+ &ice_nml
+ ice_ic = 'CAM5_t0_S_noNud.cice.r.1980-01-01-00000.nc'
+ /
+ &domain_nml
+ distribution_type = 'DECOMPTYPE'
+ / 

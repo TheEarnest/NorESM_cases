@@ -1,0 +1,2 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/CESM112_A_wiNdg -compset FC5 -res f09_f09 -mach betzy -pecount L
+case created 2022-08-10 08:18:22

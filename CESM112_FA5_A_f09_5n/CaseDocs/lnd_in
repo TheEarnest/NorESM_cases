@@ -1,0 +1,29 @@
+&clm_inparm
+ co2_type = 'diagnostic'
+ create_crop_landunit = .false.
+ dtime = 1800
+ fatmlndfrc = '/cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc'
+ finidat = '/cluster/shared/noresm/inputdata/ccsm4_init/b40.1850.track1.1deg.006/0863-01-01/b40.1850.track1.1deg.006.clm2.r.0863-01-01-00000.nc'
+ fpftcon = '/cluster/shared/noresm/inputdata/lnd/clm2/pftdata/pft-physiology.c110425.nc'
+ fpftdyn = '/cluster/shared/noresm/inputdata/lnd/clm2/surfdata/surfdata.pftdyn_0.9x1.25_simyr1850-2005_c091008.nc'
+ fsnowaging = '/cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc'
+ fsnowoptics = '/cluster/shared/noresm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc'
+ fsurdat = '/cluster/shared/noresm/inputdata/lnd/clm2/surfdata/surfdata_0.9x1.25_simyr1850_c110921.nc'
+ maxpatch_glcmec = 0
+ nsegspc = 20
+ urban_hac = 'ON_WASTEHEAT'
+ urban_traffic = .false.
+/
+&ndepdyn_nml
+ model_year_align_ndep = 1850
+ ndepmapalgo = 'bilinear'
+ stream_fldfilename_ndep = '/cluster/shared/noresm/inputdata/lnd/clm2/ndepdata/fndep_clm_hist_simyr1849-2006_1.9x2.5_c100428.nc'
+ stream_year_first_ndep = 1850
+ stream_year_last_ndep = 2005
+/
+#!--------------------------------------------------------------------------------------------------------------------------
+#! lnd_in:: Comment:
+#! This namelist was created using the following command-line:
+#!     /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/lnd/clm/bld/build-namelist -infile /cluster/home/earnest/models/NorCPM/cases/CESM112_FA5_A_f09_5n/Buildconf/clmconf/cesm_namelist -csmdata /cluster/shared/noresm/inputdata -inputdata /cluster/home/earnest/models/NorCPM/cases/CESM112_FA5_A_f09_5n/Buildconf/clm.input_data_list -namelist &clm_inparm  / -use_case 20thC_transient -res 0.9x1.25 -clm_start_type default -l_ncpl 48 -lnd_frac /cluster/shared/noresm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc -glc_nec 0 -co2_ppmv 0.0000001 -co2_type diagnostic -config /cluster/home/earnest/models/NorCPM/cases/CESM112_FA5_A_f09_5n/Buildconf/clmconf/config_cache.xml
+#! For help on options use: /cluster/projects/nn9385k/people/earnest/cesm1_1_2/models/lnd/clm/bld/build-namelist -help
+#!--------------------------------------------------------------------------------------------------------------------------

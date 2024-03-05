@@ -1,0 +1,3 @@
+DOMAINFILE = /cluster/shared/noresm/inputdata/atm/cam/ocnfrac/domain.camocn.1.9x2.5_gx1v6_090403.nc
+domain1 = /cluster/shared/noresm/inputdata/atm/cam/ocnfrac/domain.camocn.1.9x2.5_gx1v6_090403.nc
+file1 = /cluster/shared/noresm/inputdata/ocn/docn7/SSTDATA/sst_HadOIBl_bc_1.9x2.5_clim_c061031.nc

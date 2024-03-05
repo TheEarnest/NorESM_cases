@@ -1,0 +1,7 @@
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_noNud_1980/timing/ccsm_timing.CAM4_t0_S_noNud_1980.190619-150359’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_noNud_1980/timing/ccsm_timing.CAM4_t0_S_noNud_1980.190619-160551’: No such file or directory
+cp: No match.
+mv: cannot stat ‘/cluster/home/earnest/models/NorCPM/cases/CAM4_t0_S_noNud_1980/timing/ccsm_timing.CAM4_t0_S_noNud_1980.190619-170744’: No such file or directory
+slurmstepd: error: *** JOB 321487 ON c78-11 CANCELLED AT 2019-06-19T18:45:47 ***

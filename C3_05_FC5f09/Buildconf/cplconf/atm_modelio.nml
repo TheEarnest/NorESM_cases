@@ -1,0 +1,11 @@
+&modelio
+ diri = '/cluster/work/users/earnest/noresm/C3_05_FC5f09/bld/atm'
+ diro = '/cluster/work/users/earnest/noresm/C3_05_FC5f09/run'
+ logfile = 'atm.log.230915-094331'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

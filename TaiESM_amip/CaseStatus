@@ -1,0 +1,2 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/TaiESM_amip -compset F_2000_TAI -res f09_f09 -mach betzy -pecount L
+case created 2023-11-24 02:14:41

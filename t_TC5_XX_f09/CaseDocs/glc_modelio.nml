@@ -1,0 +1,11 @@
+&modelio
+ diri = '/cluster/work/users/earnest/taiesm_work/t_TC5_XX_f09/bld/glc'
+ diro = '/cluster/work/users/earnest/taiesm_work/t_TC5_XX_f09/run'
+ logfile = 'glc.log.231212-030114'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

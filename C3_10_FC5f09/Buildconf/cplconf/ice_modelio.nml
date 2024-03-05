@@ -1,0 +1,11 @@
+&modelio
+ diri = '/cluster/work/users/earnest/noresm/C3_10_FC5f09/bld/ice'
+ diro = '/cluster/work/users/earnest/noresm/C3_10_FC5f09/run'
+ logfile = 'ice.log.230915-094435'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

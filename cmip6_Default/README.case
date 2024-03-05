@@ -1,0 +1,1 @@
+create_newcase -case /cluster/home/earnest/models/NorCPM/cases/cmip6_Default -compset N20TREXTAERCNOCCMIP6 -res f19_g16 -mach fram -pecount L

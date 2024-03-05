@@ -1,0 +1,96 @@
+&chem_surfvals_nl
+
+ch4vmr = -1.0D0
+
+co2vmr = -1.0D0
+
+f11vmr = -1.0D0
+
+f12vmr = -1.0D0
+
+n2ovmr = -1.0D0
+
+    flbc_file = '/cluster/shared/noresm/inputdata/atm/waccm/lb/LBC_1750-2015_CMIP6_GlobAnnAvg_c180926.nc'
+
+    flbc_list = 'CO2','CH4','N2O','CFC11eq','CFC12'
+
+    flbc_type = 'SERIAL'
+
+    scenario_ghg = 'CHEM_LBC_FILE'
+
+/
+
+&nudging_nl
+
+    Nudge_Model = .true. ! (set to .false. for no nudging)
+
+    Nudge_Path = ‘/cluster/projects/nn9039k/CAM_Nudging/met_data/era5_PSUV_f09L32_6hrFullFieldSingleRecord/’
+
+    Nudge_File_Template= ‘era5_PSUV_f09L32_6hr_r0_%y%m%d%s.nc’
+
+    Nudge_Force_Opt = 1 ! (=0 for target at next future time ; =1 for linear interpolation between 2 target datapoints)
+
+    Nudge_TimeScale_Opt = 0 ! (=0 for weak nudging [constant] & =1 for strong nudging [near target points])
+
+    Nudge_Times_Per_Day= 4 ! (for 6-hourly target data for nudging - e.g. ERA5)
+
+    Model_Times_Per_Day= 48 ! (for a model with a 30-minute timestep - like NorESM2.2-AMIP)
+
+    Nudge_Uprof = 2 ! (=0 for nudging off ; =1 for global nudging ; =2 for regional nudging)
+
+    Nudge_Ucoef =1.00 ! (= anything between 0 and 1)
+
+    Nudge_Vprof = 2
+
+    Nudge_Vcoef =1.00
+
+    Nudge_Tprof =0
+
+    Nudge_Tcoef =1.00
+
+    Nudge_Qprof =0
+
+    Nudge_Qcoef =1.00
+
+    Nudge_PSprof =0
+
+    Nudge_PScoef =0.00
+
+    Nudge_Beg_Year = 1979
+
+    Nudge_Beg_Month= 1
+
+    Nudge_Beg_Day = 1
+
+    Nudge_End_Year = 2013
+
+    Nudge_End_Month= 12
+
+    Nudge_End_Day = 31
+
+    Nudge_Hwin_lat0 = 45.
+
+    Nudge_Hwin_latWidth= 45. ! (set to 999. for full longitudinal circle)
+
+    Nudge_Hwin_latDelta= 5.0
+
+    Nudge_Hwin_lon0 = 180.
+
+    Nudge_Hwin_lonWidth= 100. ! (set to 999. for full latitudinal circle)
+
+    Nudge_Hwin_lonDelta= 5.
+
+    Nudge_Hwin_Invert =.false. ! (set to .true. for inverted nudging window)
+
+    Nudge_Vwin_Hindex = 33.
+
+    Nudge_Vwin_Hdelta = 0.001 ! (const vertical window ; for non-const. set to a larger value, i.e., number of levels over which it tapers off)
+
+    Nudge_Vwin_Lindex = 13. ! (=0. full vertical extent ; =13. troposphere only & taper off in lower stratosphere [lev 13 ~150 hPa; lev 15 ~200 hPa; lev 11 ~100 hPa] ; =32. surface layer only)
+
+    Nudge_Vwin_Ldelta = 2. ! (=2. taper-off over +/- 2 levels ; =0.001 const. vertical window)
+
+    Nudge_Vwin_Invert =.false. ! (set to .true. for inverted nudging window)
+
+/
+

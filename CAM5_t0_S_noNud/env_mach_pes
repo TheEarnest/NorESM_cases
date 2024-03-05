@@ -1,0 +1,44 @@
+
+
+
+setenv NTASKS_ATM  128     # number of atmosphere tasks
+setenv NTHRDS_ATM  1     # number of atmosphere threads
+setenv ROOTPE_ATM  0     # root atm mpi task
+
+setenv NTASKS_LND  128     # number of land mpi tasks
+setenv NTHRDS_LND  1     # number of land mpi threads
+setenv ROOTPE_LND  0     # root lnd mpi task
+
+setenv NTASKS_ICE  128     # number of ice mpi tasks
+setenv NTHRDS_ICE  1     # number of ice mpi threads
+setenv ROOTPE_ICE  0     # root ice mpi task
+
+setenv NTASKS_OCN  128     # number of ocean mpi tasks
+setenv NTHRDS_OCN  1     # number of ocean mpi threads
+setenv ROOTPE_OCN  0     # root ocn mpi task
+
+setenv NTASKS_CPL  128     # number of coupler mpi tasks
+setenv NTHRDS_CPL  1     # number of coupler mpi threads
+setenv ROOTPE_CPL  0     # root cpl mpi task
+
+setenv NTASKS_GLC  128     # number of glc mpi tasks
+setenv NTHRDS_GLC  1     # number of glc mpi threads
+setenv ROOTPE_GLC  0     # root glc mpi task
+
+setenv PSTRID_ATM  1     # 1
+setenv PSTRID_LND  1     # 1
+setenv PSTRID_ICE  1     # 1
+setenv PSTRID_OCN  1     # 1
+setenv PSTRID_CPL  1     # 1
+setenv PSTRID_GLC  1     # 1
+
+setenv TOTALPES  128     # total number of pes (derived automatically - DO NOT EDIT)
+setenv PES_LEVEL  1r     # pes level determined by automated initialization (DO NOT EDIT)
+setenv MAX_TASKS_PER_NODE  32     # maximum number of mpi tasks per node
+setenv PES_PER_NODE  $MAX_TASKS_PER_NODE     # pes per node for cost scaling
+setenv BATCH_PES  0     # pes requested at batch runtime
+setenv CCSM_PCOST  -1     # cost relative to 64 pes (DO NOT EDIT)
+setenv CCSM_TCOST  0     # relative cost of test where ERS is 1 (DO NOT EDIT)
+setenv CCSM_ESTCOST  1     # relative total cost of case (DO NOT EDIT)
+
+setenv CICE_AUTO_DECOMP  true     # true,false

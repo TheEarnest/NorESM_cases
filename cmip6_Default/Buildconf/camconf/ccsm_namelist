@@ -1,0 +1,6 @@
+ &cam_inparm
+ dtime          =  1800
+ cam_branch_file= ' '
+ co2vmr         = 379.000e-6
+ ncdata  = 'N1850AERCNOC_f19_g16_CMIP6forcings_15.cam2.i.0051-01-01-00000.nc'
+/

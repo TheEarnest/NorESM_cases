@@ -1,0 +1,228 @@
+Currently Loaded Modules:
+  1) StdEnv                              (S)
+  2) GCCcore/9.3.0
+  3) zlib/1.2.11-GCCcore-9.3.0           (H)
+  4) binutils/2.34-GCCcore-9.3.0         (H)
+  5) iccifort/2020.1.217
+  6) hpcx/2.10
+  7) impi/2019.7.217-iccifort-2020.1.217
+  8) iimpi/2020a
+  9) imkl/2020.1.217-iimpi-2020a
+ 10) intel/2020a
+ 11) numactl/2.0.13-GCCcore-9.3.0        (H)
+ 12) XZ/5.2.5-GCCcore-9.3.0              (H)
+ 13) libxml2/2.9.10-GCCcore-9.3.0        (H)
+ 14) libpciaccess/0.16-GCCcore-9.3.0     (H)
+ 15) hwloc/2.2.0-GCCcore-9.3.0           (H)
+ 16) OpenMPI/4.0.3-iccifort-2020.1.217
+ 17) Szip/2.1.1-GCCcore-9.3.0            (H)
+ 18) HDF5/1.10.6-iompi-2020a
+ 19) cURL/7.69.1-GCCcore-9.3.0           (H)
+ 20) netCDF/4.7.4-iompi-2020a
+ 21) netCDF-Fortran/4.5.2-iompi-2020a
+ 22) iompi/2020a
+ 23) CMake/3.12.1
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+_ModuleTable011_=YWxsL2xpYnhtbDIvMi45LjEwLUdDQ2NvcmUtOS4zLjAubHVhIixbImZ1bGxOYW1lIl09ImxpYnhtbDIvMi45LjEwLUdDQ2NvcmUtOS4zLjAiLFsibG9hZE9yZGVyIl09MTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09NCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ibGlieG1sMi8yLjkuMTAtR0NDY29yZS05LjMuMCIsfSxuZXRDREY9e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMvYWxsL25ldENERi80LjcuNC1pb21waS0yMDIwYS5sdWEiLFsiZnVsbE5hbWUiXT0ibmV0Q0RGLzQuNy40LWlvbXBpLTIwMjBhIixbImxvYWRPcmRlciJdPTIwLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im5ldENE
+__LMOD_REF_COUNT_XDG_DATA_DIRS=/cluster/software/CMake/3.12.1/share:1;/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/share:1;/cluster/software/netCDF/4.7.4-iompi-2020a/share:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/share:1;/cluster/software/HDF5/1.10.6-iompi-2020a/share:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/share:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/share:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/share:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0/share:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0/share:1;/cluster/software/binutils/2.34-GCCcore-9.3.0/share:1;/cluster/software/zlib/1.2.11-GCCcore-9.3.0/share:1;/cluster/software/GCCcore/9.3.0/share:1
+MKLROOT=/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl
+EBVERSIONZLIB=1.2.11
+EBVERSIONOPENMPI=4.0.3
+MANPATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/share/man:/cluster/software/netCDF/4.7.4-iompi-2020a/share/man:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/share/man:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/share/man:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/share/man:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/share/man:/cluster/software/XZ/5.2.5-GCCcore-9.3.0/share/man:/cluster/software/numactl/2.0.13-GCCcore-9.3.0/share/man:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/man:/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/man/common:/cluster/software/binutils/2.34-GCCcore-9.3.0/share/man:/cluster/software/zlib/1.2.11-GCCcore-9.3.0/share/man:/cluster/software/GCCcore/9.3.0/share/man:/cluster/installations/lmod/lmod/share/man::
+EBROOTIMKL=/cluster/software/imkl/2020.1.217-iimpi-2020a
+XDG_SESSION_ID=71114
+debugdir=::/auto-load:/usr/bin/mono-gdb.py:/usr/lib/golang/src/pkg/runtime/runtime-gdb.py
+OMPI_MCA_rmaps_rank_file_physical=1
+HDF5_DIR=/cluster/software/HDF5/1.10.6-iompi-2020a
+EBROOTNUMACTL=/cluster/software/numactl/2.0.13-GCCcore-9.3.0
+HOSTNAME=login-1.betzy.sigma2.no
+_ModuleTable003_=ZnVsbE5hbWUiXT0iT3Blbk1QSS80LjAuMy1pY2NpZm9ydC0yMDIwLjEuMjE3IixbImxvYWRPcmRlciJdPTE2LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Ik9wZW5NUEkvNC4wLjMtaWNjaWZvcnQtMjAyMC4xLjIxNyIsfSxTdGRFbnY9e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMvQ29yZS9TdGRFbnYubHVhIixbImZ1bGxOYW1lIl09IlN0ZEVudiIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXtsbW9kPXtbInN0aWNreSJdPTEsfSx9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IlN0ZEVudiIsfSxTemlwPXtbImZuIl09Ii9jbHVzdGVyL21vZHVsZWZpbGVzL2FsbC9T
+SELINUX_ROLE_REQUESTED=
+_ModuleTable009_=Y2NpZm9ydC0yMDIwLjEuMjE3IixbImxvYWRPcmRlciJdPTcscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaW1waS8yMDE5LjcuMjE3LWljY2lmb3J0LTIwMjAuMS4yMTciLH0saW50ZWw9e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMvYWxsL2ludGVsLzIwMjBhLmx1YSIsWyJmdWxsTmFtZSJdPSJpbnRlbC8yMDIwYSIsWyJsb2FkT3JkZXIiXT0xMCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJpbnRlbC8yMDIwYSIsfSxpb21waT17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvaW9tcGkvMjAyMGEubHVhIixbImZ1bGxOYW1lIl09Imlv
+INTEL_LICENSE_FILE=/cluster/installations/licenses/intel/license.lic
+EBVERSIONBINUTILS=2.34
+EBROOTNETCDFMINFORTRAN=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a
+SHELL=/bin/bash
+TERM=xterm
+__LMOD_REF_COUNT_MODULEPATH=/cluster/modulefiles/all:1;/usr/share/Modules/modulefiles:1;/etc/modulefiles:1;/cluster/modulefiles/Core:1;/cluster/modulefiles/external:1
+I_MPI_EXTRA_FILESYSTEM=on
+EBROOTGCCCORE=/cluster/software/GCCcore/9.3.0
+HISTSIZE=1000
+LMOD_ROOT=/cluster/installations/lmod
+SSH_CLIENT=82.180.145.148 11537 22
+MODULEPATH_ROOT=/cluster/modulefiles
+LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
+OMPI_MCA_coll_hcoll_enable=1
+LIBRARY_PATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/lib:/cluster/software/netCDF/4.7.4-iompi-2020a/lib64:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/lib:/cluster/software/HDF5/1.10.6-iompi-2020a/lib:/cluster/software/Szip/2.1.1-GCCcore-9.3.0/lib:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/lib:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/lib:/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/lib:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/lib:/cluster/software/XZ/5.2.5-GCCcore-9.3.0/lib:/cluster/software/numactl/2.0.13-GCCcore-9.3.0/lib:/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/lib/intel64:/cluster/software/imkl/2020.1.217-iimpi-2020a/lib/intel64:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/lib:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib/release:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib:/cluster/software/hpcx/2.10/nccl_rdma_sharp_plugin/lib:/cluster/software/hpcx/2.10/sharp/lib:/cluster/software/hpcx/2.10/hcoll/lib:/cluster/software/hpcx/2.10/ucx/mt/lib:/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb/lib/intel64/gcc4.8:/cluster/software/binutils/2.34-GCCcore-9.3.0/lib:/cluster/software/zlib/1.2.11-GCCcore-9.3.0/lib
+EBROOTIIMPI=/cluster/software/iimpi/2020a
+PERL5LIB=/node/lib/perl5:/cluster/lib/perl5
+PYTHONUNBUFFERED=1
+SELINUX_USE_CURRENT_RANGE=
+USERWORK=/cluster/work/users/earnest
+I_MPI_PMI_LIBRARY=/usr/lib64/libpmi2.so
+LMOD_PKG=/cluster/installations/lmod/lmod
+HCOLL_ENABLE_MCAST=0
+EBVERSIONNETCDF=4.7.4
+CMAKE_LIBRARY_PATH=/cluster/software/netCDF/4.7.4-iompi-2020a/lib64:/cluster/software/GCCcore/9.3.0/lib64
+LMOD_VERSION=8.3.8
+EBDEVELIMPI=/cluster/software/impi/2019.7.217-iccifort-2020.1.217/easybuild/impi-2019.7.217-iccifort-2020.1.217-easybuild-devel
+SSH_TTY=/dev/pts/857
+_ModuleTable007_=dHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJod2xvYy8yLjIuMC1HQ0Njb3JlLTkuMy4wIix9LGljY2lmb3J0PXtbImZuIl09Ii9jbHVzdGVyL21vZHVsZWZpbGVzL2FsbC9pY2NpZm9ydC8yMDIwLjEuMjE3Lmx1YSIsWyJmdWxsTmFtZSJdPSJpY2NpZm9ydC8yMDIwLjEuMjE3IixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaWNjaWZvcnQvMjAyMC4xLjIxNyIsfSxpaW1waT17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvaWltcGkvMjAyMGEubHVhIixbImZ1bGxOYW1lIl09ImlpbXBpLzIwMjBhIixbImxvYWRPcmRlciJdPTgscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09
+EBROOTNETCDF=/cluster/software/netCDF/4.7.4-iompi-2020a
+EBROOTIOMPI=/cluster/software/iompi/2020a
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.13-GCCcore-9.3.0/easybuild/numactl-2.0.13-GCCcore-9.3.0-easybuild-devel
+__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/cluster/software/CMake/3.12.1:1;/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a:1;/cluster/software/netCDF/4.7.4-iompi-2020a:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0:1;/cluster/software/HDF5/1.10.6-iompi-2020a:1;/cluster/software/Szip/2.1.1-GCCcore-9.3.0:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0:1;/cluster/software/libpciaccess/0.16-GCCcore-9.3.0:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217:1;/cluster/software/binutils/2.34-GCCcore-9.3.0:1;/cluster/software/zlib/1.2.11-GCCcore-9.3.0:1;/cluster/software/GCCcore/9.3.0:1
+__LMOD_REF_COUNT_LOADEDMODULES=StdEnv:1;GCCcore/9.3.0:1;zlib/1.2.11-GCCcore-9.3.0:1;binutils/2.34-GCCcore-9.3.0:1;iccifort/2020.1.217:1;hpcx/2.10:1;impi/2019.7.217-iccifort-2020.1.217:1;iimpi/2020a:1;imkl/2020.1.217-iimpi-2020a:1;intel/2020a:1;numactl/2.0.13-GCCcore-9.3.0:1;XZ/5.2.5-GCCcore-9.3.0:1;libxml2/2.9.10-GCCcore-9.3.0:1;libpciaccess/0.16-GCCcore-9.3.0:1;hwloc/2.2.0-GCCcore-9.3.0:1;OpenMPI/4.0.3-iccifort-2020.1.217:1;Szip/2.1.1-GCCcore-9.3.0:1;HDF5/1.10.6-iompi-2020a:1;cURL/7.69.1-GCCcore-9.3.0:1;netCDF/4.7.4-iompi-2020a:1;netCDF-Fortran/4.5.2-iompi-2020a:1;iompi/2020a:1;CMake/3.12.1:1
+HPCX_NCCL_RDMA_SHARP_PLUGIN_DIR=/cluster/software/hpcx/2.10//nccl_rdma_sharp_plugin
+__LMOD_REF_COUNT_TBBROOT=/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb:1
+HPCX_DIR=/cluster/software/hpcx/2.10/
+USER=earnest
+__LMOD_REF_COUNT_FI_PROVIDER_PATH=/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/lib/prov:1
+EBDEVELZLIB=/cluster/software/zlib/1.2.11-GCCcore-9.3.0/easybuild/zlib-1.2.11-GCCcore-9.3.0-easybuild-devel
+LS_COLORS=di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.xz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/lib:/cluster/software/netCDF/4.7.4-iompi-2020a/lib64:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/lib:/cluster/software/HDF5/1.10.6-iompi-2020a/lib:/cluster/software/Szip/2.1.1-GCCcore-9.3.0/lib:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/lib:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/lib:/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/lib:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/lib:/cluster/software/XZ/5.2.5-GCCcore-9.3.0/lib:/cluster/software/numactl/2.0.13-GCCcore-9.3.0/lib:/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/lib/intel64:/cluster/software/imkl/2020.1.217-iimpi-2020a/lib/intel64:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/lib:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib/release:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib:/cluster/software/hpcx/2.10/nccl_rdma_sharp_plugin/lib:/cluster/software/hpcx/2.10/sharp/lib:/cluster/software/hpcx/2.10/hcoll/lib:/cluster/software/hpcx/2.10/ucx/mt/lib/ucx:/cluster/software/hpcx/2.10/ucx/mt/lib:/cluster/software/iccifort/2020.1.217/debugger_2020/libipt/intel64/lib:/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb/lib/intel64/gcc4.8:/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/lib:/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/compiler/lib/intel64:/cluster/software/binutils/2.34-GCCcore-9.3.0/lib:/cluster/software/zlib/1.2.11-GCCcore-9.3.0/lib:/cluster/software/GCCcore/9.3.0/lib64:/cluster/software/GCCcore/9.3.0/lib::/cluster/home/earnest/tools/geos-3.7.1/lib
+_ModuleTable010_=bXBpLzIwMjBhIixbImxvYWRPcmRlciJdPTIyLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImlvbXBpLzIwMjBhIix9LGxpYnBjaWFjY2Vzcz17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvbGlicGNpYWNjZXNzLzAuMTYtR0NDY29yZS05LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0ibGlicGNpYWNjZXNzLzAuMTYtR0NDY29yZS05LjMuMCIsWyJsb2FkT3JkZXIiXT0xNCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT00LFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJsaWJwY2lhY2Nlc3MvMC4xNi1HQ0Njb3JlLTkuMy4wIix9LGxpYnhtbDI9e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMv
+EBDEVELBINUTILS=/cluster/software/binutils/2.34-GCCcore-9.3.0/easybuild/binutils-2.34-GCCcore-9.3.0-easybuild-devel
+FI_PROVIDER_PATH=/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/lib/prov
+EBVERSIONCURL=7.69.1
+_ModuleTable004_=emlwLzIuMS4xLUdDQ2NvcmUtOS4zLjAubHVhIixbImZ1bGxOYW1lIl09IlN6aXAvMi4xLjEtR0NDY29yZS05LjMuMCIsWyJsb2FkT3JkZXIiXT0xNyxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0zLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJTemlwLzIuMS4xLUdDQ2NvcmUtOS4zLjAiLH0sWFo9e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMvYWxsL1haLzUuMi41LUdDQ2NvcmUtOS4zLjAubHVhIixbImZ1bGxOYW1lIl09IlhaLzUuMi41LUdDQ2NvcmUtOS4zLjAiLFsibG9hZE9yZGVyIl09MTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09NSxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iWFovNS4yLjUtR0NDY29yZS05LjMuMCIsfSxiaW51
+EBROOTCMAKE=/cluster/software/CMake/3.12.1
+CPATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/include:/cluster/software/netCDF/4.7.4-iompi-2020a/include:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/include:/cluster/software/HDF5/1.10.6-iompi-2020a/include:/cluster/software/Szip/2.1.1-GCCcore-9.3.0/include:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/include:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/include:/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/include:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/include/libxml2:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/include:/cluster/software/XZ/5.2.5-GCCcore-9.3.0/include:/cluster/software/numactl/2.0.13-GCCcore-9.3.0/include:/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/include/fftw:/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/include:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/include:/cluster/software/hpcx/2.10/ucx/mt/include:/cluster/software/hpcx/2.10/sharp/include:/cluster/software/hpcx/2.10/hcoll/include:/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb/include:/cluster/software/binutils/2.34-GCCcore-9.3.0/include:/cluster/software/zlib/1.2.11-GCCcore-9.3.0/include
+__LMOD_REF_COUNT__LMFILES_=/cluster/modulefiles/Core/StdEnv.lua:1;/cluster/modulefiles/all/GCCcore/9.3.0.lua:1;/cluster/modulefiles/all/zlib/1.2.11-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/binutils/2.34-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/iccifort/2020.1.217.lua:1;/cluster/modulefiles/external/hpcx/2.10:1;/cluster/modulefiles/all/impi/2019.7.217-iccifort-2020.1.217.lua:1;/cluster/modulefiles/all/iimpi/2020a.lua:1;/cluster/modulefiles/all/imkl/2020.1.217-iimpi-2020a.lua:1;/cluster/modulefiles/all/intel/2020a.lua:1;/cluster/modulefiles/all/numactl/2.0.13-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/XZ/5.2.5-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/libxml2/2.9.10-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/libpciaccess/0.16-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/hwloc/2.2.0-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/OpenMPI/4.0.3-iccifort-2020.1.217.lua:1;/cluster/modulefiles/all/Szip/2.1.1-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/HDF5/1.10.6-iompi-2020a.lua:1;/cluster/modulefiles/all/cURL/7.69.1-GCCcore-9.3.0.lua:1;/cluster/modulefiles/all/netCDF/4.7.4-iompi-2020a.lua:1;/cluster/modulefiles/all/netCDF-Fortran/4.5.2-iompi-2020a.lua:1;/cluster/modulefiles/all/iompi/2020a.lua:1;/cluster/modulefiles/all/CMake/3.12.1.lua:1
+GASCRP=/home/uib/earnest/Analysis/grads_scripts
+HCOLL_ENABLE_MCAST_ALL=1
+HPCX_HOME=/cluster/software/hpcx/2.10/
+EBVERSIONXZ=5.2.5
+EBVERSIONNUMACTL=2.0.13
+EBDEVELLIBXML2=/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/easybuild/libxml2-2.9.10-GCCcore-9.3.0-easybuild-devel
+_ModuleTable013_=b3JlLTkuMy4wIixbImxvYWRPcmRlciJdPTExLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTQsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im51bWFjdGwvMi4wLjEzLUdDQ2NvcmUtOS4zLjAiLH0semxpYj17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvemxpYi8xLjIuMTEtR0NDY29yZS05LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iemxpYi8xLjIuMTEtR0NDY29yZS05LjMuMCIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InpsaWIvMS4yLjExLUdDQ2NvcmUtOS4zLjAiLH0sfSxtcGF0aEE9eyIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwiLCIvdXNyL3NoYXJl
+UCX_TLS=ud,sm,self
+HPCX_CLUSTERKIT_DIR=/cluster/software/hpcx/2.10//clusterkit
+EBDEVELICCIFORT=/cluster/software/iccifort/2020.1.217/easybuild/iccifort-2020.1.217-easybuild-devel
+EBVERSIONIFORT=2020.1.217
+HPCX_SHARP_DIR=/cluster/software/hpcx/2.10//sharp
+KNEM_DIR=/opt/knem-1.1.4.90mlnx1
+EBROOTSZIP=/cluster/software/Szip/2.1.1-GCCcore-9.3.0
+PATH=/cluster/software/CMake/3.12.1/bin:/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/bin:/cluster/software/netCDF/4.7.4-iompi-2020a/bin:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/bin:/cluster/software/HDF5/1.10.6-iompi-2020a/bin:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/bin:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/sbin:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/bin:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/bin:/cluster/software/XZ/5.2.5-GCCcore-9.3.0/bin:/cluster/software/numactl/2.0.13-GCCcore-9.3.0/bin:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/bin:/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/bin:/cluster/software/hpcx/2.10/clusterkit/bin:/cluster/software/hpcx/2.10/hcoll/bin:/cluster/software/hpcx/2.10/ucx/mt/bin:/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/bin/intel64:/cluster/software/binutils/2.34-GCCcore-9.3.0/bin:/cluster/software/GCCcore/9.3.0/bin:/node/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/cluster/bin:/cluster/home/earnest/.local/bin:/cluster/home/earnest/bin
+MAIL=/var/spool/mail/earnest
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTcyMDAsWyJjX3Nob3J0VGltZSJdPTAuMDMwODcxMTUyODc3ODA4LGRlcHRoVD17fSxmYW1pbHk9e30sbVQ9e0NNYWtlPXtbImZuIl09Ii9jbHVzdGVyL21vZHVsZWZpbGVzL2FsbC9DTWFrZS8zLjEyLjEubHVhIixbImZ1bGxOYW1lIl09IkNNYWtlLzMuMTIuMSIsWyJsb2FkT3JkZXIiXT0yMyxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJDTWFrZS8zLjEyLjEiLH0sR0NDY29yZT17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvR0NDY29yZS85LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iR0NDY29yZS85LjMuMCIsWyJs
+HPCX_HCOLL_DIR=/cluster/software/hpcx/2.10//hcoll
+EBVERSIONHWLOC=2.2.0
+EBDEVELIMKL=/cluster/software/imkl/2020.1.217-iimpi-2020a/easybuild/imkl-2020.1.217-iimpi-2020a-easybuild-devel
+__LMOD_REF_COUNT_CMAKE_LIBRARY_PATH=/cluster/software/netCDF/4.7.4-iompi-2020a/lib64:1;/cluster/software/GCCcore/9.3.0/lib64:1
+SYSSCREENRC=/cluster/home/earnest/.screenrc
+_ModuleTable014_=L01vZHVsZXMvbW9kdWxlZmlsZXMiLCIvZXRjL21vZHVsZWZpbGVzIiwiL2NsdXN0ZXIvbW9kdWxlZmlsZXMvQ29yZSIsIi9jbHVzdGVyL21vZHVsZWZpbGVzL2V4dGVybmFsIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlczovZXRjL21vZHVsZWZpbGVzOi9jbHVzdGVyL21vZHVsZWZpbGVzL0NvcmUiLH0=
+EBVERSIONSZIP=2.1.1
+EBROOTINTEL=/cluster/software/intel/2020a
+TBBROOT=/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb
+XZ_OPT=-9
+EBVERSIONINTEL=2020a
+PWD=/cluster/home/earnest/models/NorCPM/cases/N2Anu_f09
+MLM_LICENSE_FILE=/nird/home/earnest/.matlab/R2017a/lic
+MKL_EXAMPLES=/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/examples/
+_LMFILES_=/cluster/modulefiles/Core/StdEnv.lua:/cluster/modulefiles/all/GCCcore/9.3.0.lua:/cluster/modulefiles/all/zlib/1.2.11-GCCcore-9.3.0.lua:/cluster/modulefiles/all/binutils/2.34-GCCcore-9.3.0.lua:/cluster/modulefiles/all/iccifort/2020.1.217.lua:/cluster/modulefiles/external/hpcx/2.10:/cluster/modulefiles/all/impi/2019.7.217-iccifort-2020.1.217.lua:/cluster/modulefiles/all/iimpi/2020a.lua:/cluster/modulefiles/all/imkl/2020.1.217-iimpi-2020a.lua:/cluster/modulefiles/all/intel/2020a.lua:/cluster/modulefiles/all/numactl/2.0.13-GCCcore-9.3.0.lua:/cluster/modulefiles/all/XZ/5.2.5-GCCcore-9.3.0.lua:/cluster/modulefiles/all/libxml2/2.9.10-GCCcore-9.3.0.lua:/cluster/modulefiles/all/libpciaccess/0.16-GCCcore-9.3.0.lua:/cluster/modulefiles/all/hwloc/2.2.0-GCCcore-9.3.0.lua:/cluster/modulefiles/all/OpenMPI/4.0.3-iccifort-2020.1.217.lua:/cluster/modulefiles/all/Szip/2.1.1-GCCcore-9.3.0.lua:/cluster/modulefiles/all/HDF5/1.10.6-iompi-2020a.lua:/cluster/modulefiles/all/cURL/7.69.1-GCCcore-9.3.0.lua:/cluster/modulefiles/all/netCDF/4.7.4-iompi-2020a.lua:/cluster/modulefiles/all/netCDF-Fortran/4.5.2-iompi-2020a.lua:/cluster/modulefiles/all/iompi/2020a.lua:/cluster/modulefiles/all/CMake/3.12.1.lua
+EBDEVELIOMPI=/cluster/software/iompi/2020a/easybuild/iompi-2020a-easybuild-devel
+EBDEVELGCCCORE=/cluster/software/GCCcore/9.3.0/easybuild/GCCcore-9.3.0-easybuild-devel
+HPCX_UCX_DIR=/cluster/software/hpcx/2.10//ucx/mt
+EBVERSIONICCIFORT=2020.1.217
+EBROOTHWLOC=/cluster/software/hwloc/2.2.0-GCCcore-9.3.0
+LANG=en_US.UTF-8
+__LMOD_REF_COUNT_PYTHONPATH=/cluster/home/earnest/Analysis/python_modules:1
+MODULEPATH=/cluster/modulefiles/all:/usr/share/Modules/modulefiles:/etc/modulefiles:/cluster/modulefiles/Core:/cluster/modulefiles/external
+EBVERSIONLIBPCIACCESS=0.16
+EBROOTICCIFORT=/cluster/software/iccifort/2020.1.217
+EBROOTHDF5=/cluster/software/HDF5/1.10.6-iompi-2020a
+CIMEROOT=/cluster/work/users/earnest/temp/NorESM/cime/scripts/Tools/../..
+LOADEDMODULES=StdEnv:GCCcore/9.3.0:zlib/1.2.11-GCCcore-9.3.0:binutils/2.34-GCCcore-9.3.0:iccifort/2020.1.217:hpcx/2.10:impi/2019.7.217-iccifort-2020.1.217:iimpi/2020a:imkl/2020.1.217-iimpi-2020a:intel/2020a:numactl/2.0.13-GCCcore-9.3.0:XZ/5.2.5-GCCcore-9.3.0:libxml2/2.9.10-GCCcore-9.3.0:libpciaccess/0.16-GCCcore-9.3.0:hwloc/2.2.0-GCCcore-9.3.0:OpenMPI/4.0.3-iccifort-2020.1.217:Szip/2.1.1-GCCcore-9.3.0:HDF5/1.10.6-iompi-2020a:cURL/7.69.1-GCCcore-9.3.0:netCDF/4.7.4-iompi-2020a:netCDF-Fortran/4.5.2-iompi-2020a:iompi/2020a:CMake/3.12.1
+_ModuleTable_Sz_=14
+EBROOTBINUTILS=/cluster/software/binutils/2.34-GCCcore-9.3.0
+EBDEVELLIBPCIACCESS=/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/easybuild/libpciaccess-0.16-GCCcore-9.3.0-easybuild-devel
+SELINUX_LEVEL_REQUESTED=
+_ModuleTable005_=dGlscz17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvYmludXRpbHMvMi4zNC1HQ0Njb3JlLTkuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJiaW51dGlscy8yLjM0LUdDQ2NvcmUtOS4zLjAiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJiaW51dGlscy8yLjM0LUdDQ2NvcmUtOS4zLjAiLH0sY1VSTD17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvY1VSTC83LjY5LjEtR0NDY29yZS05LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY1VSTC83LjY5LjEtR0NDY29yZS05LjMuMCIsWyJsb2FkT3JkZXIiXT0xOSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0yLFsic3RhdHVz
+EBVERSIONIOMPI=2020a
+EBROOTIFORT=/cluster/software/iccifort/2020.1.217
+EBDEVELSZIP=/cluster/software/Szip/2.1.1-GCCcore-9.3.0/easybuild/Szip-2.1.1-GCCcore-9.3.0-easybuild-devel
+LMOD_CMD=/cluster/installations/lmod/lmod/libexec/lmod
+EBDEVELCMAKE=/cluster/software/CMake/3.12.1/easybuild/CMake-3.12.1-easybuild-devel
+HISTCONTROL=ignoredups
+fpath=/home/uib/earnest/Analysis
+UCX_LOG_LEVEL=ERROR
+INTEL_PYTHONHOME=/cluster/software/iccifort/2020.1.217/debugger_2020/python/intel64
+EBVERSIONIMPI=2019.7.217
+EBVERSIONCMAKE=3.12.1
+EBROOTLIBPCIACCESS=/cluster/software/libpciaccess/0.16-GCCcore-9.3.0
+_ModuleTable012_=Ri80LjcuNC1pb21waS0yMDIwYSIsfSxbIm5ldENERi1Gb3J0cmFuIl09e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMvYWxsL25ldENERi1Gb3J0cmFuLzQuNS4yLWlvbXBpLTIwMjBhLmx1YSIsWyJmdWxsTmFtZSJdPSJuZXRDREYtRm9ydHJhbi80LjUuMi1pb21waS0yMDIwYSIsWyJsb2FkT3JkZXIiXT0yMSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJuZXRDREYtRm9ydHJhbi80LjUuMi1pb21waS0yMDIwYSIsfSxudW1hY3RsPXtbImZuIl09Ii9jbHVzdGVyL21vZHVsZWZpbGVzL2FsbC9udW1hY3RsLzIuMC4xMy1HQ0Njb3JlLTkuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJudW1hY3RsLzIuMC4xMy1HQ0Nj
+FI_PROVIDER=verbs
+EBVERSIONGCCCORE=9.3.0
+EBROOTLIBXML2=/cluster/software/libxml2/2.9.10-GCCcore-9.3.0
+HOME=/cluster/home/earnest
+SHLVL=2
+CURL_INCLUDES=/cluster/software/cURL/7.69.1-GCCcore-9.3.0/include
+__LMOD_REF_COUNT_PATH=/cluster/software/CMake/3.12.1/bin:1;/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/bin:1;/cluster/software/netCDF/4.7.4-iompi-2020a/bin:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/bin:1;/cluster/software/HDF5/1.10.6-iompi-2020a/bin:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/bin:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/sbin:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/bin:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/bin:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0/bin:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0/bin:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/bin:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/bin:1;/cluster/software/hpcx/2.10/clusterkit/bin:1;/cluster/software/hpcx/2.10/hcoll/bin:1;/cluster/software/hpcx/2.10/ucx/mt/bin:1;/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/bin/intel64:1;/cluster/software/binutils/2.34-GCCcore-9.3.0/bin:1;/cluster/software/GCCcore/9.3.0/bin:1;/node/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/cluster/bin:1;/cluster/home/earnest/.local/bin:1;/cluster/home/earnest/bin:1
+EBVERSIONIIMPI=2020a
+EBDEVELXZ=/cluster/software/XZ/5.2.5-GCCcore-9.3.0/easybuild/XZ-5.2.5-GCCcore-9.3.0-easybuild-devel
+EBDEVELCURL=/cluster/software/cURL/7.69.1-GCCcore-9.3.0/easybuild/cURL-7.69.1-GCCcore-9.3.0-easybuild-devel
+__LMOD_REF_COUNT_CPATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/include:1;/cluster/software/netCDF/4.7.4-iompi-2020a/include:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/include:1;/cluster/software/HDF5/1.10.6-iompi-2020a/include:1;/cluster/software/Szip/2.1.1-GCCcore-9.3.0/include:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/include:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/include:1;/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/include:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/include/libxml2:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/include:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0/include:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0/include:1;/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/include/fftw:1;/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/include:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/include:1;/cluster/software/hpcx/2.10/ucx/mt/include:1;/cluster/software/hpcx/2.10/sharp/include:1;/cluster/software/hpcx/2.10/hcoll/include:1;/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb/include:1;/cluster/software/binutils/2.34-GCCcore-9.3.0/include:1;/cluster/software/zlib/1.2.11-GCCcore-9.3.0/include:1
+EBDEVELHWLOC=/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/easybuild/hwloc-2.2.0-GCCcore-9.3.0-easybuild-devel
+_ModuleTable002_=b2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTEsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IkdDQ2NvcmUvOS4zLjAiLH0sSERGNT17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvSERGNS8xLjEwLjYtaW9tcGktMjAyMGEubHVhIixbImZ1bGxOYW1lIl09IkhERjUvMS4xMC42LWlvbXBpLTIwMjBhIixbImxvYWRPcmRlciJdPTE4LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IkhERjUvMS4xMC42LWlvbXBpLTIwMjBhIix9LE9wZW5NUEk9e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMvYWxsL09wZW5NUEkvNC4wLjMtaWNjaWZvcnQtMjAyMC4xLjIxNy5sdWEiLFsi
+_ModuleTable008_=MixbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaWltcGkvMjAyMGEiLH0saW1rbD17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvaW1rbC8yMDIwLjEuMjE3LWlpbXBpLTIwMjBhLmx1YSIsWyJmdWxsTmFtZSJdPSJpbWtsLzIwMjAuMS4yMTctaWltcGktMjAyMGEiLFsibG9hZE9yZGVyIl09OSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJpbWtsLzIwMjAuMS4yMTctaWltcGktMjAyMGEiLH0saW1waT17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvaW1waS8yMDE5LjcuMjE3LWljY2lmb3J0LTIwMjAuMS4yMTcubHVhIixbImZ1bGxOYW1lIl09ImltcGkvMjAxOS43LjIxNy1p
+BASH_ENV=/cluster/installations/lmod/lmod/init/bash
+EBROOTXZ=/cluster/software/XZ/5.2.5-GCCcore-9.3.0
+EBROOTOPENMPI=/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217
+EBROOTCURL=/cluster/software/cURL/7.69.1-GCCcore-9.3.0
+EBDEVELNETCDF=/cluster/software/netCDF/4.7.4-iompi-2020a/easybuild/netCDF-4.7.4-iompi-2020a-easybuild-devel
+EBDEVELINTEL=/cluster/software/intel/2020a/easybuild/intel-2020a-easybuild-devel
+LOGNAME=earnest
+PYTHONPATH=:/cluster/home/earnest/Analysis/python_modules
+XDG_DATA_DIRS=/cluster/software/CMake/3.12.1/share:/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/share:/cluster/software/netCDF/4.7.4-iompi-2020a/share:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/share:/cluster/software/HDF5/1.10.6-iompi-2020a/share:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/share:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/share:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/share:/cluster/software/XZ/5.2.5-GCCcore-9.3.0/share:/cluster/software/numactl/2.0.13-GCCcore-9.3.0/share:/cluster/software/binutils/2.34-GCCcore-9.3.0/share:/cluster/software/zlib/1.2.11-GCCcore-9.3.0/share:/cluster/software/GCCcore/9.3.0/share
+EBDEVELIIMPI=/cluster/software/iimpi/2020a/easybuild/iimpi-2020a-easybuild-devel
+SSH_CONNECTION=82.180.145.148 11537 158.36.141.150 22
+OMPI_MCA_coll_hcoll_np=8
+MKL_DEBUG_CPU_TYPE=5
+KMP_STACKSIZE=64M
+__LMOD_REF_COUNT_LIBRARY_PATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/lib:1;/cluster/software/netCDF/4.7.4-iompi-2020a/lib64:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/lib:1;/cluster/software/HDF5/1.10.6-iompi-2020a/lib:1;/cluster/software/Szip/2.1.1-GCCcore-9.3.0/lib:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/lib:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/lib:1;/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/lib:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/lib:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0/lib:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0/lib:1;/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/lib/intel64:1;/cluster/software/imkl/2020.1.217-iimpi-2020a/lib/intel64:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/lib:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib/release:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib:1;/cluster/software/hpcx/2.10/nccl_rdma_sharp_plugin/lib:1;/cluster/software/hpcx/2.10/sharp/lib:1;/cluster/software/hpcx/2.10/hcoll/lib:1;/cluster/software/hpcx/2.10/ucx/mt/lib:1;/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb/lib/intel64/gcc4.8:1;/cluster/software/binutils/2.34-GCCcore-9.3.0/lib:1;/cluster/software/zlib/1.2.11-GCCcore-9.3.0/lib:1
+__LMOD_REF_COUNT_ACLOCAL_PATH=/cluster/software/CMake/3.12.1/share/aclocal:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/share/aclocal:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/share/aclocal:1
+MODULESHOME=/cluster/installations/lmod/lmod
+PKG_CONFIG_PATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/lib/pkgconfig:/cluster/software/netCDF/4.7.4-iompi-2020a/lib64/pkgconfig:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/lib/pkgconfig:/cluster/software/HDF5/1.10.6-iompi-2020a/lib/pkgconfig:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/lib/pkgconfig:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/lib/pkgconfig:/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/lib/pkgconfig:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/lib/pkgconfig:/cluster/software/XZ/5.2.5-GCCcore-9.3.0/lib/pkgconfig:/cluster/software/numactl/2.0.13-GCCcore-9.3.0/lib/pkgconfig:/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/bin/pkgconfig:/cluster/software/hpcx/2.10/ucx/mt/lib/pkgconfig:/cluster/software/hpcx/2.10/sharp/lib/pkgconfig:/cluster/software/hpcx/2.10/hcoll/lib/pkgconfig:/cluster/software/zlib/1.2.11-GCCcore-9.3.0/lib/pkgconfig
+EBDEVELOPENMPI=/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/easybuild/OpenMPI-4.0.3-iccifort-2020.1.217-easybuild-devel
+OMP_NUM_THREADS=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_SETTARG_FULL_SUPPORT=no
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/lib:1;/cluster/software/netCDF/4.7.4-iompi-2020a/lib64:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/lib:1;/cluster/software/HDF5/1.10.6-iompi-2020a/lib:1;/cluster/software/Szip/2.1.1-GCCcore-9.3.0/lib:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/lib:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/lib:1;/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/lib:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/lib:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0/lib:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0/lib:1;/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/lib/intel64:1;/cluster/software/imkl/2020.1.217-iimpi-2020a/lib/intel64:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/libfabric/lib:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib/release:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/intel64/lib:1;/cluster/software/hpcx/2.10/nccl_rdma_sharp_plugin/lib:1;/cluster/software/hpcx/2.10/sharp/lib:1;/cluster/software/hpcx/2.10/hcoll/lib:1;/cluster/software/hpcx/2.10/ucx/mt/lib/ucx:1;/cluster/software/hpcx/2.10/ucx/mt/lib:1;/cluster/software/iccifort/2020.1.217/debugger_2020/libipt/intel64/lib:1;/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/tbb/lib/intel64/gcc4.8:1;/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/lib:1;/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/compiler/lib/intel64:1;/cluster/software/binutils/2.34-GCCcore-9.3.0/lib:1;/cluster/software/zlib/1.2.11-GCCcore-9.3.0/lib:1;/cluster/software/GCCcore/9.3.0/lib64:1;/cluster/software/GCCcore/9.3.0/lib:1;/cluster/home/earnest/tools/geos-3.7.1/lib:1
+EBVERSIONIMKL=2020.1.217
+__Init_Default_Modules=1
+EBDEVELNETCDFMINFORTRAN=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/easybuild/netCDF-Fortran-4.5.2-iompi-2020a-easybuild-devel
+ACLOCAL_PATH=/cluster/software/CMake/3.12.1/share/aclocal:/cluster/software/cURL/7.69.1-GCCcore-9.3.0/share/aclocal:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/share/aclocal
+OMPI_MCA_coll=^fca
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/lib/pkgconfig:1;/cluster/software/netCDF/4.7.4-iompi-2020a/lib64/pkgconfig:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/lib/pkgconfig:1;/cluster/software/HDF5/1.10.6-iompi-2020a/lib/pkgconfig:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/lib/pkgconfig:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/lib/pkgconfig:1;/cluster/software/libpciaccess/0.16-GCCcore-9.3.0/lib/pkgconfig:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/lib/pkgconfig:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0/lib/pkgconfig:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0/lib/pkgconfig:1;/cluster/software/imkl/2020.1.217-iimpi-2020a/mkl/bin/pkgconfig:1;/cluster/software/hpcx/2.10/ucx/mt/lib/pkgconfig:1;/cluster/software/hpcx/2.10/sharp/lib/pkgconfig:1;/cluster/software/hpcx/2.10/hcoll/lib/pkgconfig:1;/cluster/software/zlib/1.2.11-GCCcore-9.3.0/lib/pkgconfig:1
+__LMOD_REF_COUNT_INTEL_LICENSE_FILE=/cluster/installations/licenses/intel/license.lic:1
+EBVERSIONICC=2020.1.217
+EBROOTIMPI=/cluster/software/impi/2019.7.217-iccifort-2020.1.217
+EBDEVELHDF5=/cluster/software/HDF5/1.10.6-iompi-2020a/easybuild/HDF5-1.10.6-iompi-2020a-easybuild-devel
+CMAKE_PREFIX_PATH=/cluster/software/CMake/3.12.1:/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a:/cluster/software/netCDF/4.7.4-iompi-2020a:/cluster/software/cURL/7.69.1-GCCcore-9.3.0:/cluster/software/HDF5/1.10.6-iompi-2020a:/cluster/software/Szip/2.1.1-GCCcore-9.3.0:/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217:/cluster/software/hwloc/2.2.0-GCCcore-9.3.0:/cluster/software/libpciaccess/0.16-GCCcore-9.3.0:/cluster/software/libxml2/2.9.10-GCCcore-9.3.0:/cluster/software/XZ/5.2.5-GCCcore-9.3.0:/cluster/software/numactl/2.0.13-GCCcore-9.3.0:/cluster/software/impi/2019.7.217-iccifort-2020.1.217:/cluster/software/binutils/2.34-GCCcore-9.3.0:/cluster/software/zlib/1.2.11-GCCcore-9.3.0:/cluster/software/GCCcore/9.3.0
+DISPLAY=10.145.200.11:41.0
+XDG_RUNTIME_DIR=/run/user/55581
+EBVERSIONNETCDFMINFORTRAN=4.5.2
+EBVERSIONLIBXML2=2.9.10
+HCOLL_MAIN_IB=mlx5_0:1
+OMPI_MCA_coll_hcoll_priority=95
+_ModuleTable006_=Il09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjVVJMLzcuNjkuMS1HQ0Njb3JlLTkuMy4wIix9LGhwY3g9e1siZm4iXT0iL2NsdXN0ZXIvbW9kdWxlZmlsZXMvZXh0ZXJuYWwvaHBjeC8yLjEwIixbImZ1bGxOYW1lIl09ImhwY3gvMi4xMCIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTIsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImhwY3gvMi4xMCIsfSxod2xvYz17WyJmbiJdPSIvY2x1c3Rlci9tb2R1bGVmaWxlcy9hbGwvaHdsb2MvMi4yLjAtR0NDY29yZS05LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iaHdsb2MvMi4yLjAtR0NDY29yZS05LjMuMCIsWyJsb2FkT3JkZXIiXT0xNSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0zLFsic3Rh
+EBVERSIONHDF5=1.10.6
+EBROOTICC=/cluster/software/iccifort/2020.1.217
+LMOD_DIR=/cluster/installations/lmod/lmod/libexec
+__LMOD_REF_COUNT_MANPATH=/cluster/software/netCDF-Fortran/4.5.2-iompi-2020a/share/man:1;/cluster/software/netCDF/4.7.4-iompi-2020a/share/man:1;/cluster/software/cURL/7.69.1-GCCcore-9.3.0/share/man:1;/cluster/software/OpenMPI/4.0.3-iccifort-2020.1.217/share/man:1;/cluster/software/hwloc/2.2.0-GCCcore-9.3.0/share/man:1;/cluster/software/libxml2/2.9.10-GCCcore-9.3.0/share/man:1;/cluster/software/XZ/5.2.5-GCCcore-9.3.0/share/man:1;/cluster/software/numactl/2.0.13-GCCcore-9.3.0/share/man:1;/cluster/software/impi/2019.7.217-iccifort-2020.1.217/man:1;/cluster/software/iccifort/2020.1.217/compilers_and_libraries_2020.1.217/linux/man/common:1;/cluster/software/binutils/2.34-GCCcore-9.3.0/share/man:1;/cluster/software/zlib/1.2.11-GCCcore-9.3.0/share/man:1;/cluster/software/GCCcore/9.3.0/share/man:1;/cluster/installations/lmod/lmod/share/man:1
+OMPI_MCA_mpi_leave_pinned=1
+OMPI_MCA_btl=self,vader
+EBROOTZLIB=/cluster/software/zlib/1.2.11-GCCcore-9.3.0
+HISTTIMEFORMAT=%FT%T 
+I_MPI_ROOT=/cluster/software/impi/2019.7.217-iccifort-2020.1.217
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/usr/bin/env
